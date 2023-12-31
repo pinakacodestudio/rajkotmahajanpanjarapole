@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:44 GMT -->
 <head>
 
 <!-- Meta Tags -->
@@ -81,7 +79,7 @@
         <div class="section-content pt-100">
           <div class="row"> 
             <div class="col-md-12">
-              <h3 class="title text-white">Contact Us.</h3>
+              <h3 class="title text-white">Contact Us</h3>
             </div>
           </div>
         </div>
@@ -89,12 +87,12 @@
     </section>
     
     <!-- Divider: Contact -->
-    <section class="divider">
+    <section class="">
       <div class="container">
-        <div class="row pt-30">
-          <div class="col-md-5">
-            <h3 class="line-bottom mt-0 mb-30">Interested in discussing?</h3>
-            
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
+
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" class="" action="" method="post">
 
@@ -132,36 +130,28 @@
                 <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
               </div>
             </form>
-
-
           </div>
-          <div class="col-md-7">
+          <div class="col-md-4">
             <div class="row">
-              <h3 class="line-bottom mt-0 mb-50 ml-15">Our Location</h3>
-              <div class="col-md-12">                
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque</p>
-              </div>
+              <h3 class="line-bottom mt-20 mb-20 ml-15">Our Location</h3>
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
+                <div class="icon-box media bg-deep p-20 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Our Office Location</h5>
-                    <p><b>Rajkot Mahajan Panjrapole,</b><br> Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</p>
+                    <p><b>Rajkot Mahajan Panjrapole</b><br>
+                    <a href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18"> Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India. </a></p>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-5 col-md-5">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-call text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Contact Number</h5>
-                    <p>(0281) 245 8976</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-7 col-md-7">
+              <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Email Address</h5>
-                    <p> info@rajkotmahajanpanjarapole.org</p>
+                    <p>
+                      <a href="mailto:info@rajkotmahajanpanjarapole.org">           info@rajkotmahajanpanjarapole.org
+                      </a>
+                    </p>
+
                   </div>
                 </div>
               </div>

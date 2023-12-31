@@ -4960,6 +4960,9 @@ blockquote p {
 */
 .icon-box {
   margin-bottom: 30px;
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
 }
 .icon-box .icon {
   display: inline-block;
