@@ -79,14 +79,14 @@
       <div class="container pt-15 pb-10">
         <div class="row">
           <div class="col-md-6">
-            <p class="font-11 text-black-777 m-0">
-            <?php echo "© 2023 - ".date("Y").", Rajkot Mahajan Panjarapole. All rights reserved"; ?></p>
+            <p class="font-11 text-black-777 sm-text-center m-0">
+            2023, Rajkot Mahajan Panjarapole. All rights reserved</p>
           </div>
           <div class="col-md-6 text-right">
             <div class="widget no-border m-0">
               <ul class="list-inline sm-text-center mt-5 font-12">
                 <li>
-                  <a href="policy#terms-conditions">Terms & Conditions</a>
+                  <a href="policy">Terms & Conditions</a>
                 </li>
                 <li>|</li>
                 <li>
