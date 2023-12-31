@@ -83,7 +83,7 @@
 
     <section>
 
-      <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
+      <div class="row pt-10" id="terms-conditions">
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <h3 class="text-theme-colored">Terms & Conditions</h3>
@@ -103,7 +103,7 @@
         <div class="col-md-1"></div>
       </div>
 
-      <div class="row pt-10 pl-10 pt-50 pr-10" id="privacy-policy">
+      <div class="row pt-10 pt-50" id="privacy-policy">
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <h3 class="text-theme-colored">Privacy Policy</h3>
@@ -116,7 +116,7 @@
         <div class="col-md-1"></div>
       </div>
 
-      <div class="row pt-10 pb-20 pl-10 pt-50 pr-10" id="refund-policy">
+      <div class="row pt-10 pb-20 pt-50" id="refund-policy">
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <h3 class="text-theme-colored">Refund Policy</h3>

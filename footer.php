@@ -5,10 +5,10 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget dark">
             <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/PanjarapoleICON.ico">
-            <p><b>Rajkot Mahajan Panjrapole,</b>
+            <p><b class="text-white">Rajkot Mahajan Panjrapole</b>
             <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a class="text-gray" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i> <a class="text-gray" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
+              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
+              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i> <a href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
             </ul>
           </div>
         </div>
