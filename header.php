@@ -44,12 +44,12 @@
           <nav id="menuzord-right" class="menuzord default no-bg">
             <a class="menuzord-brand pull-left flip" href="index.php"><img src="images/PanjarapoleLOGO1.png" alt=""></a>
             <ul class="menuzord-menu">
-              <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>><a href="index.php">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Events</a></li>
-              <li <?php if (basename($_SERVER['PHP_SELF']) == 'contactus.php') echo 'class="active"'; ?>><a href="contactus.php">Contact Us</a></li>
-              <li <?php if (basename($_SERVER['PHP_SELF']) == 'donate.php') echo 'class="active"'; ?>><a href="donate.php">Donate</a>
+              <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>><a href="index">Home</a></li>
+              <li><a href="aboutus">About</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              <li><a href="events">Events</a></li>
+              <li <?php if (basename($_SERVER['PHP_SELF']) == 'contactus.php') echo 'class="active"'; ?>><a href="contactus">Contact Us</a></li>
+              <li <?php if (basename($_SERVER['PHP_SELF']) == 'donate.php') echo 'class="active"'; ?>><a href="donate">Donate</a>
                 <ul class="dropdown">
                   <li><a href="#">Donation amount slab</a>
                   </li>

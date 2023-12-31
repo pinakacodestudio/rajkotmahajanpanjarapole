@@ -822,21 +822,21 @@
           <div class="col-xs-12 col-sm-6 col-md-4 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-culture mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="128" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
+              <h2 data-animation-duration="2000" data-value="127" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
               <h5 class="text-white text-uppercase font-weight-600">years old</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-news-paper mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="3600" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
+              <h2 data-animation-duration="2000" data-value="5000" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
               <h5 class="text-white text-uppercase font-weight-600">animals</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-global mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="250" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
+              <h2 data-animation-duration="2000" data-value="100" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
               <!-- <span class="plus">+</span> -->
               <h5 class="text-white text-uppercase font-weight-600">donation centers</h5>
             </div>

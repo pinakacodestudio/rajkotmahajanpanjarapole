@@ -5,10 +5,10 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget dark">
             <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/PanjarapoleICON.ico">
-            <p><b>Rajkot Mahajan Panjrapole,</b><br> Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</p>
+            <p><b>Rajkot Mahajan Panjrapole,</b>
             <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a class="text-gray" href="info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i> <a class="text-gray" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Rajkot Mahajan Panjrapole</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a class="text-gray" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i> <a class="text-gray" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
             </ul>
           </div>
         </div>
@@ -44,11 +44,11 @@
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Useful Links</h5>
             <ul class="list angle-double-right list-border">
-              <li><a href="#">Body Building</a></li>
-              <li><a href="#">Fitness Classes</a></li>
-              <li><a href="#">Weight lifting</a></li>
-              <li><a href="#">Yoga Courses</a></li>
-              <li><a href="#">Training</a></li>              
+              <li><a href="index">Home</a></li>
+              <li><a href="aboutus">About</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              <li><a href="events">Events</a></li>
+              <li><a href="contactus">Contact Us</a></li>              
             </ul>
           </div>
         </div>
@@ -79,21 +79,22 @@
       <div class="container pt-15 pb-10">
         <div class="row">
           <div class="col-md-6">
-            <p class="font-11 text-black-777 m-0">Copyright &copy;2016 ThemeMascot. All Rights Reserved</p>
+            <p class="font-11 text-black-777 m-0">
+            <?php echo "© 2023 - ".date("Y").", Rajkot Mahajan Panjarapole. All rights reserved"; ?></p>
           </div>
           <div class="col-md-6 text-right">
             <div class="widget no-border m-0">
               <ul class="list-inline sm-text-center mt-5 font-12">
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="policy#terms-conditions">Terms & Conditions</a>
                 </li>
                 <li>|</li>
                 <li>
-                  <a href="#">Help Desk</a>
+                  <a href="policy#privacy-policy">Privacy Policy</a>
                 </li>
                 <li>|</li>
                 <li>
-                  <a href="#">Support</a>
+                  <a href="policy#refund-policy">Refund Policy</a>
                 </li>
               </ul>
             </div>

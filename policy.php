@@ -12,7 +12,7 @@
 <meta name="author" content="ThemeMascot" />
 
 <!-- Page Title -->
-<title>Terms & Condition | Rajkot Mahajan Panjrapole</title>
+<title>Policies | Rajkot Mahajan Panjrapole</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
@@ -49,12 +49,6 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -77,110 +71,64 @@
     <!-- Section: inner-header -->
     <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg1.jpg">
       <div class="container pt-100 pb-50">
-        <!-- Section Content -->
         <div class="section-content pt-100">
           <div class="row"> 
             <div class="col-md-12">
-              <h3 class="title text-white">Contact Us.</h3>
+              <h3 class="title text-white">Our Policies</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-    <!-- Divider: Contact -->
-    <section class="divider">
-      <div class="container">
-        <div class="row pt-30">
-          <div class="col-md-5">
-            <h3 class="line-bottom mt-0 mb-30">Interested in discussing?</h3>
-            
-            <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="" method="post">
 
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Phone <small>*</small></label>
-                    <input name="form_phone" class="form-control" type="tel" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
-                  </div>
-                </div>
-
-              </div>
-                
-              <div class="row">
-                <div class="col-sm-12">
-                 <div class="form-group">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label>Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>
-                <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
-              </div>
-            </form>
-
-
-          </div>
-          <div class="col-md-7">
-            <div class="row">
-              <h3 class="line-bottom mt-0 mb-50 ml-15">Our Location</h3>
-              <div class="col-md-12">                
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque</p>
-              </div>
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Our Office Location</h5>
-                    <p><b>Rajkot Mahajan Panjrapole,</b><br> Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-5 col-md-5">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-call text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Contact Number</h5>
-                    <p>(0281) 245 8976</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-7 col-md-7">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
-                  <div class="media-body">
-                    <h5 class="mt-0">Email Address</h5>
-                    <p> info@rajkotmahajanpanjarapole.org</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Divider: Google Map -->
     <section>
-      <div class="container-fluid pt-0 pb-0">
-        <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.7209763835456!2d70.813799!3d22.2991194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5ff3775048d%3A0xf0b80c5256ae6cad!2sRajkot%20Mahajan%20Panjrapole!5e0!3m2!1sen!2sin!4v1702966366158!5m2!1sen!2sin" width="auto" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <h3 class="text-theme-colored">Terms & Conditions</h3>
+          <ul class="list theme-colored check ml-10">
+            <li class="text-justify">This website is operated by Rajkot Mahajan Panjarapole. Throughout the site, the terms “we”, “us” and “our” refer to Rajkot Mahajan Panjarapole.</li>
+            <li class="text-justify">Rajkot Mahajan Panjarapole offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</li>
+            <li class="text-justify">By visiting our site and/or donating to us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. </li>
+            <li class="text-justify">These Terms of Service apply to all users of the site, including without limitation users who are browsers, visitors, donors, and/or contributors of content.</li>
+            <li class="text-justify">Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services.</li>
+            <li class="text-justify">If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.</li>
+            <li class="text-justify">Any new features or tools which are added to the current website shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page.</li>
+            <li class="text-justify">We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes.</li>
+            <li class="text-justify">Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes. We are not responsible if information made available on this site is not accurate, complete or current.</li>
+            <li class="text-justify">This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.</li>
+          </ul>
         </div>
+        <div class="col-md-1"></div>
       </div>
+
+      <div class="row pt-10 pl-10 pr-10" id="privacy-policy">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <h3 class="text-theme-colored">Privacy Policy</h3>
+          <ul class="list theme-colored check ml-10">
+            <li class="text-justify">We Rajkot Mahajan Panjarapole are committed to ensuring that your privacy is protected in accordance with applicable laws and regulations. By using this website, you agree to the terms and conditions of this Policy, and consent to our use, storage, disclosure, and transfer of your information or data in the manner described in this Policy.</li>
+            <li class="text-justify">We assure that we will not share any of your email and phone number to any of our donors or constituents. We do not share your personal information with other NGO or organizations for financial purposes.</li>
+            <li class="text-justify">Mahajan Panjarapole may change this Policy periodically and we urge you to check this page for the latest version of the Policy in order to keep yourself updated.</li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row pt-10 pb-20 pl-10 pr-10" id="refund-policy">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <h3 class="text-theme-colored">Refund Policy</h3>
+          <ul class="list theme-colored check ml-10">
+            <li>Once the donation has been made it cannot be refunded.</li>
+            <li>For any query & grievance contact us.</li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      
     </section>
-  </div>
-  <!-- end main-content -->
 
  <?php
     // Include the footer file
