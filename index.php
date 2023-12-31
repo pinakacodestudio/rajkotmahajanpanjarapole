@@ -46,7 +46,11 @@
 
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
-
+<style>
+p{
+  text-align: justify;
+}
+</style>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
@@ -822,7 +826,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-culture mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="127" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
+              <h2 data-animation-duration="2000" data-value="127" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0<span>+</span></h2>
               <h5 class="text-white text-uppercase font-weight-600">years old</h5>
             </div>
           </div>
@@ -860,35 +864,44 @@
             <div class="col-md-8 pb-sm-20">
               <h3 class="line-bottom mt-0">Our Mission</h3>
               <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-15 mb-20"> <a class="media-left pull-left flip" href="#"><i class="flaticon-charity-shaking-hands-inside-a-heart text-theme-colored"></i></a>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20">
+                    <a class="media-left pr-15 pl-5 flip" href="#">
+                      <i class="flaticon-charity-shaking-hands-inside-a-heart text-theme-colored"></i>
+                    </a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Save The children</h4>
-                      <p>Lorem ipsum dolor sit ametcons ecte adipisicing eli cumconse teturs lorem ipsum dolor is emmit</p>
+                      <h4 class="font-15 text-uppercase">Save Animals</h4>
+                      <p>To save and preserve maximum animals who comes to the gate of Rajkot Mahajan Panjarapole.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-15 mb-20"> <a class="media-left pull-left flip" href="#"><i class="flaticon-charity-shelter text-theme-colored"></i></a>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-food-donation text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Help The Helpless</h4>
-                      <p>Lorem ipsum dolor sit ametcons ecte adipisicing eli cumconse teturs lorem ipsum dolor is emmit</p>
+                      <h4 class="font-15 text-uppercase">Feed Healthy Food</h4>
+                      <p>To feed maximum protein food to animals especially sick animals.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-15 mb-20"> <a class="media-left pull-left flip" href="#"><i class="flaticon-charity-responsible-use-of-water text-theme-colored"></i></a>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-sweet-home text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Pure Water For Poor</h4>
-                      <p>Lorem ipsum dolor sit ametcons ecte adipisicing eli cumconse teturs lorem ipsum dolor is emmit</p>
+                      <h4 class="font-15 text-uppercase">Advanced Hospital</h4>
+                      <p>To develop hospital facilities with advanced surgical equipment & medicine to treatment & cure for sick animals.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-15 mb-20"> <a class="media-left pull-left flip" href="#"><i class="flaticon-charity-make-a-donation text-theme-colored"></i></a>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-shelter text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Donation for poor</h4>
-                      <p>Lorem ipsum dolor sit ametcons ecte adipisicing eli cumconse teturs lorem ipsum dolor is emmit</p>
+                      <h4 class="font-15 text-uppercase">Modern Construction</h4>
+                      <p>To construct modern shed to preserve and to give shelter to maximum animals and to construct different types of divison for each type of animals.</p>
                     </div>
                   </div>
                 </div>
@@ -959,6 +972,27 @@
                   </div>
                 </div>
               </div>
+              <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
+                <div class="row">
+                  <div class="col-xs-2 col-md-3 pr-0">
+                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
+                      <ul>
+                        <li class="font-28 text-white font-weight-700">10</li>
+                        <li class="font-18 text-white text-center text-uppercase">MAY</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xs-9 pr-10 pl-10">
+                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Save The Water</a></h5>
+                      <ul class="list-inline font-weight-600 text-gray-dimgray">
+                        <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm - 6.00 pm</li>
+                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -970,8 +1004,15 @@
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mt-0 text-white">How you can help us</h2>
-              <h2 class="text-white">Just call at <span class="text-theme-colored">(0281) 245 8976</span> to make a donation</h2>
+              <h2 class="mt-0 text-white">
+                <span class="text-theme-colored"> Our Appeal </span>
+              </h2>
+              <p class="text-white text-center" style="font-size: 16px;">
+                Who can be the saviour of those unfortunate animals who cannot speak and express their sufferings, their hunger, their pain or their needs? An answer to this is RAJKOT MAHAJAN PANJARAPOLE and animal welfare activists. Rajkot Mahajan Panjarapole has been facing severe financial constraints on account of ever-increasing expenses to serve and maintain ever-increasing animals.
+              </p>
+              <p class="text-white text-center" style="font-size: 16px;">
+                We earnestly appeal kind hearted philanthropists for generous donations to support and supplement the noble cause of maintaining, saving, serving and sheltering unfortunate animals.
+              </p>
             </div>
           </div>
         </div>
@@ -1102,58 +1143,6 @@
 
         </div>
         </div>
-      </div>
-    </section>
-    <!-- Section: Testimonials -->
-    <section class="divider parallax layer-overlay overlay-dark-9" data-bg-img="images/bg/bg23.jpg" data-parallax-ratio="0.7">
-      <div class="container pt-40 pb-40">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-white mt-0">Our Top Ten Donners</h2>
-            </div>
-          </div>
-        </div>
-		<div class="testimonial-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="team-slider owl-carousel">
-							<div class="single-box text-center">
-								<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/65VQDfjs/1.png"></div>
-								<div class="info-area">
-									<h4>Person's Name</h4>
-								</div>
-							</div>
-							<div class="single-box text-center">
-								<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/vmCM14qL/2.png"></div>
-								<div class="info-area">
-									<h4>Person's Name</h4>
-								</div>
-							</div>
-							<div class="single-box text-center">
-								<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/TYTxWM9S/3.png"></div>
-								<div class="info-area">
-									<h4>Person's Name</h4>
-								</div>
-							</div>
-							<div class="single-box text-center">
-								<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/593GTHB7/4.png"></div>
-								<div class="info-area">
-									<h4>Person's Name</h4>
-								</div>
-							</div>
-							<div class="single-box text-center">
-								<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/tJCrp53r/5.png"></div>
-								<div class="info-area">
-									<h4>Person's Name</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
       </div>
     </section>
   </div>

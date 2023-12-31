@@ -7,9 +7,10 @@
             <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/PanjarapoleICON.ico">
             <p><b class="text-white">Rajkot Mahajan Panjrapole</b>
             <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
-              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i> <a href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
+              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
+              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i><a target="_blank" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
             </ul>
+            <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Get Brochure</a>
           </div>
         </div>
         <div class="col-sm-12 col-md-3">
@@ -47,7 +48,7 @@
               <li><a href="index">Home</a></li>
               <li><a href="aboutus">About</a></li>
               <li><a href="gallery">Gallery</a></li>
-              <li><a href="events">Events</a></li>
+              <li><a href="activity">Activity</a></li>
               <li><a href="contactus">Contact Us</a></li>              
             </ul>
           </div>
@@ -80,7 +81,7 @@
         <div class="row">
           <div class="col-md-6">
             <p class="font-11 text-black-777 sm-text-center m-0">
-            2023, Rajkot Mahajan Panjarapole. All rights reserved</p>
+            2024, Rajkot Mahajan Panjarapole. All rights reserved</p>
           </div>
           <div class="col-md-6 text-right">
             <div class="widget no-border m-0">

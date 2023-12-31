@@ -47,7 +47,7 @@
               <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>><a href="index">Home</a></li>
               <li><a href="aboutus">About</a></li>
               <li><a href="gallery">Gallery</a></li>
-              <li><a href="events">Events</a></li>
+              <li><a href="activity">Activity</a></li>
               <li <?php if (basename($_SERVER['PHP_SELF']) == 'contactus.php') echo 'class="active"'; ?>><a href="contactus">Contact Us</a></li>
               <li <?php if (basename($_SERVER['PHP_SELF']) == 'donate.php') echo 'class="active"'; ?>><a href="donate">Donate</a>
                 <ul class="dropdown">

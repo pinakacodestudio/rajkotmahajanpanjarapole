@@ -81,7 +81,7 @@
         <div class="section-content pt-100">
           <div class="row"> 
             <div class="col-md-12">
-              <h3 class="title text-white">Contact Us.</h3>
+              <h3 class="title text-white">Contact Us</h3>
             </div>
           </div>
         </div>
@@ -94,7 +94,6 @@
         <div class="row">
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
-            
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" class="" action="" method="post">
 
@@ -132,14 +131,12 @@
                 <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
               </div>
             </form>
-
-
           </div>
           <div class="col-md-4">
             <div class="row">
-              <h3 class="line-bottom mt-0 mb-50 ml-15">Our Location</h3>
+              <h3 class="line-bottom mt-20 mb-20 ml-15">Our Location</h3>
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
+                <div class="icon-box media bg-deep p-20 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Our Office Location</h5>
                     <p><b>Rajkot Mahajan Panjrapole</b><br>
