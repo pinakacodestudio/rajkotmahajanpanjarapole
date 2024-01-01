@@ -10,7 +10,8 @@
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i><a target="_blank" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
             </ul>
-            <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Get Brochure</a>
+            <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Gujarati Brochure</a>
+            <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">English Brochure</a>
           </div>
         </div>
         <div class="col-sm-12 col-md-3">

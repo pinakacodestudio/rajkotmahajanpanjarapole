@@ -42,7 +42,7 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-silver-light">
         <div class="container">
           <nav id="menuzord-right" class="menuzord default no-bg">
-            <a class="menuzord-brand pull-left flip" href="index.php"><img src="images/PanjarapoleLOGO1.png" alt=""></a>
+            <a class="menuzord-brand pull-left flip" href="index.php"><img src="images/header-logo.png" alt=""></a>
             <ul class="menuzord-menu">
               <li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>><a href="index">Home</a></li>
               <li><a href="aboutus">About</a></li>

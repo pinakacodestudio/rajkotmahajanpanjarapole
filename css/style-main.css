@@ -710,7 +710,7 @@ section {
 }
 section > .container,
 section > .container-fluid {
-  padding-top: 60px;
+  padding-top: 15px;
   padding-bottom: 60px;
 }
 /* -------- Background Video ---------- */
@@ -1062,7 +1062,7 @@ section > .container-fluid {
   }
 }
 .menuzord-brand img {
-  max-height: 38px;
+  max-height: 63px;
 }
 /* -------- Inner Header ---------- */
 .inner-header .title {
@@ -4725,8 +4725,8 @@ blockquote p {
   background-position: center center;
 }
 .divider .container {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .divider .container.small-padding {
   padding-top: 30px;
@@ -5137,6 +5137,14 @@ blockquote p {
 }
 .icon-box.left {
   text-align: left;
+  width: 720px;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-box.left {
+    width: auto;
+    height: auto;
+  }
 }
 .icon-box.left a {
   margin-right: 30px;
@@ -5978,7 +5986,7 @@ blockquote p {
 .team-member .team-info {
   bottom: -18px;
   left: 0;
-  padding: 15px;
+  padding: 2px;
   margin: 15px 30px;
   position: absolute;
   right: 0;
