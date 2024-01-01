@@ -655,12 +655,11 @@ p{
             </div>
             <div class="col-md-6">
               <div class="about-details">
-                <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">FundPro</span> Please Rise your Helping Hand</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, odioserunt provident maiores consectetur adipisicing elit. Aliquam odio dese runtesseu provident maiores libero porro dolorem est. Velit necessitatibus fugiat error incidunt excepturi doloribus officia aspernatur quod libero  Velit necessitatibus fugiat error incidunt excepturi doloribus officia</p>
-                <div class="singnature mt-20">
-                  <img src="images/signature.png" alt="img1">
-                </div>
-                <a href="#" class="btn btn-flat btn-colored btn-theme-colored mt-15 mr-15">Read More</a>
+                <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">Rajkot Mahajan Panjrapole</span></h2>
+                <p>The institution has been providing shelter and care for animals for over a century, and it is heartening to see the dedication and compassion of the staff and volunteers who work tirelessly to ensure the well-being of these animals. It is also commendable that they provide veterinary services and have a separate division for sick and orphaned animals, showing their commitment to the welfare of the animals under their care.</p>
+                <p>It is inspiring to see the legacy of compassion and care that the Rajkot Mahajan Panjarapole has built over the years, and it is a reminder of the importance of kindness and empathy towards all living beings.</p>
+                <p>Our Rajkot Mahajan Panjarapole has its own veterinary officer and helpers, providing veterinary services such as necessary treatments and operations for sick or injured animals. Currently, the daily expense is Rs. 1,50,000/-</p>
+                <a href="aboutus" class="btn btn-flat btn-colored btn-theme-colored mt-15 mr-15">Read More</a>
                 <!-- <a href="#" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a> -->
               </div>
             </div>

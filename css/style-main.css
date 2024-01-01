@@ -1063,6 +1063,7 @@ section > .container-fluid {
 }
 .menuzord-brand img {
   max-height: 63px;
+  margin-top: 5px;
 }
 /* -------- Inner Header ---------- */
 .inner-header .title {
