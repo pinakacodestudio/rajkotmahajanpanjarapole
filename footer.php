@@ -10,7 +10,7 @@
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i><a target="_blank" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
             </ul>
-            <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Gujarati Brochure</a>
+            <a href="brochure/panjarapole-gujarati-brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Gujarati Brochure</a>
             <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">English Brochure</a>
           </div>
         </div>
@@ -21,24 +21,31 @@
               <article class="post media-post clearfix pb-0 mb-10">
                 <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Sustainable Construction</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                  <h5 class="post-title mt-0 mb-5"><a href="#">Amavasya Tithi</a></h5>
+                  <p class="post-date mb-0 font-12">Jan 11, 2023</p>
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Industrial Coatings</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                  <h5 class="post-title mt-0 mb-5"><a href="#">Makarsankranti</a></h5>
+                  <p class="post-date mb-0 font-12">Jan 14, 2023</p>
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Storefront Installations</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                  <h5 class="post-title mt-0 mb-5"><a href="#">Ekadashi</a></h5>
+                  <p class="post-date mb-0 font-12">Jan 21, 2023</p>
                 </div>
               </article>
+              <!-- <article class="post media-post clearfix pb-0 mb-10">
+                <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                <div class="post-right">
+                  <h5 class="post-title mt-0 mb-5"><a href="#">Purnima</a></h5>
+                  <p class="post-date mb-0 font-12">Jan 25, 2023</p>
+                </div>
+              </article> -->
             </div>
           </div>
         </div>

@@ -884,90 +884,95 @@ p{
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <h3 class="line-bottom border-bottom mt-0">Upcoming Events</h3>
+              
               <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">28</li>
-                        <li class="font-18 text-white text-center text-uppercase">Feb</li>
+                        <li class="font-28 text-white font-weight-700">11</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Help The Children</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 5.00 pm - 7.30 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Amavasya Tithi</a></h5>
+                      <p class="text-justify">
+                      Donating on Amavasya Tithi can make ancestors happy and bring blessings to their descendants.
+                      </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">26</li>
-                        <li class="font-18 text-white text-center text-uppercase">OCT</li>
+                        <li class="font-28 text-white font-weight-700">14</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Foods For Poor</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 6.00 pm - 8.30 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Makarsankranti</a></h5>
+                      <p class="text-justify">
+                      Donating on Makarsankranti brings us the happiness and blessings of Goddess Lakshmi.
+                      </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
+
+              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">12</li>
-                        <li class="font-18 text-white text-center text-uppercase">DEC</li>
+                        <li class="font-28 text-white font-weight-700">21</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Save The Water</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm - 6.00 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Ekadashi</a></h5>
+                      <p class="text-justify">
+                      Donating on Ekadashi gives salvation, money, happiness, and good fortune, it is a very auspicious day.
+                      </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
+
+              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">10</li>
-                        <li class="font-18 text-white text-center text-uppercase">MAY</li>
+                        <li class="font-28 text-white font-weight-700">25</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Save The Water</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm - 6.00 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Purnima</a></h5>
+                      <p class="text-justify">
+                      Donating on Purnima eliminates poverty and ensures a lack of funds.
+                      </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
