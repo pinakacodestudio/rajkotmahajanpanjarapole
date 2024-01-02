@@ -2,19 +2,32 @@
    <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
     <div class="container pt-70 pb-40">
       <div class="row border-bottom-black">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-5">
           <div class="widget dark">
             <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/PanjarapoleICON.ico">
             <p><b class="text-white">Rajkot Mahajan Panjrapole</b>
             <ul class="list-inline mt-5">
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-map-marker  text-theme-colored mr-5"></i><a target="_blank" href="https://maps.app.goo.gl/myGAK7QZaPiJkAQ18">Bhavnagar Road, Nr. Aaji River Bank, Rajkot - 360003, Gujarat, India.</a> </li>
+              <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-clock-o  text-theme-colored mr-5"></i><a>365 Days: 8:00 AM - 6:00 PM</a> </li>
             </ul>
             <a href="brochure/panjarapole-gujarati-brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">Gujarati Brochure</a>
             <a href="brochure.pdf" target="_blank" class="btn btn-dark btn-theme-colored">English Brochure</a>
           </div>
         </div>
         <div class="col-sm-12 col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Useful Links</h5>
+            <ul class="list angle-double-right list-border">
+              <li><a href="index">Home</a></li>
+              <li><a href="aboutus">About</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              <li><a href="activity">Activity</a></li>
+              <li><a href="contactus">Contact Us</a></li>              
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Upcoming Event</h5>
             <div class="latest-posts">
@@ -49,39 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-2">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom">Useful Links</h5>
-            <ul class="list angle-double-right list-border">
-              <li><a href="index">Home</a></li>
-              <li><a href="aboutus">About</a></li>
-              <li><a href="gallery">Gallery</a></li>
-              <li><a href="activity">Activity</a></li>
-              <li><a href="contactus">Contact Us</a></li>              
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom">Opening Hours</h5>
-            <div class="opening-hours">
-              <ul class="list-border">
-                <li class="clearfix"> <span> 365 Days :  </span>
-                  <div class="value pull-right"> 8.00 am - 6.00 pm </div>
-                </li>
-                <!-- <li class="clearfix"> <span> Wednes - Thurs :</span>
-                  <div class="value pull-right"> 8.00 am - 6.00 pm </div>
-                </li>
-                <li class="clearfix"> <span> Fri : </span>
-                  <div class="value pull-right"> 3.00 pm - 8.00 pm </div>
-                </li>
-                <li class="clearfix"> <span> Sun : </span>
-                  <div class="value pull-right"> Colosed </div>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
     <div class="footer-bottom bg-black-333">
