@@ -43,13 +43,13 @@
 <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
 <style>
   #portfolio {
-    padding: 40px;
+    padding: 10px;
     margin: 0 auto;
 }
 .gallery-title
 {
     font-size: 36px;
-    color: #db584e;
+    color: #F26522;
     text-align: center;
     font-weight: 700;
     padding: 40px 20px 60px;
@@ -57,26 +57,25 @@
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #db584e;
+    border: 1px solid #F26522;
     border-radius: 5px;
     text-align: center;
-    color: #db584e;
-    margin-bottom: 30px;
-
+    color: #F26522;
+    margin-bottom: 10px;
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #db584e;
+    border: 1px solid #F26522;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #db584e;
+    background-color: #F26522;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #db584e;
+    background-color: #F26522;
     color: white;
 }
 

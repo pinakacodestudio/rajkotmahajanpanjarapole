@@ -81,55 +81,153 @@
       </div>
     </section>
 
-    <section>
-
+    <section class="container">
       <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <h3 class="text-theme-colored">Terms & Conditions</h3>
-          <ul class="list theme-colored check ml-10">
-            <li class="text-justify">This website is operated by Rajkot Mahajan Panjarapole. Throughout the site, the terms “we”, “us” and “our” refer to Rajkot Mahajan Panjarapole.</li>
-            <li class="text-justify">Rajkot Mahajan Panjarapole offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</li>
-            <li class="text-justify">By visiting our site and/or donating to us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. </li>
-            <li class="text-justify">These Terms of Service apply to all users of the site, including without limitation users who are browsers, visitors, donors, and/or contributors of content.</li>
-            <li class="text-justify">Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services.</li>
-            <li class="text-justify">If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.</li>
-            <li class="text-justify">Any new features or tools which are added to the current website shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page.</li>
-            <li class="text-justify">We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes.</li>
-            <li class="text-justify">Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes. We are not responsible if information made available on this site is not accurate, complete or current.</li>
-            <li class="text-justify">This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.</li>
-          </ul>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
+        <div class="col-lg-12 col-md-12">
+          <h3> History of <span class="text-theme-colored">Rajkot Mahajan Panjarapole</span></h3>
+          
+          <div class="row">
+            <div class="col-lg-4 img-hover-border mt-sm-30">
+                <img class="img-fullwidth" src="images/about/d2.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  About 127 years ago, the population of Rajkot was nearly 25000 or less than that. At that time hardly any animals without owners were seen. Even then at that time Mahajan's forecast business person decided to establish a Panjarapole. A few numbers of support-less animals were to be maintained. The first beginning of Rajkot Mahajan Panjarapole was at Kotharia Naka place. The religious minded, noble King of Rajkot allotted that place to mahajan. As time passed on, honourable King Late Bavajiraj allotted a huge land at about 2 Lakh Sq. Ft. at the bank of river Aji for maintenance and care taking purpose at a token price. At that time in the time of famine, the king came to help of panjarapole by bringing grass from south Gujarat.
+                </li>   
+              </ul>
+            </div>
+          </div>
 
-      <div class="row pt-10 pl-10 pr-10" id="privacy-policy">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <h3 class="text-theme-colored">Privacy Policy</h3>
-          <ul class="list theme-colored check ml-10">
-            <li class="text-justify">We Rajkot Mahajan Panjarapole are committed to ensuring that your privacy is protected in accordance with applicable laws and regulations. By using this website, you agree to the terms and conditions of this Policy, and consent to our use, storage, disclosure, and transfer of your information or data in the manner described in this Policy.</li>
-            <li class="text-justify">We assure that we will not share any of your email and phone number to any of our donors or constituents. We do not share your personal information with other NGO or organizations for financial purposes.</li>
-            <li class="text-justify">Mahajan Panjarapole may change this Policy periodically and we urge you to check this page for the latest version of the Policy in order to keep yourself updated.</li>
-          </ul>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  In the history of Rajkot Mahajan Panjarapole the event which never happen had occurred. In Rajkot, a circus had come. While leaving from Rajkot, it left an elephant on the way who was not able to walk. The president of our panjrapole most respectable merchant Shri Durlabhjibhai Shamjibhai Virani having come to know this, with great action rescued that elephant in Rajkot Mahajan's Panjarapole for treatment and for creating wellness comfort to it. Nearly after two years when it died, to remove the dead body, about forty to fifty labourers were needed.
+                </li>   
+              </ul>
+            </div>
+          </div>
 
-      <div class="row pt-10 pb-20 pl-10 pr-10" id="refund-policy">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <h3 class="text-theme-colored">Refund Policy</h3>
-          <ul class="list theme-colored check ml-10">
-            <li>Once the donation has been made it cannot be refunded.</li>
-            <li>For any query & grievance contact us.</li>
-          </ul>
+          <div class="row">
+            <div class="col-lg-8">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  In the period about year 1966 when possession of panjarapole was taken by Shri Jayantibhai Shah and other workers, only 80 to 90 animals, rabbits and white pigeon etc. mute Living beings were there. But after 10 years period, the numbers of animals rapidly increased to thousand and thereafter in eight to ten years the number of animals became 1700 and daily expense was Rs. 5000/-, and today to maintain these living being, the amount of Rs. 150000- is required. That means the expense increased too much to maintain them. About the year 1987, due to terrible famine, the farmers of villages with tears in their eyes were coming to Rajkot Mahajan Panjarapole to hand over their precious animals and then panjarapole willingly accept these animals.
+                </li>   
+              </ul>
+            </div>
+            <div class="col-lg-4 img-hover-border mt-sm-30">
+                <img class="img-fullwidth" src="images/about/d2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  As there was no sufficient land the bullocks were to be taken to Race Course ground. The numbers of animals increased nearly 50000. The Panjarapole maintained them for about one month, and there after Government of Gujarat maintained them. It was an unpredicted event of our panjarapole, which may hardly be seen in the world. When the Government closed this cattle camp, the collector handed over about 1700 weak animals to Rajkot Mahajan's Panjarapole. At that time the numbers of animals increased up to 5000 in Panajarapole. In the mist of such many problems the Rajkot Mahajan Panjarapole overcome cheerfully. All the animals whether they are buffaloes, bulls, donkeys or birds maintained carefully.
+                </li>   
+              </ul>
+            </div>
+          </div>
+
         </div>
-        <div class="col-md-1"></div>
+
       </div>
-      
     </section>
 
+    <section class="container">
+      <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
+        <div class="col-lg-12 col-md-12">
+          <h3> Activity of <span class="text-theme-colored">Rajkot Mahajan Panjarapole</span></h3>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  In summer, with a view to see that the water can be available to animals and birds, panjarapole distribute earthen vessels at free of cost.
+                </li>   
+                <li class="text-justify">
+                  Sick and unprotected animals in the city are brought to panjarapole in our vehicle. It is seen that they get proper treatment-operation and proper care should be taken.
+                </li>   
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 img-hover-border mt-sm-30">
+                <img class="img-fullwidth" src="images/about/d2.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                  Our institution is doing efforts for having latest hospital with the help & co-operation of donors. For birds, enormous arrangements are made by which they can get sufficient air and light and can fly fearlessly. 
+                  </li>
+                  <li class="text-justify">
+                  In this uncontrolled days/period the flame of killing is increased from day to day. Thousands of animals are thrown out to the slaughter house. Meat is exported in huge containers, but our Rajkot Mahajan's Panjarapole observing inheritance of culture and have saved thousands of animals-birds and have given shelter. In any circumstances animals are not given back to butchers. Even by fighting in court panjarapole saved them.
+                </li>   
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                By afraid from sin, some poor animal breeders do not sell their animals. Being poor, they do not earn any money of these living beings from butchers but bring them to our panjarapole. For their noble nature of mercy panjarapole accept their sheep-goats.
+                </li>   
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
+        <div class="col-lg-12 col-md-12">
+          <h3> <span class="text-theme-colored">General Information</span></h3>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check col-lg-8">
+                <li class="text-justify">
+                In Indian culture, religion and tradition, animals of bovine community are as much dearer to the innocent and God-fearing rural people as their own family members.
+                </li>   
+                <li class="text-justify">
+                Nevertheless, due to circumstances beyond control, many people in villages and towns are unable to provide fodder and water to their very dear animals.
+                </li>   
+                <li class="text-justify">
+                Consequently, with much reluctance, with much distress, with a heavy heart and tears in eyes, they are compelled and constrained to bring and abandon their dear-most animals at Rajkot Mahajan Panjarapole.
+                </li>   
+              </ul>
+              <div class="col-lg-4 img-hover-border mt-sm-30">
+                <img class="img-fullwidth" src="images/about/d2.jpg" alt="">
+            </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list theme-colored check">
+                <li class="text-justify">
+                For over a century, our institute Rajkot Mahajan Panjarapole serves as an asylum to a large number of old, crippled, unserviceable, abandoned and rescued animals and birds of bovine community.
+                </li>   
+                <li class="text-justify">
+                Our Rajkot Mahajan Panjarapole not only shelters animals left with us by the people of rural area but also save innocent animals that are taken to slaughter houses.
+                </li>   
+                <li class="text-justify">
+                Rajkot Mahajan Panjarapole can rightly be termed as a temple of religious and social responsibility.
+                </li>   
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
  <?php
     // Include the footer file
     include('footer.php');
@@ -142,152 +240,4 @@
 <script src="js/custom.js"></script>
 
 </body>
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:45 GMT -->
 </html>
-<?php
-  //Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-  if(isset($_POST['send'])){
-    $name = $_POST['form_name'];
-    $phone = $_POST['form_phone'];
-    $email = $_POST['form_email'];
-    $msg = $_POST['form_message'];
-
-
-//Load Composer's autoloader
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
-
-
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
-
-try {   
-    //Server settings
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'receipt@rajkotmahajanpanjarapole.org';                     //SMTP username
-    $mail->Password   = 'Rec$2023$';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-    //Recipients
-    $mail->setFrom('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');
-    $mail->addAddress('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');     //Add a recipient
-
-    // //Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Mahajan Panjarapole contact form';
-    $mail->Body    = "<div align=\"center\" style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-    <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px auto;border-bottom-width:1px;border-bottom-style:solid;width:100%!important;background-color:rgb(249,248,248);border-bottom-color:rgb(216,216,216)\">
-        <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-            <tr style=\"font-family:Helvetica,Arial,sans-serif;margin:0px;padding:0px;background-image:url(&quot;https://ci3.googleusercontent.com/meips/ADKq_NaikpKpeRQfoJaN15mh09mFz0O8xM8p_5gHHjnF9dFhlXOQ3uJ6jh5dTQLWhQgUPhl86cOAnUFW6gc6uQyI5qeW4fi7bkG90Ay1VPNL=s0-d-e1-ft#https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh&quot;);background-position:left bottom;background-repeat:repeat no-repeat\">
-                <td align=\"center\" style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;margin:0px;padding:0px;height:42px;display:block!important;clear:both!important\">
-                    <div style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;max-width:505px;margin:0px auto;display:block;padding:0px\">
-                        <span style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:16px;line-height:42px;font-weight:bold\">
-                            <a style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:19px;font-weight:bold;text-decoration:none;color:rgb(70,70,70)\" rel=\"noreferrer\">
-                                Shree Rajkot Mahajan's Panjarapole.
-                            </a>
-                        </span>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:505px;margin:0px auto;background-color:rgb(255,255,255)\">
-        <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-            <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                <td style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                </td>
-                <td
-                    style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;display:block!important;max-width:505px!important;clear:both!important\">
-                    <div
-                        style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;padding:0px;max-width:505px;margin:0px auto;display:block\">
-                        <table cellspacing=\"0\"
-                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                            <tbody
-                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                    <td
-                                        style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                                        <table
-                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                                            <tbody
-                                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                    <td
-                                                        style=\"margin:0px;padding:25px 0px 28px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;font-size:30px;color:rgb(70,70,70)\">
-                                                        Contact Form</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <table
-                                            style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;border-bottom-width:1px;border-bottom-style:solid;border-top-width:1px;border-top-style:solid;margin:0px;padding:0px;width:100%;background-color:rgb(237,242,247);border-top-color:rgb(237,242,247);border-bottom-color:rgb(237,242,247)\">
-                                            <tbody
-                                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                    </td>
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize\">
-                                                        <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Name = $name </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Phone no. = $phone </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Email = $email </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Message = $msg </div><br><br>
-                                                        <table
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%;color:rgb(116,116,116)\">
-                                                            
-                                                        </table>
-                                                    </td>
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </td>
-                <td
-                    style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>";
-    
-
-    $mail->send();
-    $status = "Message has been sent successfully to the Administrator.";
-echo "<script>
-alert('$status');
-window.location.href='contactus.php';
-</script>"; 
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}
-  }
-?>

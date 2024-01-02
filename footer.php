@@ -59,10 +59,10 @@
             <h5 class="widget-title line-bottom">Opening Hours</h5>
             <div class="opening-hours">
               <ul class="list-border">
-                <li class="clearfix"> <span> Mon - Tues :  </span>
-                  <div class="value pull-right"> 6.00 am - 10.00 pm </div>
+                <li class="clearfix"> <span> 365 Days :  </span>
+                  <div class="value pull-right"> 8.00 am - 6.00 pm </div>
                 </li>
-                <li class="clearfix"> <span> Wednes - Thurs :</span>
+                <!-- <li class="clearfix"> <span> Wednes - Thurs :</span>
                   <div class="value pull-right"> 8.00 am - 6.00 pm </div>
                 </li>
                 <li class="clearfix"> <span> Fri : </span>
@@ -70,7 +70,7 @@
                 </li>
                 <li class="clearfix"> <span> Sun : </span>
                   <div class="value pull-right"> Colosed </div>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
