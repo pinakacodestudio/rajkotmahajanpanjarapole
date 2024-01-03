@@ -101,33 +101,8 @@ p{
               <!-- SLIDE 1 -->
               <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2895.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/DSC_2895.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <!-- <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway"
-                  id="rs-1-layer-1"
-
-                  data-x="['left']"
-                  data-hoffset="['30']"
-                  data-y="['middle']"
-                  data-voffset="['-110']" 
-                  data-fontsize="['110']"
-                  data-lineheight="['120']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700;">Donate
-                </div> -->
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent pl-20 pr-20"
@@ -206,7 +181,7 @@ p{
               <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2874.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/DSC_2874.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner-2.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -311,7 +286,7 @@ p{
               <!-- SLIDE 3 -->
               <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2964.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/DSC_2964.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner-3.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -390,33 +365,8 @@ p{
               <!-- SLIDE 4 -->
               <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2939.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/DSC_2939.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner-4.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <!-- <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
-                  id="rs-4-layer-1"
-                
-                  data-x="['center']"
-                  data-hoffset="['0']"
-                  data-y="['middle']"
-                  data-voffset="['-90']" 
-                  data-fontsize="['28']"
-                  data-lineheight="['54']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">For the poor children 
-                </div> -->
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
