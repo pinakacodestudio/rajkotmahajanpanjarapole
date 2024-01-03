@@ -106,7 +106,7 @@ p{
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway"
+                <!-- <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway"
                   id="rs-1-layer-1"
 
                   data-x="['left']"
@@ -128,7 +128,7 @@ p{
                   data-splitout="none" 
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:700;">Donate
-                </div>
+                </div> -->
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent pl-20 pr-20"
@@ -152,7 +152,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">Feed 3600+ Cows 
+                  style="z-index: 7; white-space: nowrap; font-weight:500; margin-left: -20px;">Shelter for Innocent Orphan Animal
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -177,7 +177,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Service to mother cows bring peace, prosperity and happiness in life.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400; padding-top: 40px;">Donate for the Century old shelter place for injured, blind, <br>crippled, weak, sick, milk-less, who cannot speak and express <br> their sufferings,their hunger, their pain or their needs.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -200,7 +200,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 50px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">Donate Now</a> 
                 </div>
               </li>
 
@@ -211,7 +211,7 @@ p{
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
+                <!-- <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
                   id="rs-2-layer-1"
                 
                   data-x="['center']"
@@ -233,7 +233,7 @@ p{
                   data-splitout="none" 
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">For the poor children 
-                </div>
+                </div> -->
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
@@ -257,7 +257,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">raise your helping hand 
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Support Slaughter Animals
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -282,7 +282,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Donate for rescued from going to slaughter, unsupported animals.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -315,33 +315,8 @@ p{
                 <img src="images/DSC_2964.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent pr-20 pl-20"
-                  id="rs-3-layer-1"
-
-                  data-x="['right']"
-                  data-hoffset="['30']"
-                  data-y="['middle']"
-                  data-voffset="['-90']" 
-                  data-fontsize="['64']"
-                  data-lineheight="['72']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;"><span class="">Help</span> The Poor
-                </div>
-
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway"
+                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent"
                   id="rs-3-layer-2"
 
                   data-x="['right']"
@@ -362,7 +337,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">For Their Better Future 
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">Feeding Motherless Baby Animals
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -387,7 +362,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Donate for the cattle who are Motherless-Orphans which <br> requires to feed milk through bottles.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -420,7 +395,7 @@ p{
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
+                <!-- <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
                   id="rs-4-layer-1"
                 
                   data-x="['center']"
@@ -442,7 +417,7 @@ p{
                   data-splitout="none" 
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">For the poor children 
-                </div>
+                </div> -->
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
@@ -466,7 +441,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">raise your helping hand 
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Medical Support
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -491,7 +466,8 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">
+                  Donate for to feed, to cure & treatment of the cattle & birds <br>which is unproductive, helpless, injured, sick.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -680,12 +656,11 @@ p{
             </div>
             <div class="col-md-6">
               <div class="about-details">
-                <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">FundPro</span> Please Rise your Helping Hand</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, odioserunt provident maiores consectetur adipisicing elit. Aliquam odio dese runtesseu provident maiores libero porro dolorem est. Velit necessitatibus fugiat error incidunt excepturi doloribus officia aspernatur quod libero  Velit necessitatibus fugiat error incidunt excepturi doloribus officia</p>
-                <div class="singnature mt-20">
-                  <img src="images/signature.png" alt="img1">
-                </div>
-                <a href="#" class="btn btn-flat btn-colored btn-theme-colored mt-15 mr-15">Read More</a>
+                <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">Rajkot Mahajan Panjrapole</span></h2>
+                <p>The institution has been providing shelter and care for animals for over a century, and it is heartening to see the dedication and compassion of the staff and volunteers who work tirelessly to ensure the well-being of these animals. It is also commendable that they provide veterinary services and have a separate division for sick and orphaned animals, showing their commitment to the welfare of the animals under their care.</p>
+                <p>It is inspiring to see the legacy of compassion and care that the Rajkot Mahajan Panjarapole has built over the years, and it is a reminder of the importance of kindness and empathy towards all living beings.</p>
+                <p>Our Rajkot Mahajan Panjarapole has its own veterinary officer and helpers, providing veterinary services such as necessary treatments and operations for sick or injured animals. Currently, the daily expense is Rs. 1,50,000/-</p>
+                <a href="aboutus" class="btn btn-flat btn-colored btn-theme-colored mt-15 mr-15">Read More</a>
                 <!-- <a href="#" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a> -->
               </div>
             </div>
@@ -895,7 +870,7 @@ p{
                 </div>
               </div>
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-sweet-home text-theme-colored"></i></a>
                     <div class="media-body">
                       <h4 class="font-15 text-uppercase">Advanced Hospital</h4>
@@ -918,86 +893,89 @@ p{
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <h3 class="line-bottom border-bottom mt-0">Upcoming Events</h3>
+              
               <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">28</li>
-                        <li class="font-18 text-white text-center text-uppercase">Feb</li>
+                        <li class="font-28 text-white font-weight-700">11</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Help The Children</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 5.00 pm - 7.30 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">26</li>
-                        <li class="font-18 text-white text-center text-uppercase">OCT</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Foods For Poor</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 6.00 pm - 8.30 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">12</li>
-                        <li class="font-18 text-white text-center text-uppercase">DEC</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Save The Water</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm - 6.00 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Amavasya Tithi</a></h5>
+                      <p class="text-justify">
+                      Donating on Amavasya Tithi can make ancestors happy and bring blessings to their descendants.
+                      </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
+              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">10</li>
-                        <li class="font-18 text-white text-center text-uppercase">MAY</li>
+                        <li class="font-28 text-white font-weight-700">14</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content mt-10 p-5 pb-0 pt-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Event: Save The Water</a></h5>
-                      <ul class="list-inline font-weight-600 text-gray-dimgray">
-                        <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm - 6.00 pm</li>
-                        <li> <i class="fa fa-map-marker text-theme-colored"></i> 25 Newyork City.</li>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Makarsankranti</a></h5>
+                      <p class="text-justify">
+                      Donating on Makarsankranti brings us the happiness and blessings of Goddess Lakshmi.
+                      </p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+                <div class="row">
+                  <div class="col-xs-2 col-md-3 pr-0">
+                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
+                      <ul>
+                        <li class="font-28 text-white font-weight-700">21</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xs-9 pr-10 pl-10">
+                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Ekadashi</a></h5>
+                      <p class="text-justify">
+                      Donating on Ekadashi gives salvation, money, happiness, and good fortune, it is a very auspicious day.
+                      </p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+                <div class="row">
+                  <div class="col-xs-2 col-md-3 pr-0">
+                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
+                      <ul>
+                        <li class="font-28 text-white font-weight-700">25</li>
+                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xs-9 pr-10 pl-10">
+                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Purnima</a></h5>
+                      <p class="text-justify">
+                      Donating on Purnima eliminates poverty and ensures a lack of funds.
+                      </p>
                       </ul>
                     </div>
                   </div>
@@ -1049,112 +1027,79 @@ p{
       
         <div class="section-content">          
           <div class="row multi-row-clearfix">
-<div class="testimonial-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="team-slider owl-carousel">
+            <div class="testimonial-box">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="team-slider owl-carousel">
 
-							<div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 1</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 2</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 3</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 4</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 5</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h3 class="mt-0 text-white">Sakib Jacson 6</h3>
+                          <h5 class="mt-3 text-white">Designation</h5>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
               </div>
-
-
-							<div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-
-							<div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
+            </div>
         </div>
+
         </div>
       </div>
     </section>
