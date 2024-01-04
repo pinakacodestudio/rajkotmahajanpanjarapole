@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/index-mp-layout1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:31:20 GMT -->
 <head>
 
 <!-- Meta Tags -->
@@ -36,10 +35,7 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
-<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
-<!-- Revolution Slider 5.x CSS settings -->
 <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
 <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
 <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
@@ -62,12 +58,6 @@ p{
 <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
 <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -98,7 +88,6 @@ p{
           <div class="rev_slider rev_slider_default" data-version="5.0">
             <ul>
 
-              <!-- SLIDE 1 -->
               <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2895.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/main-banner/banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
@@ -178,7 +167,6 @@ p{
                 </div>
               </li>
 
-              <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2874.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/main-banner/banner-2.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
@@ -283,7 +271,6 @@ p{
                 </div>
               </li>
 
-              <!-- SLIDE 3 -->
               <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2964.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/main-banner/banner-3.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
@@ -362,7 +349,7 @@ p{
                   style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Donate Now</a> 
                 </div>
               </li>
-              <!-- SLIDE 4 -->
+              
               <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2939.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/main-banner/banner-4.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
@@ -544,43 +531,6 @@ p{
       </div>
     </section>
 
-    <!-- Section: home-boxes -->
-    <!-- <section class="layer-overlay overlay-theme-colored-8" data-bg-img="images/bg/bg10.jpg">
-      <div class="container pt-0 pb-0">
-        <div class="section-content">
-          <div class="row" data-margin-top="-90px">
-            <div class="col-sm-12 col-md-4">
-              <div class="icon-box p-40 iconbox-theme-colored bg-white border-1px text-center">
-                <a class="icon" href="#">
-                  <i class="flaticon-charity-world-in-your-hands font-48 font-weight-100"></i>
-                </a>
-                <h4 class="text-uppercase mt-0">Expert Engineers</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div class="icon-box p-40 iconbox-theme-colored bg-white border-1px text-center">
-                <a class="icon" href="#">
-                  <i class="flaticon-charity-shaking-hands-inside-a-heart font-48 font-weight-100"></i>
-                </a>
-                <h4 class="text-uppercase mt-0">Latest Tools</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div class="icon-box p-40 iconbox-theme-colored bg-white border-1px text-center">
-                <a class="icon" href="#">
-                  <i class="flaticon-charity-child-hand-on-adult-hand font-48 font-weight-100"></i>
-                </a>
-                <h4 class="text-uppercase mt-0">Quick Delivery</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Section: About -->
     <section id="about">
       <div class="container">
@@ -610,7 +560,6 @@ p{
                 <p>It is inspiring to see the legacy of compassion and care that the Rajkot Mahajan Panjarapole has built over the years, and it is a reminder of the importance of kindness and empathy towards all living beings.</p>
                 <p>Our Rajkot Mahajan Panjarapole has its own veterinary officer and helpers, providing veterinary services such as necessary treatments and operations for sick or injured animals. Currently, the daily expense is Rs. 1,50,000/-</p>
                 <a href="aboutus" class="btn btn-flat btn-colored btn-theme-colored mt-15 mr-15">Read More</a>
-                <!-- <a href="#" class="btn btn-flat btn-colored btn-default btn-theme-colored mt-15">Get a Quote</a> -->
               </div>
             </div>
           </div>
@@ -770,13 +719,7 @@ p{
               <h5 class="text-white text-uppercase font-weight-600">donation centers</h5>
             </div>
           </div>
-          <!-- <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact text-center">
-              <i class="pe-7s-global mt-5 text-white"></i>
-              <h2 data-animation-duration="2000" data-value="54" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">0</h2>
-              <h5 class="text-white text-uppercase font-weight-600">Globalization Work</h5>
-            </div>
-          </div> -->
+
         </div>
       </div>
     </section>
@@ -1043,48 +986,41 @@ p{
       </div>
     </section>
   </div>
-  <!-- end main-content -->
   	<script>
-	       $('.team-slider').owlCarousel({
-	           loop: true,            
-	           nav: false,
-	           autoplay: true,
-	           autoplayTimeout: 5000,
-	           smartSpeed: 450,
-	           margin: 20,
-	           responsive: {
-	               0: {
-	                   items: 1
-	               },
-	               768: {
-	                   items: 2
-	               },
-	               991: {
-	                   items: 3
-	               },
-	               1200: {
-	                   items: 4
-	               },
-	               1920: {
-	                   items: 3
-	               }
-	           }
-	       });
-	</script>
+      $('.team-slider').owlCarousel({
+          loop: true,            
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          smartSpeed: 450,
+          margin: 20,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              768: {
+                  items: 2
+              },
+              991: {
+                  items: 3
+              },
+              1200: {
+                  items: 4
+              },
+              1920: {
+                  items: 3
+              }
+          }
+      });
+</script>
       <?php
     // Include the footer file
     include('footer.php');
   ?>
 </div>
-<!-- end wrapper -->
 
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) -->
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
@@ -1097,5 +1033,4 @@ p{
 
 </body>
 
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/index-mp-layout1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:33:16 GMT -->
 </html>
