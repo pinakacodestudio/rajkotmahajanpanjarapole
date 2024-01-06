@@ -1,8 +1,8 @@
 <?php
   $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $db="razorpaynew";
+  $username = "u750572988_panjarapole";
+  $password = "2chdsyOX|b";
+  $db="u750572988_panjarapole";
 
   // Create connection
   $conn = mysqli_connect($servername, $username, $password,$db);
