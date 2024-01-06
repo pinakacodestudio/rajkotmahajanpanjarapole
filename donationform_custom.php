@@ -1,3 +1,9 @@
+<?php
+   // print_r($_POST);
+   // print_r($_REQUEST);
+   // echo ($_REQUEST['data-donation-name'] == "cattle-adoption-scheme" ? 'selected' : '22');
+   // exit;
+?>
 <!doctype html>
 <html>
    <head>
@@ -245,48 +251,48 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
             <div class="row">
                <div class="col-sm-6 mb-3">
                   <label>Name</label>
-                  <input type="text" name="first_name" id="first_name" class="input-field">
+                  <input type="text" name="first_name" id="first_name" value="demo" class="input-field">
                </div>
                <div class="col-sm-6 mb-3">
                   <label>Phone Number</label>
-                  <input type="text" name="last_name" id="last_name" class="input-field">
+                  <input type="text" name="last_name" id="last_name" value="demo" class="input-field">
                </div>
             </div>
             <div class="mb-3">
                <label>Your Email</label>
-               <input type="email" class="input-field" name="email" required>
+               <input type="email" class="input-field" value="demo@gmail.com" name="email_id" id="email_id" required>
             </div>
             <div class="mb-3">
                <label>Donation For</label>
                <select id="donationFor" class="input-field" name="donationFor" required>
             <option value="" disabled selected>Select an option</option>
-            <option value="Feed Cows (My COW My SUPPORT)">Feed Cows (My COW My SUPPORT)</option>
-            <option value="Daily Food and Water to Other Animals">Daily Food and Water to Other Animals</option>
-            <option value="Medical Care for Animals">Medical Care for Animals</option>
-            <option value="Shelter Maintenance & Construction">Shelter Maintenance & Construction</option>
-            <option value="For Any Specific Rituals">For Any Specific Rituals</option>
-            <option value="For Birthday & Anniversary">For Birthday & Anniversary</option>
-            <option value="Other">Other</option>
+            <option <?= $_REQUEST['data-donation-name'] == "cattle-adoption-scheme" ? 'selected' : ' ' ?> value="Feed Cows (My COW My SUPPORT)">Feed Cows (My COW My SUPPORT)</option>
+            <option <?= $_REQUEST['data-donation-name'] == "milk-feeding-scheme" ? 'selected' : ' ' ?> value="Daily Food and Water to Other Animals">Daily Food and Water to Other Animals</option>
+            <option <?= $_REQUEST['data-donation-name'] == "protein-food-scheme" ? 'selected' : ' ' ?> value="Medical Care for Animals">Medical Care for Animals</option>
+            <option <?= $_REQUEST['data-donation-name'] == "shelter-fund-scheme" ? 'selected' : ' ' ?> value="Shelter Maintenance & Construction">Shelter Maintenance & Construction</option>
+            <option <?= $_REQUEST['data-donation-name'] == "medicine-treatment-scheme" ? 'selected' : ' ' ?> value="For Any Specific Rituals">For Any Specific Rituals</option>
+            <option <?= $_REQUEST['data-donation-name'] == "one-day-fodder-fund" ? 'selected' : ' ' ?> value="For Birthday & Anniversary">For Birthday & Anniversary</option>
+            <option <?= $_REQUEST['data-donation-name'] == "bird-food-fund" ? 'selected' : ' ' ?> value="Other">Other</option>
         </select>
             </div>
             	<div class="row">
-                        <div class="mb-3">
-                            <label>Donation Amount</label>
-                                        <div class="input-group">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
-                                          -
-                                        </button>
-                                    </span>
-                                    <input readonly type="text" id="quantity" name="quantity" class="form-control input-number" value="500" min="500" max="1000000" readonly>
-                                    <span class="input-group-btn">
-                                        <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
-                                            +
-                                        </button>
-                                    </span>
-                                </div>
+                  <div class="mb-3">
+                        <label>Donation Amount</label>
+                        <div class="input-group">
+                           <span class="input-group-btn">
+                                 <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                                 -
+                                 </button>
+                           </span>
+                           <input readonly type="text" id="quantity" name="quantity" class="form-control input-number" value="<?= $_REQUEST["data-amount"]; ?>" min="500" max="1000000" readonly>
+                           <span class="input-group-btn">
+                                 <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                                    +
+                                 </button>
+                           </span>
                         </div>
-	</div>
+                     </div>
+                  </div>
             <!-- <div class="row">
                <div class="col-sm-6 mb-3">
                   <label>Password</label>
@@ -303,8 +309,9 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
                <span class="checkmark"></span>
                </label>
             </div>
+            <input type="hidden" id="donate_id" value="<?= $_REQUEST["data-donation-id"]; ?>" />
             <div class="form-field">
-               <input type="submit" value="Donate Now" class="register" name="register">
+               <input type="button" value="Donate Now" class="register donatenow" name="register">
             </div>
             <div class="form-field d-flex align-items-center justify-content-center">
                <p>Powered By</p>
@@ -316,10 +323,10 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
          
       </div>
       <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+      <!-- <script type='text/javascript' src='#'></script>
       <script type='text/javascript' src='#'></script>
-      <script type='text/javascript' src='#'></script>
-      <script type='text/javascript' src='#'></script>
-      <script type='text/javascript'>#</script>
+      <script type='text/javascript' src='#'></script> -->
+      <!-- <script type='text/javascript'>#</script> -->
       <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
          myLink.addEventListener('click', function(e) {
            e.preventDefault();
@@ -345,5 +352,62 @@ $(document).ready(function () {
     
 });
       </script>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+
+$(".donatenow").click(function()
+{
+   var first_name=$('#first_name').val();
+   var last_name=$('#last_name').val();
+   var email_id=$('#email_id').val();
+   // var productid=parseInt($('#donate_id').val());
+   var productname=$('#donationFor').val();
+   var amount=parseInt($('#quantity').val());
+	
+  var options = {
+    "key": "rzp_test_rtjvb6iwpCxWKK", // Enter the Key ID generated from the Dashboard
+    "amount": amount*100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "name": "Rajkot Mahajan Panjarapole",
+    "description": productname,
+    "image": "iso.png",
+    "handler": function (response){
+        var paymentid=response.razorpay_payment_id;
+        $.ajax({
+          url:"payment-process.php",
+          type:"POST",
+          data:{product_name:productname, payment_id:paymentid, product_amount:amount, first_name:first_name, last_name:last_name, email_id:email_id},
+          success:function(finalresponse){
+            if(finalresponse=='done'){
+               // alert("done");
+              window.location.href="success.php";
+            }else{
+              alert('Please check console.log to find error');
+              console.log(finalresponse);
+            }
+          }
+        })
+      },
+      "theme": {
+          "color": "#3399cc"
+      }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.open();
+    e.preventDefault();
+  });
+</script>
+<script src="js/custom.js"></script>
+<script>
+  function redirectToDonationForm(btn) {
+      // Retrieve data from the clicked div
+      var titlee = btn.parentElement.getAttribute("data-titlee");
+      var amount = btn.parentElement.getAttribute("data-amount");
+
+      // Redirect to the donation form page with pre-filled values
+      var urll = 'donationform.php?titlee=' + encodeURIComponent(titlee) + '&amount=' + encodeURIComponent(amount);
+      window.open(urll, '_blank');
+    }
+</script>
    </body>
 </html>
