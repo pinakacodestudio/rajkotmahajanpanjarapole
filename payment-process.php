@@ -19,6 +19,10 @@
         echo 'done';
         $_SESSION['paymentid']=$paymentid;
         $_SESSION['personname']=$first_name." ".$last_name;
+        $_SESSION['productname']=$productname;
+        $_SESSION['productamount']=$product_amount;
+        $_SESSION['email']=$email_id;
+        $_SESSION['date']=$dt;
     } else {
         echo "";
     }
