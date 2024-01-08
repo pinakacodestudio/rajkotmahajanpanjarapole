@@ -902,7 +902,7 @@ p{
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
             </div>
           </div>
         </div>
@@ -917,61 +917,81 @@ p{
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/NILESHBHAI SHAH.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 1</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Nileshbhai Shah</h5>
+                          <h5 class="mt-3 text-white">Businessman</h5>
                         </div>
                       </div>
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/VINODBHAI BAVDECHA.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 2</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Vinodbhai Bavdecha</h5>
+                          <h5 class="mt-3 text-white">Contractor</h5>
                         </div>
                       </div>
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/DIPAKBHAI RAVAL.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 3</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Dipakbhai Raval</h5>
+                          <h5 class="mt-3 text-white">General Manager</h5>
                         </div>
                       </div>
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/MITESH SHAH.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 4</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Mitesh Shah</h5>
+                          <h5 class="mt-3 text-white">Trader</h5>
                         </div>
                       </div>
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/DIPAKBHAI LATHIGRA.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 5</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Dipakbhai Lathigra</h5>
+                          <h5 class="mt-3 text-white">General Manager</h5>
                         </div>
                       </div>
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/team/team1.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/KALPESHBHAI CHAVDA.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h3 class="mt-0 text-white">Sakib Jacson 6</h3>
-                          <h5 class="mt-3 text-white">Designation</h5>
+                          <h5 class="mt-0 text-white">Kalpeshbhai Chavda</h5>
+                          <h5 class="mt-3 text-white">Photographer</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Volunteers/JAYDIP VORA.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h5 class="mt-0 text-white">Jaydip Vora</h5>
+                          <h5 class="mt-3 text-white">Professional Service Provider</h5>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Volunteers/KALPESH FICHADIYA.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <h5 class="mt-0 text-white">Kalpesh Fichadiya</h5>
+                          <h5 class="mt-3 text-white">Professional Service Provider</h5>
                         </div>
                       </div>
 
