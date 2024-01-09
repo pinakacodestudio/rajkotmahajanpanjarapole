@@ -536,24 +536,10 @@ p{
       <div class="container">
         <div class="section-content">
           <div class="row">
-            <div class="col-md-6 mt-20">
-              <div class="row">
-                <div class="col-md-6 col-sm-6 pl-0">
-                  <div class="img-hover-border mt-sm-40">
-                    <img class="img-fullwidth" src="images/about/d1.jpg" alt="">
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6 pl-0 pr-0">
-                  <div class="img-hover-border mt-sm-30">
-                    <img class="img-fullwidth" src="images/about/d2.jpg" alt="">
-                  </div>
-                  <div class="img-hover-border mt-15 mt-sm-30">
-                    <img class="img-fullwidth" src="images/about/a4.jpg" alt="">
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-4 img-hover-border mt-sm-30">
+                <img class="img-fullwidth" src="images/about/about-4.jpg" alt="">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
               <div class="about-details">
                 <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">Rajkot Mahajan Panjrapole</span></h2>
                 <p>The institution has been providing shelter and care for animals for over a century, and it is heartening to see the dedication and compassion of the staff and volunteers who work tirelessly to ensure the well-being of these animals. It is also commendable that they provide veterinary services and have a separate division for sick and orphaned animals, showing their commitment to the welfare of the animals under their care.</p>
@@ -573,11 +559,11 @@ p{
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-center mt-0">Our <span class="text-theme-colored font-weight-600">Causes</span></h2>
+              <h2 class="text-uppercase line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h2>
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
             </div>
           </div>
         </div>
@@ -586,105 +572,84 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/project/1.jpg" alt="" class="img-fullwidth">
+                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <ul class="list-inline font-20 font-weight-600 clearfix mb-5">
-                  <li class="pull-left font-weight-400 text-black-333 pr-0">Raised: <span class="text-theme-colored font-weight-700">$2860</span></li>
-                  <li class="pull-right font-weight-400 text-black-333 pr-0">Goal: <span class="text-theme-colored font-weight-700">$5000</span></li>
-                </ul>
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Education for Childreen</a></h4>
-                  <div class="progress-item mt-0">
-                    <div class="progress mb-0">
-                      <div data-percent="84" class="progress-bar"><span class="percent">0</span></div>
-                    </div>
-                  </div>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Cattle Adoption Scheme</a></h4>
+                <p class="mt-20">Donate for one cattle food for one year</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 11000 per cattle per year <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/project/2.jpg" alt="" class="img-fullwidth">
+                  <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <ul class="list-inline font-20 font-weight-600 clearfix mb-5">
-                  <li class="pull-left font-weight-400 text-black-333 pr-0">Raised: <span class="text-theme-colored font-weight-700">$2860</span></li>
-                  <li class="pull-right font-weight-400 text-black-333 pr-0">Goal: <span class="text-theme-colored font-weight-700">$5000</span></li>
-                </ul>
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Sponsor a child today</a></h4>
-                  <div class="progress-item mt-0">
-                    <div class="progress mb-0">
-                      <div data-percent="84" class="progress-bar"><span class="percent">0</span></div>
-                    </div>
-                  </div>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Milk feeding scheme</a></h4>
+                <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/project/3.jpg" alt="" class="img-fullwidth">
+                  <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <ul class="list-inline font-20 font-weight-600 clearfix mb-5">
-                  <li class="pull-left font-weight-400 text-black-333 pr-0">Raised: <span class="text-theme-colored font-weight-700">$2860</span></li>
-                  <li class="pull-right font-weight-400 text-black-333 pr-0">Goal: <span class="text-theme-colored font-weight-700">$5000</span></li>
-                </ul>
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Shelter for Poor Child</a></h4>
-                  <div class="progress-item mt-0">
-                    <div class="progress mb-0">
-                      <div data-percent="84" class="progress-bar"><span class="percent">0</span></div>
-                    </div>
-                  </div>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Protein food scheme</a></h4>
+                <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/project/4.jpg" alt="" class="img-fullwidth">
+                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <ul class="list-inline font-20 font-weight-600 clearfix mb-5">
-                  <li class="pull-left font-weight-400 text-black-333 pr-0">Raised: <span class="text-theme-colored font-weight-700">$2860</span></li>
-                  <li class="pull-right font-weight-400 text-black-333 pr-0">Goal: <span class="text-theme-colored font-weight-700">$5000</span></li>
-                </ul>
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Happiness for orphan child</a></h4>
-                  <div class="progress-item mt-0">
-                    <div class="progress mb-0">
-                      <div data-percent="84" class="progress-bar"><span class="percent">0</span></div>
-                    </div>
-                  </div>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Shelter fund scheme</a></h4>
+                <p class="mt-20">Donate for shelter to affix granite takti on cattle shed construction</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 1100000<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/project/5.jpg" alt="" class="img-fullwidth">
+                  <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <ul class="list-inline font-20 font-weight-600 clearfix mb-5">
-                  <li class="pull-left font-weight-400 text-black-333 pr-0">Raised: <span class="text-theme-colored font-weight-700">$2860</span></li>
-                  <li class="pull-right font-weight-400 text-black-333 pr-0">Goal: <span class="text-theme-colored font-weight-700">$5000</span></li>
-                </ul>
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Donation for helpless child</a></h4>
-                  <div class="progress-item mt-0">
-                    <div class="progress mb-0">
-                      <div data-percent="84" class="progress-bar"><span class="percent">0</span></div>
-                    </div>
-                  </div>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.Lorem ipsum dolor sit amet, consect adipisicing elit. Praesent quos sit.</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Medicine & Treatment scheme</a></h4>
+                <p class="mt-20">Donate for to medical help to sick and injured cattle for one month</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 51000 per month<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="causes bg-white maxwidth500 mb-30">
+                <div class="thumb">
+                  <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
+                </div>
+                <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
+                <h4 class="text-uppercase"><a href="page-single-cause.html">One-day Fodder fund </a></h4>
+                <p class="mt-20">Donate to feed all cattle for one day</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 151000 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="causes bg-white maxwidth500 mb-30">
+                <div class="thumb">
+                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
+                </div>
+                <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
+                <h4 class="text-uppercase"><a href="page-single-cause.html">Bird food fund</a></h4>
+                <p class="mt-20">Donate for to feed innocent birds for one day</p>
+                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
