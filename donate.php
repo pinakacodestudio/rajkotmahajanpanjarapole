@@ -284,7 +284,6 @@
                 <a class="icon-border-effect effect-circled  icon icon-circled mb-0 mr-0 pull-left icon-lg" href="#">
                   <i class="flaticon-charity-food-donation text-theme-colored font-54"></i>
                 </a>
-                <form action="donationform_custom.php" metod="POST">
                 <div class="ml-120">
                   <h5 class="icon-box-title mt-15 mb-10 text-uppercase">Cattle Adoption Scheme</h5>
                   <p class="text-gray">Donate for one cattle food for one year</p>

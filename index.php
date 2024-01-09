@@ -575,9 +575,9 @@ p{
                   <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Cattle Adoption Scheme</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000">Cattle Adoption Scheme</a></h4>
                 <p class="mt-20">Donate for one cattle food for one year</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 11000 per cattle per year <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 11000 per cattle per year <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -587,9 +587,9 @@ p{
                   <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Milk feeding scheme</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100">Milk feeding scheme</a></h4>
                 <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -599,9 +599,9 @@ p{
                   <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Protein food scheme</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000">Protein food scheme</a></h4>
                 <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -611,9 +611,9 @@ p{
                   <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Shelter fund scheme</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000">Shelter fund scheme</a></h4>
                 <p class="mt-20">Donate for shelter to affix granite takti on cattle shed construction</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 1100000<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 1100000<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -623,9 +623,9 @@ p{
                   <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Medicine & Treatment scheme</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000">Medicine & Treatment scheme</a></h4>
                 <p class="mt-20">Donate for to medical help to sick and injured cattle for one month</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 51000 per month<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 51000 per month<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -635,9 +635,9 @@ p{
                   <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">One-day Fodder fund </a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000">One-day Fodder fund </a></h4>
                 <p class="mt-20">Donate to feed all cattle for one day</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 151000 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 151000 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -647,9 +647,9 @@ p{
                   <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
-                <h4 class="text-uppercase"><a href="page-single-cause.html">Bird food fund</a></h4>
+                <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000">Bird food fund</a></h4>
                 <p class="mt-20">Donate for to feed innocent birds for one day</p>
-                <a href="page-donate.html" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
                 </div>
               </div>
             </div>
