@@ -90,7 +90,7 @@ p{
 
               <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2895.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/main-banner/banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -169,7 +169,7 @@ p{
 
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2874.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/main-banner/banner-2.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner2.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -273,7 +273,7 @@ p{
 
               <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2964.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/main-banner/banner-3.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner3.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -352,7 +352,7 @@ p{
               
               <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2939.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/main-banner/banner-4.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/main-banner/banner4.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -537,7 +537,7 @@ p{
         <div class="section-content">
           <div class="row">
           <div class="col-lg-4 img-hover-border mt-sm-30">
-                <img class="img-fullwidth" src="images/about/about-4.jpg" alt="">
+                <img class="img-fullwidth" src="images/donation/donation-4.jpg" alt="">
             </div>
             <div class="col-md-8">
               <div class="about-details">
@@ -572,7 +572,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-1.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000">Cattle Adoption Scheme</a></h4>
@@ -584,7 +584,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-2.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100">Milk feeding scheme</a></h4>
@@ -596,7 +596,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-3.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000">Protein food scheme</a></h4>
@@ -608,7 +608,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-4.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000">Shelter fund scheme</a></h4>
@@ -620,7 +620,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-2.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-5.png" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000">Medicine & Treatment scheme</a></h4>
@@ -632,7 +632,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-3.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-6.png" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000">One-day Fodder fund </a></h4>
@@ -644,7 +644,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/about/about-1.jpg" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-7.png" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000">Bird food fund</a></h4>
