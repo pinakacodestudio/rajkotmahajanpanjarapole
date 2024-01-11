@@ -8,7 +8,7 @@
  
 
 <!-- Page Title -->
-<title>Policies | Rajkot Mahajan Panjrapole</title>
+<title>About Us | Rajkot Mahajan Panjrapole</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">

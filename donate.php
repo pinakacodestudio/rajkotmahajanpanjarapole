@@ -272,10 +272,18 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="text-uppercase font-28 letter-space-3">
-                Donate To <span class="text-theme-colored">Our Gaushala</span>
+              <h3 class="text-uppercase text-center font-28 letter-space-3">
+              The Historic Glory of <span class="text-theme-colored">Donation</span>
               </h3>
-                <p class="lead font-weight-400">Let's make our Gaushala powerful and more productive. Contribute to Gaushala to fulfil <span class="text-theme-colored">the basic needs of our Cows and Gaupalaks.</span></p>
+                <p class="lead">
+                In every religion nonviolence is given a prime place. It is the holy duty of human being to keep sympathy towards miserable persons and animals.
+                </p>
+                <p class="lead">
+                Each and every houses, holy & sacred good, beneficious deeds are being done on every month on Ekadashi, Punam, Days of Shraddha, Amas, besides Paryushan Mahaparva, holy days in the month of Shravan, Navratri (nine days of Ashvin Month) Dashera, Diwali etc. in holydays & festivals; it is best thinking to help unprotected and dumb animals.
+                </p>
+                <p class="lead">
+                Besides on birth day of family members, marriage anniversary, holy events and other events to cool down the heart of dumb animals, we should stream up the donation.
+                </p>
             </div>
           </div>
           <div class="row mt-10">

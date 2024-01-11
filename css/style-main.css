@@ -16,7 +16,10 @@ URL:            http://themeforest.net/user/ThemeMascot
 /* @import "../css/stroke-gap-icons.css"; */
 @import "flaticon-set-charity.css";
 @import "utility-classes.css";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Playfair+Display:400,400italic,700,700italic);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Playfair+Display:400,400italic,700,700italic); */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Literata'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap');
 /*
 This file contains the common styles of this theme.
 */
@@ -116,8 +119,8 @@ html {
 body {
   line-height: 1.7;
   color: #666666;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-family: 'Roboto', serif;
   background-color: #fff;
 }
 a {

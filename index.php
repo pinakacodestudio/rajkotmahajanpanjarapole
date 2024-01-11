@@ -50,11 +50,11 @@
 
   <!-- CSS | Theme Color -->
   <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
-<style>
-  p{
-    text-align: justify;
-  }
-</style>
+  <style>
+    p{
+      text-align: justify;
+    }
+  </style>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
@@ -175,7 +175,7 @@
                 </div>
               </li>
 
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/mainbanner/main-banner-2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -279,7 +279,7 @@
                 </div>
               </li>
 
-              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
+              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-3.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/mainbanner/main-banner-3.jpg"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -358,7 +358,7 @@
                 </div>
               </li>
               
-              <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-4.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/mainbanner/main-banner-4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -545,7 +545,7 @@
         <div class="section-content">
           <div class="row">
           <div class="col-lg-4 img-hover-border mt-sm-30">
-                <img class="img-fullwidth" src="images/donation/donation-4.jpg" alt="">
+                <img class="img-fullwidth" src="images/about/about-5.jpg" alt="">
             </div>
             <div class="col-md-8">
               <div class="about-details">
@@ -571,7 +571,7 @@
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
+              <p>In every religion nonviolence is given a prime place. It is the holy duty of human being to keep sympathy towards miserable persons and animals.</p>
             </div>
           </div>
         </div>
@@ -699,7 +699,7 @@
 
     <!-- Section: Mission  -->
     <section>
-      <div class="container pb-30">
+      <div class="container pb-30" style="margin-top: 20px;">
         <div class="section-content">
           <div class="row">
             <div class="col-md-8 pb-sm-20">
