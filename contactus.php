@@ -42,7 +42,14 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" ></script>
-
+<style>
+.icon-box {
+  /* margin-bottom: 30px; */
+  width: 402px;
+  height: 140px;
+  box-sizing: border-box;
+}
+  </style>
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -53,7 +60,7 @@
         <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
       </div>
     </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+    <!-- <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div> -->
   </div> 
    <?php
     // Include the header file
@@ -115,10 +122,10 @@
                 <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <div class="form-group">
-                <!-- <div class="col-lg-12 col-md-12 form-field"> -->
+                <div class="col-lg-12 col-md-12 form-field">
                     <div class="g-recaptcha"
                     data-sitekey="6Lfran0nAAAAAKDyb5MXqVPhQAoThfe8bpGPDjtW">
-                <!-- </div> -->
+                </div>
               </div>
               <div class="form-group">
                 <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>
@@ -139,11 +146,11 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
+                <div class="icon-box media bg-deep p-15 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Email Address</h5>
                     <p>
-                      <a href="mailto:info@rajkotmahajanpanjarapole.org">           info@rajkotmahajanpanjarapole.org
+                      <a href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org
                       </a>
                     </p>
                   </div>
