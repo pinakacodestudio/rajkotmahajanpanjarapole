@@ -7,7 +7,7 @@
             <div class="widget no-border m-0">
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
                 <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> 365 Days: 8:00 AM - 6:00 PM </li>
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#"> info@rajkotmahajanpanjarapole.org</a> </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="mailto:info@rajkotmahajanpanjarapole.org"> info@rajkotmahajanpanjarapole.org</a> </li>
               </ul>
             </div>
           </div>
@@ -16,7 +16,7 @@
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
                 <li class="mt-sm-10 mb-sm-10">
                   <!-- Modal: Appointment Starts -->
-                  <a class="btn btn-default btn-flat btn-xs bg-light p-5 font-11 pl-10 pr-10" target="_blank" href="donate" >Donate Now</a>
+                  <a class="btn btn-default btn-flat rounded-pill btn-xs bg-light p-5 font-11 pl-10 pr-10" target="_blank" href="donate" style="border-radius: 15px;">Donate Now</a>
                 </li>
               </ul>
             </div>
