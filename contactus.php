@@ -117,7 +117,7 @@
               <div class="form-group">
                 <!-- <div class="col-lg-12 col-md-12 form-field"> -->
                     <div class="g-recaptcha"
-                    data-sitekey="6Ld9dUEpAAAAAFc4F6kvYLQNrMIrN8RqEebXwz4n">
+                    data-sitekey="6Lfran0nAAAAAKDyb5MXqVPhQAoThfe8bpGPDjtW">
                 <!-- </div> -->
               </div>
               <div class="form-group">
@@ -184,7 +184,7 @@
   use PHPMailer\PHPMailer\SMTP;
   use PHPMailer\PHPMailer\Exception;
 
-	$secret_key = '6Ld9dUEpAAAAANGqSrml9JTDZSXvn8k56haFjYrK';
+	$secret_key = '6Lfran0nAAAAAEv2J2xHqUWlGGqYDbqeEeN0yDtG';
 	$url = 'https://www.google.com/recaptcha/api/siteverify?secret='. $secret_key . '&response=' . $recaptcha;
 
 	$response = file_get_contents($url);
