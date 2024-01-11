@@ -96,9 +96,9 @@
           <div class="rev_slider rev_slider_default" data-version="5.0">
             <ul>
 
-              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2895.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
+              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/mainbanner/banner1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/mainbanner/main-banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -175,9 +175,9 @@
                 </div>
               </li>
 
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2874.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/mainbanner/banner2.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/mainbanner/main-banner-2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -279,9 +279,9 @@
                 </div>
               </li>
 
-              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2964.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
+              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/mainbanner/banner3.JPG"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/mainbanner/main-banner-3.jpg"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -358,9 +358,9 @@
                 </div>
               </li>
               
-              <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/DSC_2939.JPG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="images/mainbanner/banner4.JPG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="images/mainbanner/main-banner-4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
@@ -667,7 +667,7 @@
     </section>
 
     <!-- Divider: Funfact -->
-    <section class="divider parallax layer-overlay overlay-dark-9" data-bg-img="images/bg/bg4.jpg" data-parallax-ratio="0.7">
+    <section class="divider parallax layer-overlay overlay-dark-9" data-bg-img="images/bg/bg1.jpg" data-parallax-ratio="0.7">
       <div class="container pt-80 pb-80">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4 mb-md-50">
@@ -890,7 +890,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/NILESHBHAI SHAH.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/1 Nileshbhai Shah.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Nileshbhai Shah</h5>
@@ -900,7 +900,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/VINODBHAI BAVDECHA.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/2 Vinodbhai Bavdecha.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Vinodbhai Bavdecha</h5>
@@ -910,7 +910,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/DIPAKBHAI RAVAL.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/3 Dipakbhai Raval.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Dipakbhai Raval</h5>
@@ -920,7 +920,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/MITESH SHAH.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/4 Mitesh Shah.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Mitesh Shah</h5>
@@ -930,7 +930,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/DIPAKBHAI LATHIGRA.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/5 Dipakbhai Lathigra.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Dipakbhai Lathigra</h5>
@@ -940,7 +940,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/KALPESHBHAI CHAVDA.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/6 Kalpeshbhai Chavda.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Kalpeshbhai Chavda</h5>
@@ -950,7 +950,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/JAYDIP VORA.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/7 Jaydeep Vora.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Jaydip Vora</h5>
@@ -960,7 +960,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="images/Volunteers/KALPESH FICHADIYA.jpg" class="img-fullwidth">
+                          <img alt="" src="images/Volunteers/8 Kalpesh Fichadiya.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h5 class="mt-0 text-white">Kalpesh Fichadiya</h5>

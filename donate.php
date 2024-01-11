@@ -5,9 +5,7 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
-<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
-<meta name="author" content="ThemeMascot" />
+ 
 
 <!-- Page Title -->
 <title>Donate Us | Rajkot Mahajan Panjrapole</title>

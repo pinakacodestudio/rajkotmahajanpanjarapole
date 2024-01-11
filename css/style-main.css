@@ -1062,8 +1062,8 @@ section > .container-fluid {
   }
 }
 .menuzord-brand img {
-  max-height: 63px;
-  margin-top: 5px;
+  max-height: 70px;
+  /* margin-top: 5px; */
 }
 /* -------- Inner Header ---------- */
 .inner-header .title {
@@ -6623,11 +6623,11 @@ blockquote p {
 .search-form-wrapper.round form label::before {
   color: #c0c0c0;
 }
-.widget .list-border li {
-  border-bottom: 1px dashed #d3d3d3;
-}
-.widget.dark .list-border li {
-  border-bottom: 1px dashed #404040;
+
+.widget.dark .list-border li+li {
+  border-top: 1px dashed #404040;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 /* -------- Footer & Sidebar Widgets ---------- */
 .widget {
@@ -6800,7 +6800,7 @@ blockquote p {
 .widget.no-border ul li {
   border: none;
   padding-bottom: 0;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .widget ul.list li::before {
   display: none;
