@@ -275,7 +275,9 @@
           <div class="row">
             <div class="col-md-12">
               <h3 class="text-uppercase font-28 letter-space-3">
-                We are <span class="text-theme-colored">Ready</span> We make excellent<br> world and save the children.</h3>
+                Donate To <span class="text-theme-colored">Our Gaushala</span>
+              </h3>
+                <p class="lead font-weight-400">Let's make our Gaushala powerful and more productive. Contribute to Gaushala to fulfil <span class="text-theme-colored">the basic needs of our Cows and Gaupalaks.</span></p>
             </div>
           </div>
           <div class="row mt-10">

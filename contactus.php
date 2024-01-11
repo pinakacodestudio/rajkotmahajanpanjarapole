@@ -117,10 +117,10 @@
                 <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <div class="form-group">
-                <div class="col-lg-12 col-md-12 form-field">
+                <!-- <div class="col-lg-12 col-md-12 form-field"> -->
                     <div class="g-recaptcha"
                     data-sitekey="6Ld9dUEpAAAAAFc4F6kvYLQNrMIrN8RqEebXwz4n">
-                </div>
+                <!-- </div> -->
               </div>
               <div class="form-group">
                 <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>

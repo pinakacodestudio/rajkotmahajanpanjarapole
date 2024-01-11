@@ -163,7 +163,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 50px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 50px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a> 
                 </div>
               </li>
 
@@ -267,7 +267,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="#">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="donate">Donate Now</a> 
                 </div>
               </li>
 
@@ -346,7 +346,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a> 
                 </div>
               </li>
               
@@ -426,7 +426,7 @@ p{
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="#">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="donate">Donate Now</a> 
                 </div>
               </li>
             </ul>
@@ -620,7 +620,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/donation/donation-5.png" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-5.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000">Medicine & Treatment scheme</a></h4>
@@ -632,7 +632,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/donation/donation-6.png" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-6.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000">One-day Fodder fund </a></h4>
@@ -644,7 +644,7 @@ p{
             <div class="item">
               <div class="causes bg-white maxwidth500 mb-30">
                 <div class="thumb">
-                  <img src="images/donation/donation-7.png" alt="" class="img-fullwidth">
+                  <img src="images/donation/donation-7.jpg" alt="" class="img-fullwidth">
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000">Bird food fund</a></h4>
