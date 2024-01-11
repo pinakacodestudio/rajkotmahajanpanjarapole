@@ -2,50 +2,58 @@
 <html dir="ltr" lang="en">
 
 <head>
+  <!-- Page Title -->
+  <title>Home | Rajkot Mahajan Panjrapole</title>
 
-<!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
-<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
-<meta name="author" content="ThemeMascot" />
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta name="keywords" content="rajkot,mahajan,panjarapole,animal,charity,nonprofit,orphan-animal,funding,ngo" />
+  <meta name="author" content="Rajkot Mahajan Panjarapole" />
+  
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Donate Online for Animal" />
+  <meta property="og:description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/donate/" />
+  <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
+  <meta name="theme-color" content="#F26522">
+  
+  <!-- Favicon and Touch Icons -->
+  <link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
+  <link rel="canonical" href="https://www.rajkotmahajanpanjarapole.org/donate/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
 
-<!-- Page Title -->
-<title>Home | Rajkot Mahajan Panjrapole</title>
+  <!-- Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+  <!-- CSS | menuzord megamenu skins -->
+  <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+  <!-- CSS | Main style file -->
+  <link href="css/style-main.css" rel="stylesheet" type="text/css">
+  <!-- CSS | Preloader Styles -->
+  <link href="css/preloader.css" rel="stylesheet" type="text/css">
+  <!-- CSS | Custom Margin Padding Collection -->
+  <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+  <!-- CSS | Responsive media queries -->
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-<!-- Favicon and Touch Icons -->
-<link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
-<link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
-<meta name="theme-color" content="#F26522">
+  <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+  <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+  <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
-<!-- Stylesheet -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-<link href="css/animate.css" rel="stylesheet" type="text/css">
-<link href="css/css-plugin-collections.css" rel="stylesheet"/>
-<!-- CSS | menuzord megamenu skins -->
-<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
-<!-- CSS | Main style file -->
-<link href="css/style-main.css" rel="stylesheet" type="text/css">
-<!-- CSS | Preloader Styles -->
-<link href="css/preloader.css" rel="stylesheet" type="text/css">
-<!-- CSS | Custom Margin Padding Collection -->
-<link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
-<!-- CSS | Responsive media queries -->
-<link href="css/responsive.css" rel="stylesheet" type="text/css">
-
-<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
-
-<!-- CSS | Theme Color -->
-<link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
+  <!-- CSS | Theme Color -->
+  <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
 <style>
-p{
-  text-align: justify;
-}
+  p{
+    text-align: justify;
+  }
 </style>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
