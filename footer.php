@@ -4,7 +4,7 @@
       <div class="row border-bottom-black">
         <div class="col-sm-12 col-md-5">
           <div class="widget dark">
-            <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/PanjarapoleICON.ico">
+            <img class="mt-5 mb-10" height="100" width="100" alt="" src="images/footer-logo.png">
             <p><b class="text-white">Rajkot Mahajan Panjrapole</b>
             <ul class="list-inline mt-5">
               <li class="m-0 pl-10 pr-10 post-title"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
@@ -32,23 +32,23 @@
             <h5 class="widget-title line-bottom">Upcoming Event</h5>
             <div class="latest-posts">
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb"><img alt="" src="images/PanjarapoleICON.ico" height="55" width="55"></a>
+                <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Amavasya Tithi</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a >Amavasya Tithi</a></h5>
                   <p class="post-date mb-0 font-12">Jan 11, 2023</p>
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb"><img alt="" src="images/PanjarapoleICON.ico" height="55" width="55"></a>
+                <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Makarsankranti</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a >Makarsankranti</a></h5>
                   <p class="post-date mb-0 font-12">Jan 14, 2023</p>
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb"><img alt="" src="images/PanjarapoleICON.ico" height="55" width="55"></a>
+                <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Ekadashi</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a >Ekadashi</a></h5>
                   <p class="post-date mb-0 font-12">Jan 21, 2023</p>
                 </div>
               </article>
