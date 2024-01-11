@@ -14,11 +14,11 @@
 <title>Home | Rajkot Mahajan Panjrapole</title>
 
 <!-- Favicon and Touch Icons -->
-<link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
-<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+<link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
+<link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
+<meta name="theme-color" content="#F26522">
 
 <!-- Stylesheet -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
