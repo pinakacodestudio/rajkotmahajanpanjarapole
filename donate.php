@@ -76,9 +76,9 @@ p{
   <div class="main-content">
 
     <!-- Section: inner-header -->
-  <div class="container-fluid">
-  <img src="images/donateusCover.JPG" alt="Lights">
-  </div>
+  <!-- <div class="container-fluid"> -->
+  <img src="images/donation-main-banner.jpg" alt="Donation">
+  <!-- </div> -->
     
 
 <section>
@@ -89,13 +89,13 @@ p{
         <h3 class="text-uppercase text-center font-28">
           The Historic Glory of <span class="text-theme-colored">Donation</span>
           </h3>
-            <p class="lead text-justify">
+            <p class="lead text-center">
             In every religion nonviolence is given a prime place. It is the holy duty of human being to keep sympathy towards miserable persons and animals.
             </p>
-            <p class="lead text-justify">
+            <p class="lead text-center">
             Each and every houses, holy & sacred good, beneficious deeds are being done on every month on Ekadashi, Punam, Days of Shraddha, Amas, besides Paryushan Mahaparva, holy days in the month of Shravan, Navratri (nine days of Ashvin Month) Dashera, Diwali etc. in holydays & festivals; it is best thinking to help unprotected and dumb animals.
             </p>
-            <p class="lead text-justify">
+            <p class="lead text-center">
             Besides on birth day of family members, marriage anniversary, holy events and other events to cool down the heart of dumb animals, we should stream up the donation.
             </p>
         </div>

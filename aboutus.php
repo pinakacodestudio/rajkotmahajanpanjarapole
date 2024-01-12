@@ -40,7 +40,13 @@
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-plugin-collection.js"></script>
-
+<style>
+  ul.list {
+  list-style: outside none none;
+  /* margin-top: 13px; */
+  padding-left: 0;
+}
+</style>
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -90,16 +96,17 @@
                 <li class="text-justify">
                   A few numbers of support-less animals were to be maintained. The first beginning of Rajkot Mahajan Panjarapole was at Kotharia Naka place. The religious minded, noble King of Rajkot allotted that place to mahajan. As time passed on, honourable King Late Bavajiraj allotted a huge land at about 2 Lakh Sq. Ft. at the bank of river Aji for maintenance and care taking purpose at a token price. At that time in the time of famine, the king came to help of panjarapole by bringing grass from south Gujarat.
                 </li>   
-                <li class="text-justify">
-                In the history of Rajkot Mahajan Panjarapole the event which never happen had occurred. In Rajkot, a circus had come. While leaving from Rajkot, it left an elephant on the way who was not able to walk. 
-                </li>   
+                  
               </ul>
             </div>
           </div>
 
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-12">
               <ul class="list theme-colored check">
+              <li class="text-justify">
+                In the history of Rajkot Mahajan Panjarapole the event which never happen had occurred. In Rajkot, a circus had come. While leaving from Rajkot, it left an elephant on the way who was not able to walk. 
+                </li> 
                 <li class="text-justify">
                 The president of our panjrapole most respectable merchant Shri Durlabhjibhai Shamjibhai Virani having come to know this, with great action rescued that elephant in Rajkot Mahajan's Panjarapole for treatment and for creating wellness comfort to it. Nearly after two years when it died, to remove the dead body, about forty to fifty labourers were needed.
                 </li>   
@@ -107,7 +114,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-8">
               <ul class="list theme-colored check">
                 <li class="text-justify">
@@ -185,7 +192,7 @@
       <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
         <div class="col-lg-12 col-md-12">
           <h3> <span class="text-theme-colored">General Information</span></h3>
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-12">
               <ul class="list theme-colored check col-lg-8">
                 <li class="text-justify">

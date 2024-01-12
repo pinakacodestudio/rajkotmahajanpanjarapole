@@ -43,13 +43,13 @@
 <script src="js/jquery-plugin-collection.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" ></script>
 <style>
-.icon-box {
-  /* margin-bottom: 30px; */
-  width: 402px;
-  height: 140px;
-  box-sizing: border-box;
-}
-  </style>
+  .icon-box {
+    /* margin-bottom: 30px; */
+    width: 402px;
+    height: 140px;
+    box-sizing: border-box;
+  }
+</style>
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
