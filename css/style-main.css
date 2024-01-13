@@ -1,14 +1,5 @@
 @charset "utf-8";
-/*------------------------------------------------------------------
-[Master Stylesheet]
 
-Project:        FundPro
-Version:        2.0
-Last change:    09.07.2017
-Primary use:    Nonprofit, Crowdfunding & Charity HTML5 Template
-Author:         ThemeMascot
-URL:            http://themeforest.net/user/ThemeMascot
--------------------------------------------------------------------*/
 @import "font-awesome.min.css";
 @import "font-awesome-animation.min.css";
 @import "pe-icon-7-stroke.css";
@@ -16,7 +7,11 @@ URL:            http://themeforest.net/user/ThemeMascot
 /* @import "../css/stroke-gap-icons.css"; */
 @import "flaticon-set-charity.css";
 @import "utility-classes.css";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Playfair+Display:400,400italic,700,700italic);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Playfair+Display:400,400italic,700,700italic); */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Literata'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 /*
 This file contains the common styles of this theme.
 */
@@ -116,8 +111,8 @@ html {
 body {
   line-height: 1.7;
   color: #666666;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-family: 'Open Sans', serif;
   background-color: #fff;
 }
 a {
@@ -198,7 +193,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', serif;
   font-weight: 600;
   line-height: 1.42857143;
   color: #333333;
@@ -1062,8 +1057,8 @@ section > .container-fluid {
   }
 }
 .menuzord-brand img {
-  max-height: 63px;
-  margin-top: 5px;
+  max-height: 70px;
+  /* margin-top: 5px; */
 }
 /* -------- Inner Header ---------- */
 .inner-header .title {
@@ -6623,11 +6618,11 @@ blockquote p {
 .search-form-wrapper.round form label::before {
   color: #c0c0c0;
 }
-.widget .list-border li {
-  border-bottom: 1px dashed #d3d3d3;
-}
-.widget.dark .list-border li {
-  border-bottom: 1px dashed #404040;
+
+.widget.dark .list-border li+li {
+  border-top: 1px dashed #404040;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 /* -------- Footer & Sidebar Widgets ---------- */
 .widget {
@@ -6800,7 +6795,7 @@ blockquote p {
 .widget.no-border ul li {
   border: none;
   padding-bottom: 0;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .widget ul.list li::before {
   display: none;

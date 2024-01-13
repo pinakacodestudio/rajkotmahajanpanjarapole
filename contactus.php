@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
+
 <head>
+
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
-<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
-<meta name="author" content="ThemeMascot" />
+ 
 
 <!-- Page Title -->
 <title>Contact Us | Rajkot Mahajan Panjrapole</title>
@@ -34,9 +34,6 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
-<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
-
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
 
@@ -46,13 +43,15 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<script src="https://www.google.com/recaptcha/api.js" ></script>
+<style>
+  .icon-box {
+    /* margin-bottom: 30px; */
+    width: 402px;
+    height: 140px;
+    box-sizing: border-box;
+  }
+</style>
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -63,7 +62,7 @@
         <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
       </div>
     </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+    <!-- <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div> -->
   </div> 
    <?php
     // Include the header file
@@ -125,6 +124,12 @@
                 <label>Message</label>
                 <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
               </div>
+              <!-- <div class="form-group">
+                <div class="col-lg-12 col-md-12 form-field">
+                    <div class="g-recaptcha"
+                    data-sitekey="6Lfran0nAAAAAKDyb5MXqVPhQAoThfe8bpGPDjtW">
+                </div>
+              </div> -->
               <div class="form-group">
                 <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>
                 <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
@@ -144,11 +149,11 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box media bg-deep p-30 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
+                <div class="icon-box media bg-deep p-15 mb-20"> <a class="media-left pull-left flip" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Email Address</h5>
                     <p>
-                      <a href="mailto:info@rajkotmahajanpanjarapole.org">           info@rajkotmahajanpanjarapole.org
+                      <a href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org
                       </a>
                     </p>
 
@@ -177,159 +182,160 @@
     include('footer.php');
   ?>
 </div>
-<!-- end wrapper -->
 
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 
 </body>
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:45 GMT -->
-</html>
+ </html>
 <?php
   //Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-  if(isset($_POST['send'])){
+  //These must be at the top of your script, not inside a function
+  
+  use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\SMTP;
+  use PHPMailer\PHPMailer\Exception;
+
+	$secret_key = '6Lfran0nAAAAAEv2J2xHqUWlGGqYDbqeEeN0yDtG';
+	$url = 'https://www.google.com/recaptcha/api/siteverify?secret='. $secret_key . '&response=' . $recaptcha;
+
+	$response = file_get_contents($url);
+	$response = json_decode($response);
+
+  if(isset($_POST['send']) && $response->success == true){
     $name = $_POST['form_name'];
     $phone = $_POST['form_phone'];
     $email = $_POST['form_email'];
     $msg = $_POST['form_message'];
 
 
-//Load Composer's autoloader
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+  //Load Composer's autoloader
+  require 'PHPMailer/Exception.php';
+  require 'PHPMailer/PHPMailer.php';
+  require 'PHPMailer/SMTP.php';
 
+  //Create an instance; passing `true` enables exceptions
+  $mail = new PHPMailer(true);
 
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
+  try {   
+      //Server settings
+      $mail->isSMTP();                                            //Send using SMTP
+      $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
+      $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+      $mail->Username   = 'receipt@rajkotmahajanpanjarapole.org';                     //SMTP username
+      $mail->Password   = 'Rec$2023$';                               //SMTP password
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+      $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-try {   
-    //Server settings
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'receipt@rajkotmahajanpanjarapole.org';                     //SMTP username
-    $mail->Password   = 'Rec$2023$';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+      //Recipients
+      $mail->setFrom('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');
+      $mail->addAddress('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');     //Add a recipient
 
-    //Recipients
-    $mail->setFrom('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');
-    $mail->addAddress('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');     //Add a recipient
+      // //Attachments
+      // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+      // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
-    // //Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+      //Content
+      $mail->isHTML(true);                                  //Set email format to HTML
+      $mail->Subject = 'Mahajan Panjarapole contact form';
+      $mail->Body    = "<div align=\"center\" style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
+      <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px auto;border-bottom-width:1px;border-bottom-style:solid;width:100%!important;background-color:rgb(249,248,248);border-bottom-color:rgb(216,216,216)\">
+          <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
+              <tr style=\"font-family:Helvetica,Arial,sans-serif;margin:0px;padding:0px;background-image:url(&quot;https://ci3.googleusercontent.com/meips/ADKq_NaikpKpeRQfoJaN15mh09mFz0O8xM8p_5gHHjnF9dFhlXOQ3uJ6jh5dTQLWhQgUPhl86cOAnUFW6gc6uQyI5qeW4fi7bkG90Ay1VPNL=s0-d-e1-ft#https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh&quot;);background-position:left bottom;background-repeat:repeat no-repeat\">
+                  <td align=\"center\" style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;margin:0px;padding:0px;height:42px;display:block!important;clear:both!important\">
+                      <div style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;max-width:505px;margin:0px auto;display:block;padding:0px\">
+                          <span style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:16px;line-height:42px;font-weight:bold\">
+                              <a style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:19px;font-weight:bold;text-decoration:none;color:rgb(70,70,70)\" rel=\"noreferrer\">
+                                  Shree Rajkot Mahajan's Panjarapole.
+                              </a>
+                          </span>
+                      </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Mahajan Panjarapole contact form';
-    $mail->Body    = "<div align=\"center\" style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-    <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px auto;border-bottom-width:1px;border-bottom-style:solid;width:100%!important;background-color:rgb(249,248,248);border-bottom-color:rgb(216,216,216)\">
-        <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-            <tr style=\"font-family:Helvetica,Arial,sans-serif;margin:0px;padding:0px;background-image:url(&quot;https://ci3.googleusercontent.com/meips/ADKq_NaikpKpeRQfoJaN15mh09mFz0O8xM8p_5gHHjnF9dFhlXOQ3uJ6jh5dTQLWhQgUPhl86cOAnUFW6gc6uQyI5qeW4fi7bkG90Ay1VPNL=s0-d-e1-ft#https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh&quot;);background-position:left bottom;background-repeat:repeat no-repeat\">
-                <td align=\"center\" style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;margin:0px;padding:0px;height:42px;display:block!important;clear:both!important\">
-                    <div style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;max-width:505px;margin:0px auto;display:block;padding:0px\">
-                        <span style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:16px;line-height:42px;font-weight:bold\">
-                            <a style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:19px;font-weight:bold;text-decoration:none;color:rgb(70,70,70)\" rel=\"noreferrer\">
-                                Shree Rajkot Mahajan's Panjarapole.
-                            </a>
-                        </span>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:505px;margin:0px auto;background-color:rgb(255,255,255)\">
-        <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-            <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                <td style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                </td>
-                <td
-                    style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;display:block!important;max-width:505px!important;clear:both!important\">
-                    <div
-                        style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;padding:0px;max-width:505px;margin:0px auto;display:block\">
-                        <table cellspacing=\"0\"
-                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                            <tbody
-                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                    <td
-                                        style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                                        <table
-                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                                            <tbody
-                                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                    <td
-                                                        style=\"margin:0px;padding:25px 0px 28px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;font-size:30px;color:rgb(70,70,70)\">
-                                                        Contact Form</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <table
-                                            style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;border-bottom-width:1px;border-bottom-style:solid;border-top-width:1px;border-top-style:solid;margin:0px;padding:0px;width:100%;background-color:rgb(237,242,247);border-top-color:rgb(237,242,247);border-bottom-color:rgb(237,242,247)\">
-                                            <tbody
-                                                style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                    </td>
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize\">
-                                                        <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Name = $name </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Phone no. = $phone </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Email = $email </div><br>
-                                                            <div
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                            Message = $msg </div><br><br>
-                                                        <table
-                                                            style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%;color:rgb(116,116,116)\">
-                                                            
-                                                        </table>
-                                                    </td>
-                                                    <td
-                                                        style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </td>
-                <td
-                    style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>";
-    
-
-    $mail->send();
-    $status = "Message has been sent successfully to the Administrator.";
-echo "<script>
-alert('$status');
-window.location.href='contactus.php';
-</script>"; 
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}
+      <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:505px;margin:0px auto;background-color:rgb(255,255,255)\">
+          <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
+              <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
+                  <td style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
+                  </td>
+                  <td
+                      style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;display:block!important;max-width:505px!important;clear:both!important\">
+                      <div
+                          style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;padding:0px;max-width:505px;margin:0px auto;display:block\">
+                          <table cellspacing=\"0\"
+                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
+                              <tbody
+                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
+                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
+                                      <td
+                                          style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
+                                          <table
+                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
+                                              <tbody
+                                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
+                                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
+                                                      <td
+                                                          style=\"margin:0px;padding:25px 0px 28px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;font-size:30px;color:rgb(70,70,70)\">
+                                                          Contact Form</td>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                          <table
+                                              style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;border-bottom-width:1px;border-bottom-style:solid;border-top-width:1px;border-top-style:solid;margin:0px;padding:0px;width:100%;background-color:rgb(237,242,247);border-top-color:rgb(237,242,247);border-bottom-color:rgb(237,242,247)\">
+                                              <tbody
+                                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
+                                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
+                                                      <td
+                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
+                                                      </td>
+                                                      <td
+                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize\">
+                                                          <div
+                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
+                                                              Name = $name </div><br>
+                                                              <div
+                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
+                                                              Phone no. = $phone </div><br>
+                                                              <div
+                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
+                                                              Email = $email </div><br>
+                                                              <div
+                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
+                                                              Message = $msg </div><br><br>
+                                                          <table
+                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%;color:rgb(116,116,116)\">
+                                                              
+                                                          </table>
+                                                      </td>
+                                                      <td
+                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
+                                                      </td>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </td>
+                  <td
+                      style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>";
+      
+  $mail->send();
+  $status = "Message has been sent successfully to the Administrator.";
+  echo "<script>
+        alert('$status');
+        window.location.href='contactus.php';
+        </script>"; 
+  } catch (Exception $e) {
+      echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  }
   }
 ?>

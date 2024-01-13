@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:44 GMT -->
-<head>
+ <head>
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
-<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
-<meta name="author" content="ThemeMascot" />
+ 
 
 <!-- Page Title -->
 <title>FAQ | Rajkot Mahajan Panjrapole</title>
@@ -49,12 +45,6 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -187,16 +177,11 @@
     include('footer.php');
   ?>
 </div>
-<!-- end wrapper -->
 
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 
 </body>
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:45 GMT -->
-</html>
+ </html>
 <?php
   //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function

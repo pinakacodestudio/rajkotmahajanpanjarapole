@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
-<!-- Mirrored from html.kodesolution.com/2017/fundpro-html/demo/page-contact5-with-multiple-marker.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Dec 2023 16:41:44 GMT -->
-<head>
+ <head>
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
-<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
-<meta name="author" content="ThemeMascot" />
+ 
 
 <!-- Page Title -->
-<title>Policies | Rajkot Mahajan Panjrapole</title>
+<title>About Us | Rajkot Mahajan Panjrapole</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
@@ -36,19 +32,21 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
-<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
-<!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
-
+<style>
+  ul.list {
+  list-style: outside none none;
+  /* margin-top: 13px; */
+  padding-left: 0;
+}
+</style>
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -59,7 +57,7 @@
         <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
       </div>
     </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+    <!-- <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div> -->
   </div> 
    <?php
     // Include the header file
@@ -98,16 +96,17 @@
                 <li class="text-justify">
                   A few numbers of support-less animals were to be maintained. The first beginning of Rajkot Mahajan Panjarapole was at Kotharia Naka place. The religious minded, noble King of Rajkot allotted that place to mahajan. As time passed on, honourable King Late Bavajiraj allotted a huge land at about 2 Lakh Sq. Ft. at the bank of river Aji for maintenance and care taking purpose at a token price. At that time in the time of famine, the king came to help of panjarapole by bringing grass from south Gujarat.
                 </li>   
-                <li class="text-justify">
-                In the history of Rajkot Mahajan Panjarapole the event which never happen had occurred. In Rajkot, a circus had come. While leaving from Rajkot, it left an elephant on the way who was not able to walk. 
-                </li>   
+                  
               </ul>
             </div>
           </div>
 
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-12">
               <ul class="list theme-colored check">
+              <li class="text-justify">
+                In the history of Rajkot Mahajan Panjarapole the event which never happen had occurred. In Rajkot, a circus had come. While leaving from Rajkot, it left an elephant on the way who was not able to walk. 
+                </li> 
                 <li class="text-justify">
                 The president of our panjrapole most respectable merchant Shri Durlabhjibhai Shamjibhai Virani having come to know this, with great action rescued that elephant in Rajkot Mahajan's Panjarapole for treatment and for creating wellness comfort to it. Nearly after two years when it died, to remove the dead body, about forty to fifty labourers were needed.
                 </li>   
@@ -115,7 +114,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-8">
               <ul class="list theme-colored check">
                 <li class="text-justify">
@@ -193,7 +192,7 @@
       <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
         <div class="col-lg-12 col-md-12">
           <h3> <span class="text-theme-colored">General Information</span></h3>
-          <div class="row">
+          <div class="row" style="margin-top: -15px;">
             <div class="col-lg-12">
               <ul class="list theme-colored check col-lg-8">
                 <li class="text-justify">
@@ -228,11 +227,6 @@
     include('footer.php');
   ?>
 </div>
-<!-- end wrapper -->
-
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
-
 </body>
 </html>
