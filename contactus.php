@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
- <head>
+
+<head>
+
 
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
@@ -89,6 +91,7 @@
         <div class="row">
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
+
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" class="" action="" method="post">
 
@@ -153,6 +156,7 @@
                       <a href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org
                       </a>
                     </p>
+
                   </div>
                 </div>
               </div>
