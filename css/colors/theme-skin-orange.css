@@ -66,6 +66,10 @@ COLOR CODE: #F26522
 .bg-theme-colored-transparent {
   background-color: rgba(242, 101, 34, 0.75) !important;
 }
+.bg-theme-colored-transparent-gr {
+  /* background-color: rgba(42, 42, 42, 0.765) !important; */
+  background-color: #c4c4c4c4;
+}
 /* bg-hover-theme-color */
 .bg-hover-theme-colored:hover {
   background: #F26522 !important;

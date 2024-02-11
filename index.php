@@ -20,7 +20,7 @@
   <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/donate/" />
   <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
  <meta name="theme-color" content="#ed5309">
-  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Favicon and Touch Icons -->
   <link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
   <link rel="canonical" href="https://www.rajkotmahajanpanjarapole.org/donate/" />
@@ -231,14 +231,14 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white text-center" 
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['50']"
-                  data-fontsize="['16','18',24']"
+                  data-fontsize="['20',24']"
                   data-lineheight="['28']"
                   data-width="none"
                   data-height="none"
@@ -252,7 +252,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Donate for rescued from going to slaughter, unsupported animals.
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for rescued from going to<br>slaughter, unsupported animals.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -275,7 +275,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="donate">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
                 </div>
               </li>
 
@@ -549,7 +549,7 @@
             </div>
             <div class="col-md-8">
               <div class="about-details">
-                <h2 class="font-36 mt-0"> Welcome to <span class="text-theme-colored">Rajkot Mahajan Panjrapole</span></h2>
+                <h3 class="font-30 mt-0"> Welcome to <span class="text-theme-colored">Rajkot Mahajan Panjrapole</span></h3>
                 <p>The institution has been providing shelter and care for animals for over a century, and it is heartening to see the dedication and compassion of the staff and volunteers who work tirelessly to ensure the well-being of these animals. It is also commendable that they provide veterinary services and have a separate division for sick and orphaned animals, showing their commitment to the welfare of the animals under their care.</p>
                 <p>It is inspiring to see the legacy of compassion and care that the Rajkot Mahajan Panjarapole has built over the years, and it is a reminder of the importance of kindness and empathy towards all living beings.</p>
                 <p>Our Rajkot Mahajan Panjarapole has its own veterinary officer and helpers, providing veterinary services such as necessary treatments and operations for sick or injured animals. Currently, the daily expense is Rs. 1,50,000/-</p>
@@ -567,7 +567,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h2>
+              <h3 class="text-uppercase line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h3>
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
@@ -703,7 +703,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-8 pb-sm-20">
-              <h3 class="line-bottom mt-0">Our Mission</h3>
+              <h3 class="line-bottom mt-0">Our <span class="text-theme-colored">Mission</span></h3>
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20">
@@ -749,7 +749,7 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <h3 class="line-bottom border-bottom mt-0">Upcoming Events</h3>
+              <h3 class="line-bottom border-bottom mt-0">Upcoming <span class="text-theme-colored">Events</span></h3>
               
               <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
                 <div class="row">
@@ -850,9 +850,9 @@
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mt-0 text-white">
-                <span class="text-theme-colored"> Our Appeal </span>
-              </h2>
+              <h3 class="mt-0 text-white">
+               Our <span class="text-theme-colored">Appeal</span>
+              </h3>
               <p class="text-white text-center" style="font-size: 16px;">
                 Who can be the saviour of those unfortunate animals who cannot speak and express their sufferings, their hunger, their pain or their needs? An answer to this is RAJKOT MAHAJAN PANJARAPOLE and animal welfare activists. Rajkot Mahajan Panjarapole has been facing severe financial constraints on account of ever-increasing expenses to serve and maintain ever-increasing animals.
               </p>
@@ -871,7 +871,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-center mt-0">Our <span class="text-theme-colored font-weight-600">volunteers</span></h2>
+              <h3 class="line-bottom-center mt-0">Our <span class="text-theme-colored font-weight-600">Volunteers</span></h3>
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
