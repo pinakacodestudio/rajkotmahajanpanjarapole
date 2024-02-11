@@ -52,21 +52,21 @@
 }
 .filter-button
 {
-    font-size: 18px;
+    font-size: 16px;
     border: 1px solid #F26522;
-    border-radius: 5px;
     text-align: center;
     color: #F26522;
     margin-bottom: 10px;
+    padding: 0px 16px;
 }
 .filter-button:hover
 {
-    font-size: 18px;
+    font-size: 16px;
     border: 1px solid #F26522;
-    border-radius: 5px;
     text-align: center;
     color: #ffffff;
     background-color: #F26522;
+    padding: 0px 16px;
 
 }
 .btn-default:active .filter-button:active
@@ -128,12 +128,15 @@
     <section>
     <section id="portfolio">
         <div class="container">
-            <div>
+            <div style="margin-bottom: 10px;">
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
-                <button class="btn btn-default filter-button" data-filter="nature">Nature</button>
-                <button class="btn btn-default filter-button" data-filter="people">People</button>
-                <button class="btn btn-default filter-button" data-filter="cars">Cars</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Buildings</button>
+                <button class="btn btn-default filter-button" data-filter="nature">Activity</button>
+                <button class="btn btn-default filter-button" data-filter="people">Animals</button>
+                <button class="btn btn-default filter-button" data-filter="cars">Chitranagari</button>
+                <button class="btn btn-default filter-button" data-filter="buildings">Guest & Event</button>
+                <button class="btn btn-default filter-button" data-filter="buildings">Jiv Chhodaman</button>
+                <button class="btn btn-default filter-button" data-filter="buildings">Shed</button>
+                <button class="btn btn-default filter-button" data-filter="buildings">Treatments</button>
             </div>
             <div class="row">
                 <div class="gallery_product col-md-4 filter center nature">
