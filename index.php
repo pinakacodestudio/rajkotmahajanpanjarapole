@@ -17,10 +17,11 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Donate Online for Animal" />
   <meta property="og:description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
-  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/donate/" />
+  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/" />
+  <meta property="og:image" content="https://www.rajkotmahajanpanjarapole.org/images/logo/panjarapole-rajkot-logo.png" />
   <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
  <meta name="theme-color" content="#ed5309">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!-- Favicon and Touch Icons -->
   <link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
   <link rel="canonical" href="https://www.rajkotmahajanpanjarapole.org/donate/" />
@@ -711,7 +712,7 @@
                       <i class="flaticon-charity-shaking-hands-inside-a-heart text-theme-colored"></i>
                     </a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Save Animals</h4>
+                      <h4 class="mb-0 text-uppercase">Save Animals</h4>
                       <p>To save and preserve maximum animals who comes to the gate of Rajkot Mahajan Panjarapole.</p>
                     </div>
                   </div>
@@ -721,7 +722,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip"><i class="flaticon-charity-food-donation text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Feed Healthy Food</h4>
+                      <h4 class="mb-0 text-uppercase">Feed Healthy Food</h4>
                       <p>To feed maximum protein food to animals especially sick animals.</p>
                     </div>
                   </div>
@@ -731,7 +732,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip"><i class="flaticon-charity-sweet-home text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Advanced Hospital</h4>
+                      <h4 class="mb-0 text-uppercase">Advanced Hospital</h4>
                       <p>To develop hospital facilities with advanced surgical equipment & medicine to treatment & cure for sick animals.</p>
                     </div>
                   </div>
@@ -741,7 +742,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-shelter text-theme-colored"></i></a>
                     <div class="media-body">
-                      <h4 class="font-15 text-uppercase">Modern Construction</h4>
+                      <h4 class="mb-0 text-uppercase">Modern Construction</h4>
                       <p>To construct modern shed to preserve and to give shelter to maximum animals and to construct different types of divison for each type of animals.</p>
                     </div>
                   </div>
@@ -751,7 +752,7 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
               <h3 class="line-bottom border-bottom mt-0">Upcoming <span class="text-theme-colored">Events</span></h3>
               
-              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
@@ -762,9 +763,9 @@
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                    <div class="event-content pl-5 pr-10 pb-0">
                       <h5 class="media-heading font-16 font-weight-600"><a href="#">Amavasya Tithi</a></h5>
-                      <p class="text-justify">
+                      <p class="text-justify font-14">
                       Donating on Amavasya Tithi can make ancestors happy and bring blessings to their descendants.
                       </p>
                       </ul>
@@ -773,7 +774,7 @@
                 </div>
               </div>
 
-              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
@@ -784,9 +785,9 @@
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                    <div class="event-content pl-5 pr-10 pb-0">
                       <h5 class="media-heading font-16 font-weight-600"><a>Makarsankranti</a></h5>
-                      <p class="text-justify">
+                      <p class="text-justify font-14">
                       Donating on Makarsankranti brings us the happiness and blessings of Goddess Lakshmi.
                       </p>
                       </ul>
@@ -795,7 +796,7 @@
                 </div>
               </div>
 
-              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
@@ -806,9 +807,9 @@
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                    <div class="event-content pl-5 pr-10 pb-0">
                       <h5 class="media-heading font-16 font-weight-600"><a>Ekadashi</a></h5>
-                      <p class="text-justify">
+                      <p class="text-justify font-14">
                       Donating on Ekadashi gives salvation, money, happiness, and good fortune, it is a very auspicious day.
                       </p>
                       </ul>
@@ -817,7 +818,7 @@
                 </div>
               </div>
 
-              <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
+              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
@@ -828,9 +829,9 @@
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content mt-10 p-5 pb-0 pt-0">
+                    <div class="event-content pl-5 pr-10 pb-0">
                       <h5 class="media-heading font-16 font-weight-600"><a>Purnima</a></h5>
-                      <p class="text-justify">
+                      <p class="text-justify font-14">
                       Donating on Purnima eliminates poverty and ensures a lack of funds.
                       </p>
                       </ul>
@@ -893,8 +894,7 @@
                           <img alt="" src="images/Volunteers/1 Nileshbhai Shah.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Nileshbhai Shah</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Businessman</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Nileshbhai Shah<br><span class="mt-0 text-white font-15">Businessman</span></p>
                         </div>
                       </div>
 
@@ -903,8 +903,7 @@
                           <img alt="" src="images/Volunteers/2 Vinodbhai Bavdecha.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Vinodbhai Bavdecha</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Contractor</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Vinodbhai Bavdecha<br><span class="mt-0 text-white font-15">Contractor</span></p>
                         </div>
                       </div>
 
@@ -913,8 +912,7 @@
                           <img alt="" src="images/Volunteers/3 Dipakbhai Raval.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Dipakbhai Raval</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">General Manager</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Raval<br><span class="mt-0 text-white font-15">General Manager</span></p>
                         </div>
                       </div>
 
@@ -923,8 +921,7 @@
                           <img alt="" src="images/Volunteers/4 Mitesh Shah.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Mitesh Shah</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Trader</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Mitesh Shah<br><span class="mt-0 text-white font-15">Trader</span></p>
                         </div>
                       </div>
 
@@ -933,8 +930,7 @@
                           <img alt="" src="images/Volunteers/5 Dipakbhai Lathigra.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Dipakbhai Lathigra</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">General Manager</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Lathigra<br><span class="mt-0 text-white font-15">General Manager</span></p>   
                         </div>
                       </div>
 
@@ -943,8 +939,7 @@
                           <img alt="" src="images/Volunteers/6 Kalpeshbhai Chavda.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Kalpeshbhai Chavda</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Photographer</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpeshbhai Chavda<br><span class="mt-0 text-white font-15">Photographer</span></p>
                         </div>
                       </div>
 
@@ -953,8 +948,9 @@
                           <img alt="" src="images/Volunteers/7 Jaydeep Vora.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Jaydip Vora</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Professional Service Provider</h6>
+                          <h4 class="mt-0 text-white"></h4>
+                          <h6 class="mt-3 text-white" style="margin-top: -6px;"></h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Jaydip Vora<br><span class="mt-0 text-white font-15">Professional Service Provider</span></p>
                         </div>
                       </div>
 
@@ -963,11 +959,9 @@
                           <img alt="" src="images/Volunteers/8 Kalpesh Fichadiya.jpg" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <h4 class="mt-0 text-white">Kalpesh Fichadiya</h4>
-                          <h6 class="mt-3 text-white" style="margin-top: -6px;">Professional Service Provider</h6>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpesh Fichadiya<br><span class="mt-0 text-white font-15">Professional Service Provider</span></p>
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
