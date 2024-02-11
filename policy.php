@@ -79,7 +79,7 @@
       <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <h3 class="text-theme-colored">Terms & Conditions</h3>
+        <h3>Terms & <span class="text-theme-colored">Conditions</span></h3>
           <ul class="list theme-colored check ml-10">
             <li class="text-justify">This website is operated by Rajkot Mahajan Panjarapole. Throughout the site, the terms “we”, “us” and “our” refer to Rajkot Mahajan Panjarapole.</li>
             <li class="text-justify">Rajkot Mahajan Panjarapole offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</li>
@@ -99,7 +99,7 @@
       <div class="row pt-10 pl-10 pr-10" id="privacy-policy">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <h3 class="text-theme-colored">Privacy Policy</h3>
+        <h3>Privacy <span class="text-theme-colored">Policy</span></h3>
           <ul class="list theme-colored check ml-10">
             <li class="text-justify">We Rajkot Mahajan Panjarapole are committed to ensuring that your privacy is protected in accordance with applicable laws and regulations. By using this website, you agree to the terms and conditions of this Policy, and consent to our use, storage, disclosure, and transfer of your information or data in the manner described in this Policy.</li>
             <li class="text-justify">We assure that we will not share any of your email and phone number to any of our donors or constituents. We do not share your personal information with other NGO or organizations for financial purposes.</li>
@@ -112,7 +112,7 @@
       <div class="row pt-10 pb-20 pl-10 pr-10" id="refund-policy">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          <h3 class="text-theme-colored">Refund Policy</h3>
+          <h3>Refund <span class="text-theme-colored">Policy</span></h3>
           <ul class="list theme-colored check ml-10">
             <li>Once the donation has been made it cannot be refunded.</li>
             <li>For any query & grievance contact us.</li>
