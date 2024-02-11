@@ -568,7 +568,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h3 class="text-uppercase line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h3>
+              <h3 class="line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h3>
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>

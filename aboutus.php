@@ -191,7 +191,7 @@
     <section class="container">
       <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
         <div class="col-lg-12 col-md-12">
-          <h3> <span class="text-theme-colored">General Information</span></h3>
+          <h3> General <span class="text-theme-colored">Information</span></h3>
           <div class="row" style="margin-top: -15px;">
             <div class="col-lg-12">
               <ul class="list theme-colored check col-lg-8">
