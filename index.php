@@ -734,93 +734,37 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
               <h3 class="line-bottom border-bottom mt-0">Upcoming <span class="text-theme-colored">Events</span></h3>
               
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">11</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Amavasya Tithi</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Amavasya Tithi can make ancestors happy and bring blessings to their descendants.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php
+                  $link=mysqli_connect("localhost","root","") or die(mysqli_error("not connect"));
+                  mysqli_select_db($link,"panjarapole")or die(mysqli_error($link));
+
+                  $query = "select date, MONTHNAME(date) AS MONTHNAME, name, description from events";
+                  $res = mysqli_query($link, $query) or die ("not execute");
+                  while($row = mysqli_fetch_assoc($res)){
+              ?>
 
               <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">14</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
+                        <li class="font-28 text-white font-weight-700"><?php echo substr($row['date'], 8, 2); ?></li>
+                        <li class="font-18 text-white text-center text-uppercase"><?php echo substr($row['MONTHNAME'], 0, 3); ?></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Makarsankranti</a></h5>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#"><?php echo $row['name']; ?></a></h5>
                       <p class="text-justify font-14">
-                      Donating on Makarsankranti brings us the happiness and blessings of Goddess Lakshmi.
+                      <?php echo $row['description']; ?>
                       </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">21</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Ekadashi</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Ekadashi gives salvation, money, happiness, and good fortune, it is a very auspicious day.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">25</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Purnima</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Purnima eliminates poverty and ensures a lack of funds.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<?php } ?>
 
             </div>
           </div>
