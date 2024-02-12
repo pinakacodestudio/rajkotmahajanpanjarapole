@@ -6,13 +6,14 @@
   use PHPMailer\PHPMailer\SMTP;
   use PHPMailer\PHPMailer\Exception;
 
-	$secret_key = '6Lfran0nAAAAAEv2J2xHqUWlGGqYDbqeEeN0yDtG';
-	$url = 'https://www.google.com/recaptcha/api/siteverify?secret='. $secret_key . '&response=' . $recaptcha;
+	// $secret_key = '6Lfran0nAAAAAEv2J2xHqUWlGGqYDbqeEeN0yDtG';
+	// $url = 'https://www.google.com/recaptcha/api/siteverify?secret='. $secret_key . '&response=' . $recaptcha;
 
-	$response = file_get_contents($url);
-	$response = json_decode($response);
+	// $response = file_get_contents($url);
+	// $response = json_decode($response);
 
-  if(isset($_POST['send']) && $response->success == true){
+  // if(isset($_POST['submit']) && $response->success == true){
+  if(isset($_POST['submit'])){
     $name = $_POST['form_name'];
     $phone = $_POST['form_phone'];
     $email = $_POST['form_email'];
@@ -39,7 +40,7 @@
 
       //Recipients
       $mail->setFrom('info@rajkotmahajanpanjarapole.org', 'Contact Form');
-      $mail->addAddress('info@rajkotmahajanpanjarapole.org', 'Contact Form');     //Add a recipient
+      $mail->addAddress('info@dipen-vasoya.com', 'Contact Form');     //Add a recipient
 
       // //Attachments
       // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
