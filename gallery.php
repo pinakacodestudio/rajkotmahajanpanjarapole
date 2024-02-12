@@ -91,11 +91,11 @@
 {
     width: 100%;
 }
-
+/* 
 .gallery_product
 {
-    margin-bottom: 30px;
-}
+    margin-bottom: 5px;
+} */
 
 </style>
 <!-- external javascripts -->
@@ -152,51 +152,51 @@
             </div>
             <div class="row">
                 <div class="gallery_product col-md-4 filter center nature">
-                    <img src="images/about/about-1.jpg">
+                    <img  class="img-design" src="images/about/about-1.jpg">
                 </div>
 
                 <div class="gallery_product col-md-4 filter people">
-                    <img src="images/about/about-2.jpg">
+                    <img  class="img-design" src="images/about/about-2.jpg">
                 </div>
 
                 <div class="gallery_product col-md-4 filter nature">
-                    <img src="images/about/about-3.jpg">
+                    <img  class="img-design" src="images/about/about-3.jpg">
                 </div>
 
                 <div class="gallery_product col-md-4 filter cars">
-                    <img src="images/about/about-1.jpg">
+                    <img  class="img-design" src="images/about/about-1.jpg">
                 </div>
 
                 <div class="gallery_product col-md-4 filter buildings">
-                    <img src="images/about/about-2.jpg">
+                    <img  class="img-design" src="images/about/about-2.jpg">
                 </div>
 
                 <div class="gallery_product col-md-4 filter cars">
-                    <img src="images/about/about-3.jpg">
+                    <img  class="img-design" src="images/about/about-3.jpg">
                 </div>
 
                 <!-- <div class="gallery_product col-md-4 filter buildings">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div>
 
                 <div class="gallery_product col-md-4 filter cars">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div>
 
                 <div class="gallery_product col-md-4 filter cars">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div>
 
                 <div class="gallery_product col-md-4 filter nature">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div>
 
                 <div class="gallery_product col-md-4 filter buildings">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div>
 
                 <div class="gallery_product col-md-4 filter people">
-                    <img src="https://via.placeholder.com/365">
+                    <img  class="img-design" src="https://via.placeholder.com/365">
                 </div> -->
             </div>
         </div>

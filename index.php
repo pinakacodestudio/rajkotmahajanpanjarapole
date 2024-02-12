@@ -523,7 +523,8 @@
         <div class="section-content">
           <div class="row">
           <div class="col-lg-4 img-hover-border mt-sm-30">
-                <img class="img-fullwidth" src="images/about/about-5.jpg" alt="">
+              <img class="img-fullwidth img-design" src="images/about/about-6.jpg" alt="">
+              <img class="img-fullwidth img-design" src="images/about/about-5.jpg" alt="">
             </div>
             <div class="col-md-8">
               <div class="about-details">
