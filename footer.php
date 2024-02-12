@@ -1,5 +1,6 @@
 <!-- Footer -->
-   <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
+   <!-- <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e"> -->
+   <footer id="footer" class="footer" data-bg-color="#25272e">
     <div class="container pt-40 pb-40">
       <div class="row border-bottom-black">
         <div class="col-sm-12 col-md-6">

@@ -2,13 +2,25 @@
 <html dir="ltr" lang="en">
  <head>
 
-<!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
- 
+    <!-- Page Title -->
+    <title>Gallery | Rajkot Mahajan Panjrapole</title>
 
-<!-- Page Title -->
-<title>Gallery | Rajkot Mahajan Panjrapole</title>
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta name="keywords" content="rajkot,mahajan,panjarapole,animal,charity,nonprofit,orphan-animal,funding,ngo" />
+  <meta name="author" content="Rajkot Mahajan Panjarapole" />
+  
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Donate Online for Animal" />
+  <meta property="og:description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/" />
+  <meta property="og:image" content="https://www.rajkotmahajanpanjarapole.org/images/logo/panjarapole-rajkot-logo.png" />
+  <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
+  <meta name="theme-color" content="#ed5309">
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
