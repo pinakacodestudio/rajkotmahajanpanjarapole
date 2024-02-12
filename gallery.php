@@ -96,7 +96,11 @@
 {
     margin-bottom: 5px;
 } */
-
+.img-design{
+  border: 3px solid #F26522;
+  padding: 2px;
+  margin: 5px;
+}
 </style>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
@@ -142,92 +146,127 @@
         <div class="container">
             <div style="margin-bottom: 10px;">
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
-                <button class="btn btn-default filter-button" data-filter="nature">Activity</button>
-                <button class="btn btn-default filter-button" data-filter="people">Animals</button>
-                <button class="btn btn-default filter-button" data-filter="cars">Chitranagari</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Guest & Event</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Jiv Chhodaman</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Shed</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Treatments</button>
+                <button class="btn btn-default filter-button" data-filter="activity">Activity</button>
+                <button class="btn btn-default filter-button" data-filter="animals">Animals</button>
+                <button class="btn btn-default filter-button" data-filter="chitranagari">Chitranagari</button>
+                <button class="btn btn-default filter-button" data-filter="guest-events">Guest & Event</button>
+                <button class="btn btn-default filter-button" data-filter="jiv-chhodaman">Jiv Chhodaman</button>
+                <button class="btn btn-default filter-button" data-filter="shed">Shed</button>
+                <button class="btn btn-default filter-button" data-filter="treatments">Treatments</button>
             </div>
             <div class="row">
-                <div class="gallery_product col-md-4 filter center nature">
-                    <img  class="img-design" src="images/about/about-1.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/activity/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter people">
-                    <img  class="img-design" src="images/about/about-2.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all activity">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter nature">
-                    <img  class="img-design" src="images/about/about-3.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/animals/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img  class="img-design" src="images/about/about-1.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all animals">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+                
+                <?php
+                    $directory = 'images/gallery/chitranagari/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter buildings">
-                    <img  class="img-design" src="images/about/about-2.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all chitranagari">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img  class="img-design" src="images/about/about-3.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/guest-events/';
+                    $files = scandir($directory);
 
-                <!-- <div class="gallery_product col-md-4 filter buildings">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all guest-events">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div>
+                <?php
+                    $directory = 'images/gallery/jiv-chhodaman/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all jiv-chhodaman">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter nature">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div>
+                <?php
+                    $directory = 'images/gallery/shed/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter buildings">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all shed">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter people">
-                    <img  class="img-design" src="https://via.placeholder.com/365">
-                </div> -->
+                <?php
+                    $directory = 'images/gallery/treatments/';
+                    $files = scandir($directory);
+
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all treatments">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+
             </div>
         </div>
-</section>
+    </section>
     <script>
         $(document).ready(function(){
-
-$(".filter-button").click(function(){
-    var value = $(this).attr('data-filter');
-    
-    if(value == "all")
-    {
-        //$('.filter').removeClass('hidden');
-        $('.filter').show('1000');
-    }
-    else
-    {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-        $(".filter").not('.'+value).hide('3000');
-        $('.filter').filter('.'+value).show('3000');
-        
-    }
-});
-
-if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
+            $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter');
+            if(value == "all"){
+                //$('.filter').removeClass('hidden');
+                $('.filter').show('1000');
+            }
+            else{
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');        
+            }
+        });
+        if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+        }
+            $(this).addClass("active");
+        });
     </script>
     </section>
  <?php

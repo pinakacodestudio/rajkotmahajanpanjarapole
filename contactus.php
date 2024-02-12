@@ -96,13 +96,13 @@
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                    <input name="form_name" class="form-control" type="text" value="Demo Name" placeholder="Enter Name" required="">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label>Phone <small>*</small></label>
-                    <input name="form_phone" class="form-control" type="tel" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
+                    <input name="form_phone" class="form-control" type="tel" value="9090909090" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
                   </div>
                 </div>
 
@@ -112,14 +112,14 @@
                 <div class="col-sm-12">
                  <div class="form-group">
                     <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <input name="form_email" class="form-control required email" value="demoemail@gmail.com" type="email" placeholder="Enter Email">
                   </div>
                 </div>
               </div>
 
               <div class="form-group">
                 <label>Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                <textarea name="form_message" class="form-control required" value="Testing purpose mail" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <!-- <div class="form-group">
                 <div class="col-lg-12 col-md-12 form-field">
