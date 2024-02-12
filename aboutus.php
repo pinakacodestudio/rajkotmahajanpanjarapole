@@ -242,9 +242,9 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <h3 class="line-bottom-center mt-0"><span class="text-theme-colored font-weight-600">Certificates</span></h3>
-              <div class="title-icon">
+              <!-- <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
-              </div>
+              </div> -->
               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
             </div>
           </div>
