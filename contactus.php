@@ -90,7 +90,7 @@
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="contact-query.php" method="post">
+            <form id="contact_form" name="contact_form" class="" action="send_email.php" method="post">
 
               <div class="row">
                 <div class="col-sm-6">
@@ -128,8 +128,9 @@
                 </div>
               </div> -->
               <div class="form-group">
-                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>
-                <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
+                <!-- <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button> -->
+                <input type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" value="Submit" name="submit">
+                <!-- <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button> -->
               </div>
             </form>
           </div>
