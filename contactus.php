@@ -91,32 +91,28 @@
             <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" class="" action="send_email.php" method="post">
-
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label>Name <small>*</small></label>
+                    <label>Name <sup style="color:red">*</sup></label>
                     <input name="form_name" class="form-control" type="text" value="Demo Name" placeholder="Enter Name" required="">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label>Phone <small>*</small></label>
+                    <label>Phone <sup style="color:red">*</sup></label>
                     <input name="form_phone" class="form-control" type="tel" value="9090909090" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
                   </div>
                 </div>
-
               </div>
-                
               <div class="row">
                 <div class="col-sm-12">
                  <div class="form-group">
-                    <label>Email <small>*</small></label>
+                    <label>Email <sup style="color:red">*</sup></label>
                     <input name="form_email" class="form-control required email" value="demoemail@gmail.com" type="email" placeholder="Enter Email">
                   </div>
                 </div>
               </div>
-
               <div class="form-group">
                 <label>Message</label>
                 <textarea name="form_message" class="form-control required" value="Testing purpose mail" rows="5" placeholder="Enter Message"></textarea>
@@ -167,7 +163,7 @@
     <section>
       <div class="container-fluid pt-0 pb-0">
         <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.7209763835456!2d70.813799!3d22.2991194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5ff3775048d%3A0xf0b80c5256ae6cad!2sRajkot%20Mahajan%20Panjrapole!5e0!3m2!1sen!2sin!4v1702966366158!5m2!1sen!2sin" width="auto" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24444.547539406012!2d70.801705940023!3d22.300698344871897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5ff3775048d%3A0xf0b80c5256ae6cad!2sRajkot%20Mahajan%20Panjrapole!5e0!3m2!1sen!2sin!4v1710183069485!5m2!1sen!2sin" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

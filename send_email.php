@@ -28,8 +28,8 @@ if (isset($_POST['submit']) && $_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         // Sender and recipient settings
-        $mail->setFrom('info@rajkotmahajanpanjarapole.org', 'Dipen Vasoya');
-        $mail->addAddress('dipvasoya2310@gmail.com', 'VD Patel');
+        $mail->setFrom('info@rajkotmahajanpanjarapole.org', 'Rajkot Mahajan Panjarapole');
+        $mail->addAddress($email, $name);
 
         // Content
         $mail->isHTML(true);
@@ -38,7 +38,6 @@ if (isset($_POST['submit']) && $_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send the email
         $mail->send();
-        
         $status = "Message has been sent successfully to the Administrator.";
             echo "<script>
                     alert('$status'); window.location.href='contactus.php';
@@ -46,9 +45,9 @@ if (isset($_POST['submit']) && $_SERVER["REQUEST_METHOD"] == "POST") {
         } catch (Exception $e) {
             echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
         }
-        } else {
-            // Redirect back to the form if accessed directly
-            header('Location: index.html');
-            exit();
-        }
+    } else {
+        // Redirect back to the form if accessed directly
+        header('Location: index.html');
+        exit();
+    }
 ?>
