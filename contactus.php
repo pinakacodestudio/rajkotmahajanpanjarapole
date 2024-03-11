@@ -158,7 +158,6 @@
         </div>
       </div>
     </section>
-    
     <!-- Divider: Google Map -->
     <section>
       <div class="container-fluid pt-0 pb-0">
