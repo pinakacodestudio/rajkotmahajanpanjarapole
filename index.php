@@ -738,7 +738,7 @@
                   $link=mysqli_connect("localhost","root","") or die(mysqli_error("not connect"));
                   mysqli_select_db($link,"panjarapole")or die(mysqli_error($link));
 
-                  $query = "select date, MONTHNAME(date) AS MONTHNAME, name, description from events";
+                  $query = "select date, MONTHNAME(date) AS MONTHNAME, name, description from events where date>=curdate() ORDER BY date ASC LIMIT 4";
                   $res = mysqli_query($link, $query) or die ("not execute");
                   while($row = mysqli_fetch_assoc($res)){
               ?>

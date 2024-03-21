@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<?php include('Crypto.php')?>
+<?php include('crypto.php')?>
 <?php
 
 	error_reporting(0);
