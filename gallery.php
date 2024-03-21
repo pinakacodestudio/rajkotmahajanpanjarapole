@@ -146,13 +146,14 @@
         <div class="container">
             <div style="margin-bottom: 10px;">
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
-                <button class="btn btn-default filter-button" data-filter="activity">Activity</button>
                 <button class="btn btn-default filter-button" data-filter="animals">Animals</button>
-                <button class="btn btn-default filter-button" data-filter="chitranagari">Chitranagari</button>
-                <button class="btn btn-default filter-button" data-filter="guest-events">Guest & Event</button>
+                <button class="btn btn-default filter-button" data-filter="birds">Birds</button>
+                <button class="btn btn-default filter-button" data-filter="treatments">Treatments</button>
+                <button class="btn btn-default filter-button" data-filter="activity">Activity</button>
                 <button class="btn btn-default filter-button" data-filter="jiv-chhodaman">Jiv Chhodaman</button>
                 <button class="btn btn-default filter-button" data-filter="shed">Shed</button>
-                <button class="btn btn-default filter-button" data-filter="treatments">Treatments</button>
+                <button class="btn btn-default filter-button" data-filter="guest-events">Guest & Event</button>
+                <button class="btn btn-default filter-button" data-filter="chitranagari">Chitranagari</button>
             </div>
             <div class="row">
                 <?php
@@ -177,6 +178,19 @@
                         if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
                 ?>
                             <div class="gallery_product col-md-4 filter center all animals">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+
+                <?php
+                    $directory = 'images/gallery/birds/';
+                    $files = scandir($directory);
+
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all birds">
                                 <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
                             </div>
                 <?php } } ?>
