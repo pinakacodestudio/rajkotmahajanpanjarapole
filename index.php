@@ -20,7 +20,9 @@
   <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/" />
   <meta property="og:image" content="https://www.rajkotmahajanpanjarapole.org/images/logo/panjarapole-rajkot-logo.png" />
   <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
- <meta name="theme-color" content="#ed5309">
+  <meta name="theme-color" content="#ed5309">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <!-- Favicon and Touch Icons -->
   <link href="images/logo/panjarapole-rajkot-logo.png" rel="shortcut icon" type="image/png">
@@ -102,119 +104,18 @@
                 <img src="images/mainbanner/main-banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
-                <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent pl-20 pr-20"
-                  id="rs-1-layer-2"
-
-                  data-x="['left']"
-                  data-hoffset="['35']"
-                  data-y="['middle']"
-                  data-voffset="['-25']" 
-                  data-fontsize="['35']"
-                  data-lineheight="['54']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:500; margin-left: -20px;">Shelter for Innocent Orphan Animal
-                </div>
-
-                <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white" 
-                  id="rs-1-layer-3"
-
-                  data-x="['left']"
-                  data-hoffset="['35']"
-                  data-y="['middle']"
-                  data-voffset="['35','35','40']"
-                  data-fontsize="['16','18',24']"
-                  data-lineheight="['28']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400; padding-top: 40px;">Donate for the Century old shelter place for injured, blind, <br>crippled, weak, sick, milk-less, who cannot speak and express <br> their sufferings,their hunger, their pain or their needs.
-                </div>
-
-                <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
-                  id="rs-1-layer-4"
-
-                  data-x="['left']"
-                  data-hoffset="['35']"
-                  data-y="['middle']"
-                  data-voffset="['95','105','110']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;"
-                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 50px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a> 
-                </div>
-              </li>
-
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
-                <!-- MAIN IMAGE -->
                 <img src="images/mainbanner/main-banner-2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <!-- <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-6 text-white font-raleway pl-30 pr-30"
-                  id="rs-2-layer-1"
-                
-                  data-x="['center']"
-                  data-hoffset="['0']"
-                  data-y="['middle']"
-                  data-voffset="['-90']" 
-                  data-fontsize="['28']"
-                  data-lineheight="['54']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-transform_idle="o:1;s:500"
-                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
-                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">For the poor children 
-                </div> -->
-
+   
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway mt-20 pl-10 pr-10"
                   id="rs-2-layer-2"
 
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['-20']"
-                  data-fontsize="['48']"
+                  data-fontsize="['36']"
                   data-lineheight="['70']"
                   data-width="none"
                   data-height="none"
@@ -228,7 +129,86 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Support Slaughter Animals
+                  style="z-index: 7; white-space: nowrap; font-weight:600; border-radius: 30px;">Shelter for Innocent Orphan Animal
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10 mt-50" 
+                  id="rs-2-layer-3"
+
+                  data-x="['center']"
+                  data-hoffset="['0']"
+                  data-y="['middle']"
+                  data-voffset="['50']"
+                  data-fontsize="['18',24']"
+                  data-lineheight="['28']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;s:500"
+                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1400" 
+                  data-splitin="none" 
+                  data-splitout="none" 
+                  data-responsive_offset="on"
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for the Century old shelter place for injured, blind, <br>crippled, weak, sick, milk-less, who cannot speak and express <br> their sufferings,their hunger, their pain or their needs.
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption tp-resizeme" 
+                  id="rs-2-layer-4"
+
+                  data-x="['center']"
+                  data-hoffset="['0']"
+                  data-y="['middle']"
+                  data-voffset="['115']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1400" 
+                  data-splitin="none" 
+                  data-splitout="none" 
+                  data-responsive_offset="on"
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 100px; border-radius: 20px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
+                </div>
+              </li>
+
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/mainbanner/main-banner-2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="images/mainbanner/main-banner-2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <!-- LAYERS -->
+   
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
+                  id="rs-2-layer-2"
+
+                  data-x="['center']"
+                  data-hoffset="['0']"
+                  data-y="['middle']"
+                  data-voffset="['-20']"
+                  data-fontsize="['42']"
+                  data-lineheight="['70']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;s:500"
+                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1000" 
+                  data-splitin="none" 
+                  data-splitout="none" 
+                  data-responsive_offset="on"
+                  style="z-index: 7; white-space: nowrap; font-weight:600; border-radius: 30px;">Support Slaughter Animals
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -285,16 +265,16 @@
                 <img src="images/mainbanner/main-banner-3.jpg"  alt=""  data-bgposition="top 30%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
-                <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent"
-                  id="rs-3-layer-2"
+               <!-- LAYER NR. 2 -->
+               <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
+                  id="rs-2-layer-2"
 
-                  data-x="['right']"
-                  data-hoffset="['35']"
+                  data-x="['center']"
+                  data-hoffset="['0']"
                   data-y="['middle']"
-                  data-voffset="['-25']" 
-                  data-fontsize="['32']"
-                  data-lineheight="['54']"
+                  data-voffset="['-20']"
+                  data-fontsize="['39']"
+                  data-lineheight="['70']"
                   data-width="none"
                   data-height="none"
                   data-whitespace="nowrap"
@@ -307,18 +287,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">Feeding Motherless Baby Animals
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Feeding Motherless Baby Animals
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white text-right" 
-                  id="rs-3-layer-3"
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10" 
+                  id="rs-2-layer-3"
 
-                  data-x="['right']"
-                  data-hoffset="['35']"
+                  data-x="['center']"
+                  data-hoffset="['0']"
                   data-y="['middle']"
-                  data-voffset="['30']"
-                  data-fontsize="['16','18',24']"
+                  data-voffset="['50']"
+                  data-fontsize="['18',24']"
                   data-lineheight="['28']"
                   data-width="none"
                   data-height="none"
@@ -332,17 +312,17 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Donate for the cattle who are Motherless-Orphans which <br> requires to feed milk through bottles.
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for the cattle who are Motherless-Orphans which <br> requires to feed milk through bottles.
                 </div>
 
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption tp-resizeme" 
-                  id="rs-3-layer-4"
+                  id="rs-2-layer-4"
 
-                  data-x="['right']"
-                  data-hoffset="['35']"
+                  data-x="['center']"
+                  data-hoffset="['0']"
                   data-y="['middle']"
-                  data-voffset="['95']"
+                  data-voffset="['115']"
                   data-width="none"
                   data-height="none"
                   data-whitespace="nowrap"
@@ -355,7 +335,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
                 </div>
               </li>
               
@@ -366,7 +346,7 @@
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
-                  id="rs-4-layer-2"
+                  id="rs-2-layer-2"
 
                   data-x="['center']"
                   data-hoffset="['0']"
@@ -390,14 +370,14 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white text-center" 
-                  id="rs-4-layer-3"
+                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
+                  id="rs-2-layer-3"
 
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['50']"
-                  data-fontsize="['16','18',24']"
+                  data-fontsize="['20',24']"
                   data-lineheight="['28']"
                   data-width="none"
                   data-height="none"
@@ -411,13 +391,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">
-                  Donate for to feed, to cure & treatment of the cattle & birds <br>which is unproductive, helpless, injured, sick.
+                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for to feed, to cure & treatment of the cattle & birds <br>which is unproductive, helpless, injured, sick.
                 </div>
 
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption tp-resizeme" 
-                  id="rs-4-layer-4"
+                  id="rs-2-layer-4"
 
                   data-x="['center']"
                   data-hoffset="['0']"
@@ -435,7 +414,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="donate">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
                 </div>
               </li>
             </ul>
@@ -546,7 +525,8 @@
         <div class="section-content">
           <div class="row">
           <div class="col-lg-4 img-hover-border mt-sm-30">
-                <img class="img-fullwidth" src="images/about/about-5.jpg" alt="">
+              <img class="img-fullwidth img-design" src="images/about/about-6.jpg" alt="">
+              <img class="img-fullwidth img-design" src="images/about/about-5.jpg" alt="">
             </div>
             <div class="col-md-8">
               <div class="about-details">
@@ -569,9 +549,10 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <h3 class="line-bottom-center mt-0">Donation <span class="text-theme-colored font-weight-600">Schemes</span></h3>
-              <div class="title-icon">
-                <i class="flaticon-charity-hand-holding-a-heart"></i>
-              </div>
+              <!-- <div class="title-icon">
+                <i class="flaticon-charity-hand-holding-a-heart"></i><br>
+                <i class="fas fa-donate" style="font-size: 36px;"></i>
+              </div> -->
               <p class="text-center">In every religion nonviolence is given a prime place. It is the holy duty of human being to keep sympathy towards miserable persons and animals.</p>
             </div>
           </div>
@@ -586,7 +567,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000">Cattle Adoption Scheme</a></h4>
                 <p class="mt-20">Donate for one cattle food for one year</p>
-                <a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 11000 per cattle per year <i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=1&data-donation-name=cattle-adoption-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 11000 per cattle per year <i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -598,7 +579,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100">Milk feeding scheme</a></h4>
                 <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
-                <a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=2&data-donation-name=milk-feeding-scheme&data-amount=5100" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 5100 per day<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -610,7 +591,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000">Protein food scheme</a></h4>
                 <p class="mt-20">Donate for to feed milk to Motherless-Orphan all small cattle through bottles for one day</p>
-                <a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=3&data-donation-name=protein-food-scheme&data-amount=11000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 5100 per day<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -622,7 +603,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000">Shelter fund scheme</a></h4>
                 <p class="mt-20">Donate for shelter to affix granite takti on cattle shed construction</p>
-                <a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 1100000<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=4&data-donation-name=shelter-fund-scheme&data-amount=1100000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 1100000<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -634,7 +615,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000">Medicine & Treatment scheme</a></h4>
                 <p class="mt-20">Donate for to medical help to sick and injured cattle for one month</p>
-                <a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 51000 per month<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=5&data-donation-name=medicine-treatment-scheme&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 51000 per month<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -646,7 +627,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000">One-day Fodder fund </a></h4>
                 <p class="mt-20">Donate to feed all cattle for one day</p>
-                <a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 151000 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=6&data-donation-name=one-day-fodder-fund&data-amount=151000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 151000 per day<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -658,7 +639,7 @@
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000">Bird food fund</a></h4>
                 <p class="mt-20">Donate for to feed innocent birds for one day</p>
-                <a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="flaticon-charity-make-a-donation font-16 ml-5"></i> Donate - 5100 per day<i class="flaticon-charity-make-a-donation font-16 ml-5"></i></a>
+                <a href="donationform_custom.php?data-donation-id=7&data-donation-name=bird-food-fund&data-amount=51000" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - 5100 per day<i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -708,8 +689,9 @@
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20">
-                    <a class="media-left pr-15 pl-5 flip">
-                      <i class="flaticon-charity-shaking-hands-inside-a-heart text-theme-colored"></i>
+                    <a class="media-left pr-15 pl-5 pt-10 flip">
+                      <!-- <i class="flaticon-charity-shaking-hands-inside-a-heart text-theme-colored"></i> -->
+                      <i class="fa-solid fa-shield-dog" style="color: #F26255"></i>
                     </a>
                     <div class="media-body">
                       <h4 class="mb-0 text-uppercase">Save Animals</h4>
@@ -720,7 +702,7 @@
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip"><i class="flaticon-charity-food-donation text-theme-colored"></i></a>
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pt-10 pr-15 pl-5 flip"><i class="fas fa-stroopwafel" style="color: #F26255"></i></a>
                     <div class="media-body">
                       <h4 class="mb-0 text-uppercase">Feed Healthy Food</h4>
                       <p>To feed maximum protein food to animals especially sick animals.</p>
@@ -730,7 +712,7 @@
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip"><i class="flaticon-charity-sweet-home text-theme-colored"></i></a>
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pt-10 pr-15 pl-5 flip"><i class="far fa-hospital" style="color: #F26255"></i></a>
                     <div class="media-body">
                       <h4 class="mb-0 text-uppercase">Advanced Hospital</h4>
                       <p>To develop hospital facilities with advanced surgical equipment & medicine to treatment & cure for sick animals.</p>
@@ -740,7 +722,7 @@
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pr-15 pl-5 flip" href="#"><i class="flaticon-charity-shelter text-theme-colored"></i></a>
+                  <div class="icon-box left media bg-silver-light border-1px border-theme-colored p-5 mb-20"> <a class="media-left pt-10 pr-15 pl-5 flip" href="#"><i class="fa-solid fa-arrow-up-from-ground-water" style="color: #F26255"></i></a>
                     <div class="media-body">
                       <h4 class="mb-0 text-uppercase">Modern Construction</h4>
                       <p>To construct modern shed to preserve and to give shelter to maximum animals and to construct different types of divison for each type of animals.</p>
@@ -752,93 +734,37 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
               <h3 class="line-bottom border-bottom mt-0">Upcoming <span class="text-theme-colored">Events</span></h3>
               
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">11</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a href="#">Amavasya Tithi</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Amavasya Tithi can make ancestors happy and bring blessings to their descendants.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php
+                  $link=mysqli_connect("localhost","root","") or die(mysqli_error("not connect"));
+                  mysqli_select_db($link,"panjarapole")or die(mysqli_error($link));
+
+                  $query = "select date, MONTHNAME(date) AS MONTHNAME, name, description from events where date>=curdate() ORDER BY date ASC LIMIT 4";
+                  $res = mysqli_query($link, $query) or die ("not execute");
+                  while($row = mysqli_fetch_assoc($res)){
+              ?>
 
               <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
                 <div class="row">
                   <div class="col-xs-2 col-md-3 pr-0">
                     <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
                       <ul>
-                        <li class="font-28 text-white font-weight-700">14</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
+                        <li class="font-28 text-white font-weight-700"><?php echo substr($row['date'], 8, 2); ?></li>
+                        <li class="font-18 text-white text-center text-uppercase"><?php echo substr($row['MONTHNAME'], 0, 3); ?></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-xs-9 pr-10 pl-10">
                     <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Makarsankranti</a></h5>
+                      <h5 class="media-heading font-16 font-weight-600"><a href="#"><?php echo $row['name']; ?></a></h5>
                       <p class="text-justify font-14">
-                      Donating on Makarsankranti brings us the happiness and blessings of Goddess Lakshmi.
+                      <?php echo $row['description']; ?>
                       </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">21</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Ekadashi</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Ekadashi gives salvation, money, happiness, and good fortune, it is a very auspicious day.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="event sm-maxwidth400 border-bottom mb-5 mt-10 ">
-                <div class="row">
-                  <div class="col-xs-2 col-md-3 pr-0">
-                    <div class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                      <ul>
-                        <li class="font-28 text-white font-weight-700">25</li>
-                        <li class="font-18 text-white text-center text-uppercase">Jan</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xs-9 pr-10 pl-10">
-                    <div class="event-content pl-5 pr-10 pb-0">
-                      <h5 class="media-heading font-16 font-weight-600"><a>Purnima</a></h5>
-                      <p class="text-justify font-14">
-                      Donating on Purnima eliminates poverty and ensures a lack of funds.
-                      </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<?php } ?>
 
             </div>
           </div>
@@ -873,10 +799,10 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <h3 class="line-bottom-center mt-0">Our <span class="text-theme-colored font-weight-600">Volunteers</span></h3>
-              <div class="title-icon">
+              <!-- <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
             </div>
           </div>
         </div>

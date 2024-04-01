@@ -2,13 +2,25 @@
 <html dir="ltr" lang="en">
  <head>
 
-<!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
- 
-
 <!-- Page Title -->
 <title>About Us | Rajkot Mahajan Panjrapole</title>
+
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta name="keywords" content="rajkot,mahajan,panjarapole,animal,charity,nonprofit,orphan-animal,funding,ngo" />
+  <meta name="author" content="Rajkot Mahajan Panjarapole" />
+  
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Donate Online for Animal" />
+  <meta property="og:description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/" />
+  <meta property="og:image" content="https://www.rajkotmahajanpanjarapole.org/images/logo/panjarapole-rajkot-logo.png" />
+  <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
+  <meta name="theme-color" content="#ed5309">
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
@@ -222,6 +234,103 @@
         </div>
       </div>
     </section>
+
+        <!-- Section: certificates -->
+        <section id="team" class="bg-silver-light">
+      <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h3 class="line-bottom-center mt-0"><span class="text-theme-colored font-weight-600">Certificates</span></h3>
+              <!-- <div class="title-icon">
+                <i class="flaticon-charity-hand-holding-a-heart"></i>
+              </div> -->
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p> -->
+            </div>
+          </div>
+        </div>
+      
+        <div class="section-content">          
+          <div class="row multi-row-clearfix">
+            <div class="testimonial-box">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="team-slider owl-carousel">
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Certificates/certificate-1.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Certificate Name</p>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Certificates/certificate-2.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Certificate Name</p>
+                        </div>
+                      </div>
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Certificates/certificate-3.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Certificate Name</p>
+                        </div>
+                      </div>
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="images/Certificates/certificate-4.jpg" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Certificate Name</p>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  	<script>
+      $('.team-slider').owlCarousel({
+          loop: true,            
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          smartSpeed: 450,
+          margin: 20,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              768: {
+                  items: 2
+              },
+              991: {
+                  items: 3
+              },
+              1200: {
+                  items: 4
+              },
+              1920: {
+                  items: 3
+              }
+          }
+      });
+</script>
  <?php
     // Include the footer file
     include('footer.php');

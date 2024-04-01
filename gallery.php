@@ -2,13 +2,25 @@
 <html dir="ltr" lang="en">
  <head>
 
-<!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
- 
+    <!-- Page Title -->
+    <title>Gallery | Rajkot Mahajan Panjrapole</title>
 
-<!-- Page Title -->
-<title>Gallery | Rajkot Mahajan Panjrapole</title>
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta name="keywords" content="rajkot,mahajan,panjarapole,animal,charity,nonprofit,orphan-animal,funding,ngo" />
+  <meta name="author" content="Rajkot Mahajan Panjarapole" />
+  
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Donate Online for Animal" />
+  <meta property="og:description" content="Rajkot Mahajan Panjarapole is one of the oldest organizations dedicated to the welfare of ownerless and sick animals. You can support their cause by donating towards medical treatments, daily food, and other essential needs for the animals." />
+  <meta property="og:url" content="https://www.rajkotmahajanpanjarapole.org/" />
+  <meta property="og:image" content="https://www.rajkotmahajanpanjarapole.org/images/logo/panjarapole-rajkot-logo.png" />
+  <meta property="og:site_name" content="Rajkot Mahajan Panjarapole" />
+  <meta name="theme-color" content="#ed5309">
 
 <!-- Favicon and Touch Icons -->
 <link href="images/PanjarapoleICON.ico" rel="shortcut icon" type="image/png">
@@ -79,12 +91,16 @@
 {
     width: 100%;
 }
-
+/* 
 .gallery_product
 {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+} */
+.img-design{
+  border: 3px solid #F26522;
+  padding: 2px;
+  margin: 5px;
 }
-
 </style>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
@@ -130,92 +146,141 @@
         <div class="container">
             <div style="margin-bottom: 10px;">
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
-                <button class="btn btn-default filter-button" data-filter="nature">Activity</button>
-                <button class="btn btn-default filter-button" data-filter="people">Animals</button>
-                <button class="btn btn-default filter-button" data-filter="cars">Chitranagari</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Guest & Event</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Jiv Chhodaman</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Shed</button>
-                <button class="btn btn-default filter-button" data-filter="buildings">Treatments</button>
+                <button class="btn btn-default filter-button" data-filter="animals">Animals</button>
+                <button class="btn btn-default filter-button" data-filter="birds">Birds</button>
+                <button class="btn btn-default filter-button" data-filter="treatments">Treatments</button>
+                <button class="btn btn-default filter-button" data-filter="activity">Activity</button>
+                <button class="btn btn-default filter-button" data-filter="jiv-chhodaman">Jiv Chhodaman</button>
+                <button class="btn btn-default filter-button" data-filter="shed">Shed</button>
+                <button class="btn btn-default filter-button" data-filter="guest-events">Guest & Event</button>
+                <button class="btn btn-default filter-button" data-filter="chitranagari">Chitranagari</button>
             </div>
             <div class="row">
-                <div class="gallery_product col-md-4 filter center nature">
-                    <img src="images/about/about-1.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/activity/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter people">
-                    <img src="images/about/about-2.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all activity">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter nature">
-                    <img src="images/about/about-3.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/animals/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img src="images/about/about-1.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all animals">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter buildings">
-                    <img src="images/about/about-2.jpg">
-                </div>
+                <?php
+                    $directory = 'images/gallery/birds/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img src="images/about/about-3.jpg">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all birds">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+                
+                <?php
+                    $directory = 'images/gallery/chitranagari/';
+                    $files = scandir($directory);
 
-                <!-- <div class="gallery_product col-md-4 filter buildings">
-                    <img src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all chitranagari">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img src="https://via.placeholder.com/365">
-                </div>
+                <?php
+                    $directory = 'images/gallery/guest-events/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter cars">
-                    <img src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all guest-events">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter nature">
-                    <img src="https://via.placeholder.com/365">
-                </div>
+                <?php
+                    $directory = 'images/gallery/jiv-chhodaman/';
+                    $files = scandir($directory);
 
-                <div class="gallery_product col-md-4 filter buildings">
-                    <img src="https://via.placeholder.com/365">
-                </div>
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all jiv-chhodaman">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
 
-                <div class="gallery_product col-md-4 filter people">
-                    <img src="https://via.placeholder.com/365">
-                </div> -->
+                <?php
+                    $directory = 'images/gallery/shed/';
+                    $files = scandir($directory);
+
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all shed">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+
+                <?php
+                    $directory = 'images/gallery/treatments/';
+                    $files = scandir($directory);
+
+                    foreach ($files as $file) {
+                        $file_path = $directory . $file;
+                        if (is_file($file_path) && in_array(strtolower(pathinfo($file_path, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                ?>
+                            <div class="gallery_product col-md-4 filter center all treatments">
+                                <img class="img-design" src="<?php echo $file_path; ?>" alt="<?php echo $file; ?>">
+                            </div>
+                <?php } } ?>
+
             </div>
         </div>
-</section>
+    </section>
     <script>
         $(document).ready(function(){
-
-$(".filter-button").click(function(){
-    var value = $(this).attr('data-filter');
-    
-    if(value == "all")
-    {
-        //$('.filter').removeClass('hidden');
-        $('.filter').show('1000');
-    }
-    else
-    {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-        $(".filter").not('.'+value).hide('3000');
-        $('.filter').filter('.'+value).show('3000');
-        
-    }
-});
-
-if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
+            $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter');
+            if(value == "all"){
+                //$('.filter').removeClass('hidden');
+                $('.filter').show('1000');
+            }
+            else{
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');        
+            }
+        });
+        if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+        }
+            $(this).addClass("active");
+        });
     </script>
     </section>
  <?php

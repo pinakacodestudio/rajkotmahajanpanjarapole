@@ -90,36 +90,32 @@
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Please contact us for more information?</h3>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="" method="post">
-
+            <form id="contact_form" name="contact_form" class="" action="send_email.php" method="post">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                    <label>Name <sup style="color:red">*</sup></label>
+                    <input name="form_name" class="form-control" type="text" value="Demo Name" placeholder="Enter Name" required="">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label>Phone <small>*</small></label>
-                    <input name="form_phone" class="form-control" type="tel" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
+                    <label>Phone <sup style="color:red">*</sup></label>
+                    <input name="form_phone" class="form-control" type="tel" value="9090909090" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Phone" required="">
                   </div>
                 </div>
-
               </div>
-                
               <div class="row">
                 <div class="col-sm-12">
                  <div class="form-group">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <label>Email <sup style="color:red">*</sup></label>
+                    <input name="form_email" class="form-control required email" value="demoemail@gmail.com" type="email" placeholder="Enter Email">
                   </div>
                 </div>
               </div>
-
               <div class="form-group">
                 <label>Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                <textarea name="form_message" class="form-control required" value="Testing purpose mail" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <!-- <div class="form-group">
                 <div class="col-lg-12 col-md-12 form-field">
@@ -128,8 +124,9 @@
                 </div>
               </div> -->
               <div class="form-group">
-                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button>
-                <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
+                <!-- <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" name="send">Send your message</button> -->
+                <input type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" value="Submit" name="submit">
+                <!-- <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button> -->
               </div>
             </form>
           </div>
@@ -161,12 +158,11 @@
         </div>
       </div>
     </section>
-    
     <!-- Divider: Google Map -->
     <section>
       <div class="container-fluid pt-0 pb-0">
         <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.7209763835456!2d70.813799!3d22.2991194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5ff3775048d%3A0xf0b80c5256ae6cad!2sRajkot%20Mahajan%20Panjrapole!5e0!3m2!1sen!2sin!4v1702966366158!5m2!1sen!2sin" width="auto" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24444.547539406012!2d70.801705940023!3d22.300698344871897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5ff3775048d%3A0xf0b80c5256ae6cad!2sRajkot%20Mahajan%20Panjrapole!5e0!3m2!1sen!2sin!4v1710183069485!5m2!1sen!2sin" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
@@ -183,155 +179,3 @@
 
 </body>
  </html>
-<?php
-  //Import PHPMailer classes into the global namespace
-  //These must be at the top of your script, not inside a function
-  
-  use PHPMailer\PHPMailer\PHPMailer;
-  use PHPMailer\PHPMailer\SMTP;
-  use PHPMailer\PHPMailer\Exception;
-
-	$secret_key = '6Lfran0nAAAAAEv2J2xHqUWlGGqYDbqeEeN0yDtG';
-	$url = 'https://www.google.com/recaptcha/api/siteverify?secret='. $secret_key . '&response=' . $recaptcha;
-
-	$response = file_get_contents($url);
-	$response = json_decode($response);
-
-  if(isset($_POST['send']) && $response->success == true){
-    $name = $_POST['form_name'];
-    $phone = $_POST['form_phone'];
-    $email = $_POST['form_email'];
-    $msg = $_POST['form_message'];
-
-
-  //Load Composer's autoloader
-  require 'PHPMailer/Exception.php';
-  require 'PHPMailer/PHPMailer.php';
-  require 'PHPMailer/SMTP.php';
-
-  //Create an instance; passing `true` enables exceptions
-  $mail = new PHPMailer(true);
-
-  try {   
-      //Server settings
-      $mail->isSMTP();                                            //Send using SMTP
-      $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
-      $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-      $mail->Username   = 'receipt@rajkotmahajanpanjarapole.org';                     //SMTP username
-      $mail->Password   = 'Rec$2023$';                               //SMTP password
-      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-      $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-      //Recipients
-      $mail->setFrom('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');
-      $mail->addAddress('receipt@rajkotmahajanpanjarapole.org', 'Contact Form');     //Add a recipient
-
-      // //Attachments
-      // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-      // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-
-      //Content
-      $mail->isHTML(true);                                  //Set email format to HTML
-      $mail->Subject = 'Mahajan Panjarapole contact form';
-      $mail->Body    = "<div align=\"center\" style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-      <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px auto;border-bottom-width:1px;border-bottom-style:solid;width:100%!important;background-color:rgb(249,248,248);border-bottom-color:rgb(216,216,216)\">
-          <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-              <tr style=\"font-family:Helvetica,Arial,sans-serif;margin:0px;padding:0px;background-image:url(&quot;https://ci3.googleusercontent.com/meips/ADKq_NaikpKpeRQfoJaN15mh09mFz0O8xM8p_5gHHjnF9dFhlXOQ3uJ6jh5dTQLWhQgUPhl86cOAnUFW6gc6uQyI5qeW4fi7bkG90Ay1VPNL=s0-d-e1-ft#https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh&quot;);background-position:left bottom;background-repeat:repeat no-repeat\">
-                  <td align=\"center\" style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;margin:0px;padding:0px;height:42px;display:block!important;clear:both!important\">
-                      <div style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;max-width:505px;margin:0px auto;display:block;padding:0px\">
-                          <span style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:16px;line-height:42px;font-weight:bold\">
-                              <a style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;margin:0px;padding:0px;font-size:19px;font-weight:bold;text-decoration:none;color:rgb(70,70,70)\" rel=\"noreferrer\">
-                                  Shree Rajkot Mahajan's Panjarapole.
-                              </a>
-                          </span>
-                      </div>
-                  </td>
-              </tr>
-          </tbody>
-      </table>
-
-      <table style=\"padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:505px;margin:0px auto;background-color:rgb(255,255,255)\">
-          <tbody style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-              <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                  <td style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                  </td>
-                  <td
-                      style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;display:block!important;max-width:505px!important;clear:both!important\">
-                      <div
-                          style=\"box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:100%;padding:0px;max-width:505px;margin:0px auto;display:block\">
-                          <table cellspacing=\"0\"
-                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                              <tbody
-                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                      <td
-                                          style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                                          <table
-                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%\">
-                                              <tbody
-                                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                      <td
-                                                          style=\"margin:0px;padding:25px 0px 28px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;font-size:30px;color:rgb(70,70,70)\">
-                                                          Contact Form</td>
-                                                  </tr>
-                                              </tbody>
-                                          </table>
-                                          <table
-                                              style=\"box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;border-bottom-width:1px;border-bottom-style:solid;border-top-width:1px;border-top-style:solid;margin:0px;padding:0px;width:100%;background-color:rgb(237,242,247);border-top-color:rgb(237,242,247);border-bottom-color:rgb(237,242,247)\">
-                                              <tbody
-                                                  style=\"font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;\">
-                                                  <tr style=\"margin:0px;padding:0px;font-family:Helvetica,Arial,sans-serif\">
-                                                      <td
-                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                      </td>
-                                                      <td
-                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize\">
-                                                          <div
-                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                              Name = $name </div><br>
-                                                              <div
-                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                              Phone no. = $phone </div><br>
-                                                              <div
-                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                              Email = $email </div><br>
-                                                              <div
-                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:left;text-transform:capitalize;font-weight:bold;font-size:17px;color:rgb(70,70,70)\">
-                                                              Message = $msg </div><br><br>
-                                                          <table
-                                                              style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;width:100%;color:rgb(116,116,116)\">
-                                                              
-                                                          </table>
-                                                      </td>
-                                                      <td
-                                                          style=\"margin:0px;padding:34px 0px 0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center;width:41px\">
-                                                      </td>
-                                                  </tr>
-                                              </tbody>
-                                          </table>
-                                      </td>
-                                  </tr>
-                              </tbody>
-                          </table>
-                      </div>
-                  </td>
-                  <td
-                      style=\"margin:0px;padding:0px;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;text-align:center\">
-                  </td>
-              </tr>
-          </tbody>
-      </table>
-  </div>";
-      
-  $mail->send();
-  $status = "Message has been sent successfully to the Administrator.";
-  echo "<script>
-        alert('$status');
-        window.location.href='contactus.php';
-        </script>"; 
-  } catch (Exception $e) {
-      echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-  }
-  }
-?>

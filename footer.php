@@ -1,5 +1,6 @@
 <!-- Footer -->
-   <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
+   <!-- <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e"> -->
+   <footer id="footer" class="footer" data-bg-color="#25272e">
     <div class="container pt-40 pb-40">
       <div class="row border-bottom-black">
         <div class="col-sm-12 col-md-6">
@@ -31,34 +32,25 @@
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Upcoming Event</h5>
             <div class="latest-posts">
+              <?php
+                  $link=mysqli_connect("localhost","root","") or die(mysqli_error("not connect"));
+                  mysqli_select_db($link,"panjarapole")or die(mysqli_error($link));
+
+                  $query = "select date, MONTHNAME(date) AS MONTHNAME, name, description from events where date>=curdate() ORDER BY date ASC LIMIT 3";
+                  $res = mysqli_query($link, $query) or die ("not execute");
+                  while($row = mysqli_fetch_assoc($res)){
+              ?>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a >Amavasya Tithi</a></h5>
-                  <p class="post-date mb-0 font-12">Jan 11, 2023</p>
+                  <h5 class="post-title mt-0 mb-5">
+                    <a> <?php echo $row['name']; ?> </a>
+                  </h5>
+                  <p class="post-date mb-0 font-12"><?php echo substr($row['date'], 8, 2)." ".substr($row['MONTHNAME'], 0, 3); ?></p>
                 </div>
               </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a >Makarsankranti</a></h5>
-                  <p class="post-date mb-0 font-12">Jan 14, 2023</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb"><img alt="" src="images/footer-logo.png" height="55" width="55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a >Ekadashi</a></h5>
-                  <p class="post-date mb-0 font-12">Jan 21, 2023</p>
-                </div>
-              </article>
-              <!-- <article class="post media-post clearfix pb-0 mb-10">
-                <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Purnima</a></h5>
-                  <p class="post-date mb-0 font-12">Jan 25, 2023</p>
-                </div>
-              </article> -->
+              <?php } ?>
+             
             </div>
           </div>
         </div>
