@@ -11,7 +11,7 @@ class VerifyCsrfToken extends Middleware
      *
      * @var array
      */
-    protected $except = ['gettabledata','addcartdata','stripepayment','stripepayment','ccavResponseHandler'
+    protected $except = ['gettabledata','ccavResponseHandler'
         //
     ];
 }
