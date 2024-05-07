@@ -10,6 +10,7 @@ use DateTime;
 use PDF;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use App\Helper\Helper;
 
 class PaymentController extends Controller
 {
@@ -182,9 +183,10 @@ class PaymentController extends Controller
         $data['orderdetails'] = DB::table('orders as t1')
         ->leftJoin('donation as t2','t1.productid','t2.id')
         ->select('t1.*','t2.optionvalue as product_name')->where('order_id',$order_id)->first();
-        
+        // echo view('frontend/pdfReceipt',$data);
+        // exit;
         $pdf = PDF::loadView('frontend/pdfReceipt', $data)->setOptions(['defaultFont' => 'sans-serif']);
-        $pdf->setPaper('A4', 'landscape');
+        $pdf->setPaper('A4', 'portrait');
         return $pdf->download('receipt_'.time().'.pdf');
     }
     public function encryptCC($plainText, $key)
