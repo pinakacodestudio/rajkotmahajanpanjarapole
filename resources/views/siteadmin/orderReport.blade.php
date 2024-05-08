@@ -216,7 +216,7 @@
                         "data": null,
                         render: function(data, type, row) {
                             if(row.status == 'Success'){
-                            return '<a href="{{ url('siteadmin/report/sendEmail') }}/'+row.order_id+'" class="btn btn-success btn-xs"><i class="fa fa-send"></i></a>';
+                            return '<a href="{{ url('siteadmin/report/sendEmail') }}/'+row.token+'" class="btn btn-success btn-xs"><i class="fa fa-send"></i></a>';
                             }else{
                                 return '';
                             }

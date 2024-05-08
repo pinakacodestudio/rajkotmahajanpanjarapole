@@ -40,8 +40,8 @@ Route::get('/sendEmail/{id}',[PaymentController::class,'sendReceiptEmail']);
 Route::get('/download/{id}',[PaymentController::class,'downloadReceipt']);
 
 Route::prefix('siteadmin')->group(function () {
-    Route::get('/dashboard', [SiteadminHomeController::class, 'index'])->middleware('adminUser');  
     Route::get('/', [adminLoginController::class, 'showAdminLoginForm']);
+    Route::get('/dashboard', [SiteadminHomeController::class, 'index'])->middleware('adminUser');  
     Route::get('/login', [adminLoginController::class, 'showAdminLoginForm']);
     Route::post('/login', [adminLoginController::class, 'adminLogin'])->name('adminlogin');
     Route::get('/logout', [LogoutController::class, 'perform'])->name('logout.perform');

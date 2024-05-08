@@ -11,6 +11,7 @@ use PDF;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use App\Helper\Helper;
+use Illuminate\Support\Str;
 
 class PaymentController extends Controller
 {
@@ -103,25 +104,16 @@ class PaymentController extends Controller
         );
 
         if($responseMap['order_status'] == 'Success'){
-            $receipt_no = DB::table('orders')->select('receipt_no')->orderBy('id','desc')->first()->receipt_no;
-            if($receipt_no != ""){
-                $receipt_no = $receipt_no + 1;
-                $form_data['receipt_no']=$receipt_no;
-            
-            }else{
-                $receipt_no = 1;
-                $form_data['receipt_no']=$receipt_no;
-            }
-
+            $financialCode = $this->generateUniqueFinancialCode();
+            $form_data['receipt_no']=$financialCode;
             $date = DateTime::createFromFormat('d/m/Y H:i:s', $responseMap['trans_date']);
             $form_data['trans_date'] = $date->format('Y-m-d H:i:s');
-
-
+            $form_data['token'] = Str::random(10);
         }
 
         DB::table('orders')->where('order_id', $responseMap['order_id'])->update($form_data);
 
-        $responseMap = array(
+        $response = array(
             'Order No.'=>$responseMap['order_id'],
             'Amount'=>$responseMap['amount'],
             'Name'=>$responseMap['billing_name'],
@@ -133,61 +125,67 @@ class PaymentController extends Controller
         );
 
         if($responseMap['order_status'] == 'Success'){
-            $this->sendReceiptEmail($responseMap['order_id']);
+            $this->sendReceiptEmail($form_data['token']);
         }
 
-        return view('frontend.paymentresponse', compact('responseMap'));
+        return view('frontend.paymentresponse', compact('response'));
     }
 
 
-    public function sendReceiptEmail($order_id = 0){
+    public function sendReceiptEmail($token = ''){
 
-        $data['orderdetails'] = DB::table('orders as t1')
-        ->leftJoin('donation as t2','t1.productid','t2.id')
-        ->select('t1.*','t2.optionvalue as product_name')->where('order_id',$order_id)->first();
-        $data['downloadfile']="download/".$data['orderdetails']->receipt_no;
+        if($token != ""){
+            $data['orderdetails'] = DB::table('orders as t1')
+            ->leftJoin('donation as t2','t1.productid','t2.id')
+            ->select('t1.*','t2.optionvalue as product_name')->where('t1.token',$token)->first();
+            $data['downloadfile']="download/".$data['orderdetails']->token;
 
-        $mail = new PHPMailer(true);
-        $emailConfig = DB::table('emailconfig')->where('id',1)->first();
-        try {
-            //Server settings
-            $mail->isSMTP();
-            $mail->Host       = $emailConfig->smtp_host;
-            $mail->SMTPAuth   = true;
-            $mail->Username   = $emailConfig->smtp_username;
-            $mail->Password   = $emailConfig->smtp_password;
-            $mail->SMTPSecure = $emailConfig->smtp_encryption;
-            $mail->Port       = $emailConfig->smtp_port;
+            $mail = new PHPMailer(true);
+            $emailConfig = DB::table('emailconfig')->where('id',1)->first();
+            try {
+                //Server settings
+                $mail->isSMTP();
+                $mail->Host       = $emailConfig->smtp_host;
+                $mail->SMTPAuth   = true;
+                $mail->Username   = $emailConfig->smtp_username;
+                $mail->Password   = $emailConfig->smtp_password;
+                $mail->SMTPSecure = $emailConfig->smtp_encryption;
+                $mail->Port       = $emailConfig->smtp_port;
 
-            //Recipients
-            $mail->setFrom($emailConfig->smtp_from_email, $emailConfig->smtp_from_name);
-            $mail->addAddress($data["orderdetails"]->emailid, $data["orderdetails"]->firstname);
+                //Recipients
+                $mail->setFrom($emailConfig->smtp_from_email, $emailConfig->smtp_from_name);
+                $mail->addAddress($data["orderdetails"]->emailid, $data["orderdetails"]->firstname);
 
-            // Content
-            $mail->isHTML(true);
-            $mail->Subject = 'Thank You for Your Generous Donation to Rajkot Mahajan Panjrapole';
-            $mail->Body    = view('mail.receipts', $data)->render();
+                // Content
+                $mail->isHTML(true);
+                $mail->Subject = 'Thank You for Your Generous Donation to Rajkot Mahajan Panjrapole';
+                $mail->Body    = view('mail.receipts', $data)->render();
 
-            $mail->send();
-            return true;
-        } catch (Exception $e) {
-//            echo "Message could not be sent. Mailer Error: ".$e;
+                $mail->send();
+                return true;
+            } catch (Exception $e) {
+    //            echo "Message could not be sent. Mailer Error: ".$e;
+                return false; 
+            }
+        }else{
             return false; 
         }
-
         
     }
 
-    public function downloadReceipt($order_id = 0){
+    public function downloadReceipt($token = ""){
         
-        $data['orderdetails'] = DB::table('orders as t1')
-        ->leftJoin('donation as t2','t1.productid','t2.id')
-        ->select('t1.*','t2.optionvalue as product_name')->where('order_id',$order_id)->first();
-        // echo view('frontend/pdfReceipt',$data);
-        // exit;
-        $pdf = PDF::loadView('frontend/pdfReceipt', $data)->setOptions(['defaultFont' => 'sans-serif']);
-        $pdf->setPaper('A4', 'portrait');
-        return $pdf->download('receipt_'.time().'.pdf');
+        if($token != ""){
+            $data['orderdetails'] = DB::table('orders as t1')
+            ->leftJoin('donation as t2','t1.productid','t2.id')
+            ->select('t1.*','t2.optionvalue as product_name')->where('token',$token)->first();
+            
+            $pdf = PDF::loadView('frontend/pdfReceipt', $data)->setOptions(['defaultFont' => 'sans-serif','isRemoteEnabled'=> TRUE]);
+            $pdf->setPaper('A4', 'portrait');
+            return $pdf->download('receipt_'.time().'.pdf');
+        }else{
+            return ('/');
+        }
     }
     public function encryptCC($plainText, $key)
     {
@@ -230,5 +228,41 @@ class PaymentController extends Controller
             $count += 2;
         }
         return $binString;
+    }
+
+    function generateUniqueFinancialCode(): string
+    {
+        $currentYear = now()->format('y');
+        $currentMonth = now()->format('m');
+        $currentYear = ($currentMonth >= 4) ? $currentYear : ($currentYear - 1);
+        $nextYear = ($currentMonth < 4) ? $currentYear : ($currentYear+1);
+
+        $financialYear = $currentYear.$nextYear;
+
+        // Get the last financial year code
+        $lastCode = DB::table('orders')
+                    ->where('status', 'Success')
+                    ->orderBy('id', 'desc')
+                    ->first();
+
+        $sequenceNumber = 1;
+
+        if ($lastCode) {
+            $finyear = substr($lastCode->receipt_no, 3, 4);
+            if($finyear == $financialYear){
+                $sequenceNumber = (int) substr($lastCode->receipt_no, -6) + 1; // Extract and increment sequence
+            }
+        }
+
+        // Format the code (prefix, year, padded sequence)
+        $code = "RMP" . $financialYear . str_pad($sequenceNumber, 6, '0', STR_PAD_LEFT);
+
+        // Ensure uniqueness
+        while (DB::table('orders')->where('receipt_no', $code)->exists()) {
+            $sequenceNumber++;
+            $code = "RMP" . $financialYear . str_pad($sequenceNumber, 6, '0', STR_PAD_LEFT);
+        }
+
+        return $code;
     }
 }

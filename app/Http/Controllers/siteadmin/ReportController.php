@@ -42,7 +42,7 @@ class ReportController extends Controller
 
         $query = DB::table('orders as t1')
             ->leftJoin('donation as t2','t1.productid','t2.id')
-            ->select('t1.firstname','t1.phone','t1.emailid','t1.order_id','t2.optionvalue as product_name','t1.added_date','t1.product_amount','t1.payment_id','t1.status')
+            ->select('t1.firstname','t1.phone','t1.emailid','t1.order_id','t2.optionvalue as product_name','t1.added_date','t1.product_amount','t1.payment_id','t1.status','t1.token')
             ->whereDate('t1.added_date', '>=', $startdate)
             ->whereDate('t1.added_date', '<=', $enddate)
             ->orderBy('t1.added_date', 'desc');
@@ -67,8 +67,9 @@ class ReportController extends Controller
         return Excel::download(new orderExport, 'Order_'.time().'.xlsx');
     }
 
-    public function sendEmail($id = 0){
-        $response = PaymentController::sendReceiptEmail($id);
+    public function sendEmail($token = ''){
+        $paymentController = new PaymentController();
+        $response = $paymentController->sendReceiptEmail($token);
         if($response){
             return redirect()->back()->with('success', 'Email Sent Successfully');
         }else{
