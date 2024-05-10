@@ -41,7 +41,7 @@ class HomeController extends Controller
    
     public function donate()
     {
-        $data['donationlist']=DB::table('donation')->get();
+        $data['donationlist']=DB::table('donation')->where('amounttype','0')->get();
         return view('frontend.donate',$data);
     }
    

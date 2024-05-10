@@ -26,7 +26,7 @@
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
                 <li class="mt-sm-10 mb-sm-10">
                   <!-- Modal: Appointment Starts -->
-                  <a class="btn btn-default btn-flat rounded-pill btn-xs bg-light p-5 font-11 pl-10 pr-10" target="_blank" href="donate" style="border-radius: 15px;">Donate Now</a>
+                  <a class="btn btn-default btn-flat rounded-pill btn-xs bg-light p-5 font-11 pl-10 pr-10" target="_blank" href="{{ url('donatenow/cattle-fodder-scheme')}}" style="border-radius: 15px;">Donate Now</a>
                 </li>
               </ul>
             </div>
@@ -45,6 +45,7 @@
               <li <?php if (request()->segment(1) == 'gallery') echo 'class="active"'; ?>><a href="{{ url('gallery') }}">Gallery</a></li>
               <li <?php if (request()->segment(1) == 'policy') echo 'class="active"'; ?>><a href="{{ url('policy') }}">Policy</a></li>
               <li <?php if (request()->segment(1) == 'contactus') echo 'class="active"'; ?>><a href="{{ url('contactus') }}">Contact Us</a></li>
+              <li <?php if (request()->segment(1) == 'donate') echo 'class="active"'; ?>><a href="{{ url('donate') }}">Donate</a></li>
 
             </ul>
           </nav>

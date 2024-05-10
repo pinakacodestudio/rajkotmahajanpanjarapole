@@ -42,7 +42,7 @@ class ReportController extends Controller
 
         $query = DB::table('orders as t1')
             ->leftJoin('donation as t2','t1.productid','t2.id')
-            ->select('t1.firstname','t1.phone','t1.emailid','t1.order_id','t2.optionvalue as product_name','t1.added_date','t1.product_amount','t1.payment_id','t1.status','t1.token')
+            ->select('t1.firstname','t1.phone','t1.emailid','t1.order_id','t2.optionvalue as product_name','t1.added_date','t1.product_amount','t1.payment_id','t1.status','t1.token','t1.receipt_no')
             ->whereDate('t1.added_date', '>=', $startdate)
             ->whereDate('t1.added_date', '<=', $enddate)
             ->orderBy('t1.added_date', 'desc');

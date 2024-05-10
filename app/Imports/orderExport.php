@@ -17,10 +17,14 @@ class orderExport implements FromCollection, WithHeadings, ShouldAutoSize
             'Customer Name',
             'Phone No.',
             'Email Id',
+            'Pan No.',
             'Order No.',
+            'Receipt No.',
+            'Receipt Date',
             'Product Name',
-            'Date',
             'Amount',
+            'Online Type',
+            'Transaction Date',
             'Transaction ID',
             'Status',
         ];
@@ -32,9 +36,10 @@ class orderExport implements FromCollection, WithHeadings, ShouldAutoSize
         $product_name=session()->get('order_product_name');
         $query=DB::table('orders as t1')
         ->leftJoin('donation as t2','t1.productid','t2.id')
-        ->select('t1.firstname','t1.phone','t1.emailid','t1.order_id','t2.optionvalue as product_name','t1.added_date','t1.product_amount','t1.payment_id','t1.status')
+        ->select('t1.firstname','t1.phone','t1.emailid','t1.pancard','t1.order_id','t1.receipt_no','t1.added_date','t2.optionvalue as product_name','t1.product_amount','t1.payment_mode','t1.trans_date','t1.payment_id','t1.status')
         ->whereDate('t1.added_date','>=',$startdate)
         ->whereDate('t1.added_date','<=',$enddate)
+        ->where('t1.status','=','Success')
         ->orderBy('t1.added_date','desc');
         
         if($product_name != ""){
@@ -47,7 +52,7 @@ class orderExport implements FromCollection, WithHeadings, ShouldAutoSize
         $totalAmount = $orderdata->sum('product_amount');
 
         // Append the total amount as a new row
-        $orderdata->push(['', '','','','Total', $totalAmount]); // Assuming your "amount" column is the third column
+        $orderdata->push(['', '','','','','','','Total', $totalAmount]); // Assuming your "amount" column is the third column
 
         return $orderdata;
     }

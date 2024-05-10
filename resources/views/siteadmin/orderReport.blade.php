@@ -77,6 +77,7 @@
                                     <th>Phone No.</th>
                                     <th>Email ID</th>
                                     <th>Order No</th>
+                                    <th>Receipt No</th>
                                     <th>Product Name</th>
                                     <th>Date</th>
                                     <th>Amount</th>
@@ -191,6 +192,10 @@
                 {
                     data: 'order_id',
                     name: 'order_id',
+                },
+                {
+                    data: 'receipt_no',
+                    name: 'receipt_no',
                 },
                 {
                     data: 'product_name',

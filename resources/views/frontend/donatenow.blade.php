@@ -285,36 +285,19 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
                </div>
                <div class="col-sm-6 mb-3">
                   <label>Pancard</label>
-                  <input type="text" name="pancard_no" id="pancard" value="" placeholder="Enter Pancard No."  required title="Please enter a Pancard number" class="input-field">
+                  <input type="text" name="pancard_no" id="pancard" value="" placeholder="Enter Pancard No."  title="Please enter a Pancard number" class="input-field">
                   <span class="error-message" id="pancardError"></span>
                </div>
             </div>
             <div class="mb-3">
                <label>Donation For</label>
-               <select id="donationFor" class="input-field" name="donationFor" required>
-            <!-- <option value="" disabled selected>Select an option</option> -->
-            @foreach($donationlist as $post)
-            <option <?= $id == $post->id ? 'selected' : '' ?> value="{{ $post->optionvalue }}">{{ $post->optionvalue}}</option>
-            @endforeach
-           
-        </select>
+               <input type="readonly" disabled name="donationname" id="donationname" value="{{ $donation->optionvalue}}" placeholder="" class="input-field">
             </div>
             	<div class="row">
                   <div class="mb-3">
                         <label>Donation Amount</label>
-                        <div class="input-group">
-                           <span class="input-group-btn">
-                                 <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
-                                 -
-                                 </button>
-                           </span>
-                           <input readonly type="number" id="quantity" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="500" max="1000000" readonly>
-                           <span class="input-group-btn">
-                                 <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
-                                    +
-                                 </button>
-                           </span>
-                        </div>
+                           <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250" max="1000000">
+                           <span class="error-message" id="amountError"></span>
                      </div>
                   </div>
             <!-- <div class="row">
@@ -359,19 +342,19 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
          $(document).ready(function(){
 $(document).ready(function () {
 
-    $('.quantity-right-plus').click(function (e) {
-        e.preventDefault();
-        var quantity = parseInt($('#quantity').val());
-        $('#quantity').val(Math.max(quantity + 1000, 500));
-    });
+   //  $('.quantity-right-plus').click(function (e) {
+   //      e.preventDefault();
+   //      var quantity = parseInt($('#quantity').val());
+   //      $('#quantity').val(Math.max(quantity + 1000, 500));
+   //  });
 
-    $('.quantity-left-minus').click(function (e) {
-        e.preventDefault();
-        var quantity = parseInt($('#quantity').val());
-        if (quantity > 500) {
-            $('#quantity').val(quantity - 1000);
-        }
-    });
+   //  $('.quantity-left-minus').click(function (e) {
+   //      e.preventDefault();
+   //      var quantity = parseInt($('#quantity').val());
+   //      if (quantity > 500) {
+   //          $('#quantity').val(quantity - 1000);
+   //      }
+   //  });
 
 });
     
@@ -437,6 +420,18 @@ $('#pancard').on('keyup', function() {
   } else {
     $(this).addClass('input-valid').removeClass('input-error');
     $('#pancardError').text('');
+  }
+});
+
+$('#amount').on('keyup', function() {
+  const amount = parseFloat($(this).val().trim()); // Parse to a number
+
+  if (isNaN(amount) || amount <= 250) {
+    $(this).addClass('input-error').removeClass('input-valid');
+    $('#amountError').text('Invalid amount: Please enter a number greater than 250');
+  } else {
+    $(this).addClass('input-valid').removeClass('input-error');
+    $('#amountError').text('');
   }
 });
 
