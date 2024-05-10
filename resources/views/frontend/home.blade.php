@@ -101,7 +101,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 100px; border-radius: 20px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 100px; border-radius: 20px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
 
@@ -180,7 +180,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
 
@@ -259,7 +259,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
               

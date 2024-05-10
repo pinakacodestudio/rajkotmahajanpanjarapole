@@ -264,7 +264,7 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
          <input type="hidden" name="cancel_url" value="{{ url('ccavResponseHandler') }}"/>
          <input type="hidden" name="merchant_id" value="{{ $merchantId }}"/>
          
-         <h6 class="text-uppercase">Paying to <b>Mahajan Panjrapole.</b></h6>
+         <h6 class="text-uppercase">Paying to </br><b>Rajkot Mahajan Panjrapole.</b></h6>
             <div class="row">
                <div class="col-sm-6 mb-3">
                   <label>Name</label>
@@ -296,7 +296,7 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
             	<div class="row">
                   <div class="mb-3">
                         <label>Donation Amount</label>
-                           <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250" max="1000000">
+                           <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250">
                            <span class="error-message" id="amountError"></span>
                      </div>
                   </div>
@@ -311,7 +311,7 @@ Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
                </div>
             </div> -->
             <div class="mb-3">
-               <label class="option">I agree to the <a href="#">Terms and Conditions</a>
+               <label class="option">I agree to the <a href="../policy">Terms and Conditions</a>
                <input type="checkbox" checked>
                <span class="checkmark"></span>
                </label>
@@ -426,7 +426,7 @@ $('#pancard').on('keyup', function() {
 $('#amount').on('keyup', function() {
   const amount = parseFloat($(this).val().trim()); // Parse to a number
 
-  if (isNaN(amount) || amount <= 250) {
+  if (isNaN(amount) || amount < 250) {
     $(this).addClass('input-error').removeClass('input-valid');
     $('#amountError').text('Invalid amount: Please enter a number greater than 250');
   } else {

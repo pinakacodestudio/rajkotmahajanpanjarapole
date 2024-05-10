@@ -38,15 +38,14 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-silver-light">
         <div class="container">
           <nav id="menuzord-right" class="menuzord default no-bg">
-            <a class="menuzord-brand pull-left flip" href="{{ url('') }}"><img src="{{ url('public/assets/images/logo/header-logo-3.png') }}" alt="Rajot Mahajan Panjarapole"></a>
+            <a class="menuzord-brand pull-left flip" href="{{ url('') }}"><img src="{{ url('public/assets/images/logo/header-logo-4.png') }}" alt="Rajot Mahajan Panjarapole"></a>
             <ul class="menuzord-menu">
               <li <?php if (request()->segment(1) == '') echo 'class="active"'; ?>><a href="{{ url('') }}">Home</a></li>
               <li <?php if (request()->segment(1) == 'aboutus') echo 'class="active"'; ?>><a href="{{ url('aboutus') }}">About</a></li>
               <li <?php if (request()->segment(1) == 'gallery') echo 'class="active"'; ?>><a href="{{ url('gallery') }}">Gallery</a></li>
               <li <?php if (request()->segment(1) == 'policy') echo 'class="active"'; ?>><a href="{{ url('policy') }}">Policy</a></li>
-              <li <?php if (request()->segment(1) == 'contactus') echo 'class="active"'; ?>><a href="{{ url('contactus') }}">Contact Us</a></li>
               <li <?php if (request()->segment(1) == 'donate') echo 'class="active"'; ?>><a href="{{ url('donate') }}">Donate</a></li>
-
+              <li <?php if (request()->segment(1) == 'contactus') echo 'class="active"'; ?>><a href="{{ url('contactus') }}">Contact Us</a></li>
             </ul>
           </nav>
         </div>

@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- Favicon and Touch Icons -->
-<link href="{{ url('public/assets/images/logo/panjarapole-rajkot-logo.png')}}" rel="shortcut icon" type="image/png">
+<link href="{{ url('public/assets/images/logo/panjarapole-rajkot-logo-4.png')}}" rel="shortcut icon" type="image/png">
 <link rel="canonical" href="https://www.rajkotmahajanpanjarapole.org/donate/" />
 <link rel="apple-touch-icon" sizes="180x180" href="{{ url('public/assets/images/logo/apple-touch-icon.png') }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ url('public/assets/images/logo/favicon-32x32.png') }}">
