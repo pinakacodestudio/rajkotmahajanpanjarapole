@@ -244,14 +244,20 @@
    <body>
       <div class="wrapper">
          <div class="form-left">
-            <h2 class="text-uppercase">Dear Donner,</h2>
-            <p>
-Give, so others can live. Be part of a change in the world. Help today because tomorrow you may be the one who needs helping! Your change can change lives.            </p>
-            <img src="images/donateform.jpg" class="img-fluid img1" alt="">
-            <p class="text">
-               <span>AVAIL 80G BENEFITS ON ALL THE DONATIONS MADE TO RAJKOT MAHAJAN PANJARAPOL​E:</span>
-Exemption Certificate Ref. No.: आ. नि. (छू.) मु. न./80-जी/1667/2007/2008-2009
-Validity extended perpetually vide CBDT Circular No. 7/2010 dated 27/10/2010
+            <h2 class="text-uppercase text-justify">Dear Donor,</h2>
+            <p class="text text-justify">
+<span>Give, so others can live. Be part of a change in the world. Help today because tomorrow you may be the one who needs helping! Your change can change lives.            </span></p>
+            <!-- <img src="images/donateform.jpg" class="img-fluid img1" alt=""> -->
+            <p class="text text-justify">
+               <span>Donations are exempted u/s 80G of the l.T. Act 1961 vide Approval No. AAATR2554AF20217 dated 19.10.2021. PAN Number of the Donor is required to claim deduction u/s 80G.</span>
+            </p>
+        
+            <p class="text text-justify">
+               <span>We also accept donations under CSR Scheme(corporate social responsibility). Our CSR Registration number is CSR00020480</span>
+            </p>
+            
+            <p class="text text-justify text-uppercase">
+               <span style="font-size:1.1rem; text-shadow: 1px 1px 4px white; color:red;">Pan number is compulsory to avail exemption under section 80G of Income Tax act</span>
             </p>
         
          </div>

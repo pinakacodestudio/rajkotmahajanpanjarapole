@@ -11,6 +11,9 @@
     line-height: 1.2em; /* Adjust line height as needed */
     min-height: calc(1.2em * 3); /* Height for three lines */
   }
+  .team-member .team-info{
+    bottom:0px;
+  }
 </style>
 @endsection
 @section('content')
@@ -20,7 +23,7 @@
         
         <!-- Slider Revolution Start -->
         <div class="rev_slider_wrapper">
-          <div class="rev_slider rev_slider_default" data-version="5.0">
+          <div class="rev_slider rev_slider_default text-center" data-version="5.0">
             <ul>
 
               <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ url('public/assets/images/mainbanner/main-banner-1.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
@@ -32,7 +35,7 @@
                 <!-- LAYERS -->
    
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway mt-20 pl-10 pr-10"
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway mt-20 pl-10 pr-10"
                   id="rs-2-layer-2"
 
                   data-x="['center']"
@@ -57,7 +60,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10 mt-50" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10 mt-50" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -111,7 +114,7 @@
                 <!-- LAYERS -->
    
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
+                <div class="tp-caption tp-resizeme  bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
                   id="rs-2-layer-2"
 
                   data-x="['center']"
@@ -136,7 +139,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -190,7 +193,7 @@
                 <!-- LAYERS -->
 
                <!-- LAYER NR. 2 -->
-               <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
+               <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
                   id="rs-2-layer-2"
 
                   data-x="['center']"
@@ -215,7 +218,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -269,7 +272,7 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
                   id="rs-2-layer-2"
 
                   data-x="['center']"
@@ -294,7 +297,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -398,8 +401,8 @@
                 </div>
                 <div class="causes-details clearfix border-bottom p-15 pt-15 pb-15">
                 <h4 class="text-uppercase"><a href="{{ url('donatenow/'.$post->urlpath) }}">{{ $post->title }}</a></h4>
-                <p class="mt-20">{{ $post->description }}year</p>
-                <a href="{{ url('donatenow/'.$post->urlpath) }}" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-donate font-16 mr-5 ml-5"></i> Donate - {{ $post->amount }} <i class="fas fa-donate font-16 mr-5 ml-5"></i></a>
+                <p class="mt-20">{{ $post->description }}</p>
+                <a href="{{ url('donatenow/'.$post->urlpath) }}" class="btn btn-default btn-theme-colored btn-xs font-16 mt-10"><i class="fas fa-inr font-16 mr-5 ml-5"></i> Donate - {{ $post->amount }} <i class="fas fa-inr font-16 mr-5 ml-5"></i></a>
                 </div>
               </div>
             </div>
@@ -577,7 +580,8 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/1 Nileshbhai Shah.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Nileshbhai Shah<br><span class="mt-0 text-white font-15">Businessman</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Nileshbhai Shah
+                        </p>
                         </div>
                       </div>
 
@@ -586,7 +590,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/2 Vinodbhai Bavdecha.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Vinodbhai Bavdecha<br><span class="mt-0 text-white font-15">Contractor</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Vinodbhai Bavdecha</p>
                         </div>
                       </div>
 
@@ -595,7 +599,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/3 Dipakbhai Raval.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Raval<br><span class="mt-0 text-white font-15">General Manager</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Raval</p>
                         </div>
                       </div>
 
@@ -604,7 +608,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/4 Mitesh Shah.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Mitesh Shah<br><span class="mt-0 text-white font-15">Trader</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Mitesh Shah</p>
                         </div>
                       </div>
 
@@ -613,7 +617,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/5 Dipakbhai Lathigra.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Lathigra<br><span class="mt-0 text-white font-15">General Manager</span></p>   
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Lathigra</p>   
                         </div>
                       </div>
 
@@ -622,7 +626,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/6 Kalpeshbhai Chavda.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpeshbhai Chavda<br><span class="mt-0 text-white font-15">Photographer</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpeshbhai Chavda</p>
                         </div>
                       </div>
 
@@ -633,7 +637,7 @@
                         <div class="team-info bg-theme-colored">
                           <h4 class="mt-0 text-white"></h4>
                           <h6 class="mt-3 text-white" style="margin-top: -6px;"></h6>
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Jaydip Vora<br><span class="mt-0 text-white font-15">Professional Service Provider</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Jaydip Vora</p>
                         </div>
                       </div>
 
@@ -642,7 +646,7 @@
                           <img alt="" src="{{ url('public/assets/images/Volunteers/8 Kalpesh Fichadiya.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
-                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpesh Fichadiya<br><span class="mt-0 text-white font-15">Professional Service Provider</span></p>
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpesh Fichadiya</p>
                         </div>
                       </div>
                     </div>

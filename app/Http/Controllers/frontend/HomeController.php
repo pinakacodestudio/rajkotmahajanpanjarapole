@@ -15,7 +15,7 @@ class HomeController extends Controller
     {
         $currentDate = date('Y-m-d');
         $data['eventslist']=DB::table('events')->select('date',DB::raw('MONTHNAME(date) AS MONTHNAME'), 'name', 'description')->whereDate('date','>=',$currentDate)->orderBy('date','asc')->limit(5)->get();
-        $data['donationlist']=DB::table('donation')->get();
+        $data['donationlist']=DB::table('donation')->where('amounttype','0')->get();
         return view('frontend.home',$data);
     }
 
