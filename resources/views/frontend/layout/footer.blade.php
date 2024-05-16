@@ -5,7 +5,7 @@
       <div class="row border-bottom-black">
         <div class="col-sm-12 col-md-6">
           <div class="widget dark">
-            <img class="mt-5 mb-10" height="100" alt="" src="{{ url('public/assets/images/logo/footer-logo.png') }}">
+            <img class="mt-5 mb-10" alt="" src="{{ url('public/assets/images/logo/footer-logo.png') }}">
             <!-- <p><b class="text-white">Rajkot Mahajan Panjrapole</b> -->
             <ul class="list-inline mt-5 pb-15">
               <li class="m-0 pl-10 pr-10 post-title"> <i style="font-size: 20px;" class="fa fa-envelope-o text-theme-colored mr-5"></i> <a target="_blank" href="mailto:info@rajkotmahajanpanjarapole.org">info@rajkotmahajanpanjarapole.org</a> </li>
@@ -40,10 +40,10 @@
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb"><img alt="" src="{{ url('public/assets/images/footer-logo.png') }}" height="55" width="55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5">
+                  <h5 class="post-title mt-5 mb-0">
                     <a> <?php echo $post->name; ?> </a>
                   </h5>
-                  <p class="post-date mb-0 font-12"><?php echo substr($post->date, 8, 2)." ".substr($post->MONTHNAME, 0, 3); ?></p>
+                  <p class="post-date mb-0" style="font-weight:bold"><?php echo substr($post->date, 8, 2)." ".substr($post->MONTHNAME, 0, 3); ?></p>
                 </div>
               </article>
               <?php } ?>
