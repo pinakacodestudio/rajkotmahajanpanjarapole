@@ -577,7 +577,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/1 Nileshbhai Shah.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/1-Nileshbhai-Shah.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Nileshbhai Shah
@@ -587,7 +587,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/2 Vinodbhai Bavdecha.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/2-Vinodbhai-Bavdecha.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Vinodbhai Bavdecha</p>
@@ -596,7 +596,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/3 Dipakbhai Raval.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/3-Dipakbhai-Raval.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Raval</p>
@@ -605,7 +605,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/4 Mitesh Shah.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/4-Mitesh-Shah.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Mitesh Shah</p>
@@ -614,7 +614,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/5 Dipakbhai Lathigra.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/5-Dipakbhai-Lathigra.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Dipakbhai Lathigra</p>   
@@ -623,7 +623,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/6 Kalpeshbhai Chavda.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/6-Kalpeshbhai-Chavda.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpeshbhai Chavda</p>
@@ -632,7 +632,7 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/7 Jaydeep Vora.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/7-Jaydeep-Vora.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <h4 class="mt-0 text-white"></h4>
@@ -643,10 +643,19 @@
 
                       <div class="team-member clearfix">
                         <div class="team-thumb">
-                          <img alt="" src="{{ url('public/assets/images/Volunteers/8 Kalpesh Fichadiya.jpg') }}" class="img-fullwidth">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/8-Kalpesh-Fichadiya.jpg') }}" class="img-fullwidth">
                         </div>
                         <div class="team-info bg-theme-colored">
                           <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kalpesh Fichadiya</p>
+                        </div>
+                      </div>
+
+                      <div class="team-member clearfix">
+                        <div class="team-thumb">
+                          <img alt="" src="{{ url('public/assets/images/Volunteers/9-Kartikbhai-Doshi.jpg') }}" class="img-fullwidth">
+                        </div>
+                        <div class="team-info bg-theme-colored">
+                          <p class="mt-5 text-center text-white font-20" style="line-height:1.4rem">Kartikbhai Doshi</p>
                         </div>
                       </div>
                     </div>
