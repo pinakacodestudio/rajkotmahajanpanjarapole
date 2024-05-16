@@ -27,7 +27,7 @@ class PaymentController extends Controller
         $data['donationlist']=DB::table('donation')->get();
         $data['id']=0;
         $data['merchantId']=$this->merchantId;
-        if($id != ''){
+        if($id != ''){ 
             $data['donation']=DB::table('donation')->where('urlpath',$id)->first();
             $data['id'] = $data['donation']->id;
         }
@@ -82,8 +82,6 @@ class PaymentController extends Controller
     public function handleResponse(Request $request)
     {
         error_reporting(0);
-
-        
         $workingKey = $this->workingKey; // Working Key should be provided here.
         $encResponse = $request->input('encResp'); // This is the response sent by the CCAvenue Server
         $rcvdString = $this->decryptCC($encResponse, $workingKey); // Crypto Decryption used as per the specified working key.
@@ -123,17 +121,14 @@ class PaymentController extends Controller
             'Order Status'=>$responseMap['order_status'],
             'Message'=>$responseMap['status_message'],
         );
-
         if($responseMap['order_status'] == 'Success'){
             $this->sendReceiptEmail($form_data['token']);
         }
-
         return view('frontend.paymentresponse', compact('response'));
     }
 
 
     public function sendReceiptEmail($token = ''){
-
         if($token != ""){
             $data['orderdetails'] = DB::table('orders as t1')
             ->leftJoin('donation as t2','t1.productid','t2.id')
@@ -164,17 +159,15 @@ class PaymentController extends Controller
                 $mail->send();
                 return true;
             } catch (Exception $e) {
-    //            echo "Message could not be sent. Mailer Error: ".$e;
+                //echo "Message could not be sent. Mailer Error: ".$e;
                 return false; 
             }
         }else{
             return false; 
         }
-        
     }
 
     public function downloadReceipt($token = ""){
-        
         if($token != ""){
             $data['orderdetails'] = DB::table('orders as t1')
             ->leftJoin('donation as t2','t1.productid','t2.id')
@@ -187,8 +180,8 @@ class PaymentController extends Controller
             return ('/');
         }
     }
-    public function encryptCC($plainText, $key)
-    {
+
+    public function encryptCC($plainText, $key){
         $key = $this->hextobin(md5($key));
         $initVector = pack("C*", 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f);
         $openMode = openssl_encrypt($plainText, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $initVector);
@@ -196,8 +189,7 @@ class PaymentController extends Controller
         return $encryptedText;
     }
 
-    public function decryptCC($encryptedText, $key)
-    {
+    public function decryptCC($encryptedText, $key){
         $key = $this->hextobin(md5($key));
         $initVector = pack("C*", 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f);
         $encryptedText = $this->hextobin($encryptedText);
@@ -205,14 +197,12 @@ class PaymentController extends Controller
         return $decryptedText;
     }
 
-    public function pkcs5_padCC($plainText, $blockSize)
-    {
+    public function pkcs5_padCC($plainText, $blockSize){
         $pad = $blockSize - (strlen($plainText) % $blockSize);
         return $plainText . str_repeat(chr($pad), $pad);
     }
 
-    public function hextobin($hexString)
-    {
+    public function hextobin($hexString){
         $length = strlen($hexString);
         $binString = "";
         $count = 0;

@@ -256,42 +256,42 @@
                <span>We also accept donations under CSR Scheme(corporate social responsibility). Our CSR Registration number is CSR00020480</span>
             </p>
             
-            <p class="text text-justify text-uppercase">
-               <span style="font-size:1.1rem; text-shadow: 1px 1px 4px white; color:red;">Pan number is compulsory to avail exemption under section 80G of Income Tax act</span>
+            <p class="text text-justify">
+               <span style="font-size:1.1rem; text-shadow: 1px 1px 4px white; color:Black;">Pan number is compulsory to avail exemption under section 80G of Income Tax act</span>
             </p>
         
          </div>
          <form class="form-right" id="donate-form" method="post" action="{{ url('ccavRequestHandler') }}">
-         @csrf
-         <input type="hidden" name="language" value="EN"/>
-         <input type="hidden" name="currency" value="INR"/>
-         <input type="hidden" name="productid" value="{{ $id }}"/>
-         <input type="hidden" name="redirect_url" value="{{ url('ccavResponseHandler') }}"/>
-         <input type="hidden" name="cancel_url" value="{{ url('ccavResponseHandler') }}"/>
-         <input type="hidden" name="merchant_id" value="{{ $merchantId }}"/>
-         
-         <h6 class="text-uppercase">Paying to </br><b>Rajkot Mahajan Panjrapole.</b></h6>
+            @csrf
+            <input type="hidden" name="language" value="EN"/>
+            <input type="hidden" name="currency" value="INR"/>
+            <input type="hidden" name="productid" value="{{ $id }}"/>
+            <input type="hidden" name="redirect_url" value="{{ url('ccavResponseHandler') }}"/>
+            <input type="hidden" name="cancel_url" value="{{ url('ccavResponseHandler') }}"/>
+            <input type="hidden" name="merchant_id" value="{{ $merchantId }}"/>
+            
+            <h6 class="text-uppercase">Paying to </br><b>Rajkot Mahajan Panjrapole.</b></h6>
             <div class="row">
-               <div class="col-sm-6 mb-3">
-                  <label>Name</label>
+               <div class="col-12 mb-3">
+                  <label>Donor Name*</label>
                   <input type="text" name="billing_name" id="name" value="" placeholder="Enter Full Name" class="input-field">
                   <span class="error-message" id="nameError"></span>
                </div>
-               <div class="col-sm-6 mb-3">
-                  <label>Phone Number</label>
-                  <input type="tel" name="billing_tel" id="phone" value="" placeholder="Enter a Phone No."  pattern="[0-9]{10}" required title="Please enter a 10-digit phone number" class="input-field">
-                  <span class="error-message" id="phoneError"></span>
+               <div class="col-12 mb-3">
+                  <label>Your Email* (Required for Donation Receipt)</label>
+                  <input type="email" class="input-field" value="" placeholder="Enter Email Id" name="billing_email" id="email" required>
+                  <span class="error-message" id="emailError"></span>
                </div>
             </div>
             <div class="row">
                <div class="col-sm-6 mb-3">
-                  <label>Your Email</label>
-                  <input type="email" class="input-field" value="" placeholder="Enter Email Id" name="billing_email" id="email" required>
-                  <span class="error-message" id="emailError"></span>
+                  <label>Mobile Number*</label>
+                  <input type="tel" name="billing_tel" id="phone" value="" placeholder="10 Digit Only"  pattern="[0-9]{10}" required title="Please enter a 10-digit phone number" class="input-field">
+                  <span class="error-message" id="phoneError"></span>
                </div>
                <div class="col-sm-6 mb-3">
                   <label>Pancard</label>
-                  <input type="text" name="pancard_no" id="pancard" value="" placeholder="Enter Pancard No."  title="Please enter a Pancard number" class="input-field">
+                  <input type="text" name="pancard_no" id="pancard" value="" placeholder="Pancard No"  title="Please enter a Pancard number" class="input-field">
                   <span class="error-message" id="pancardError"></span>
                </div>
             </div>
@@ -299,13 +299,13 @@
                <label>Donation For</label>
                <input type="readonly" disabled name="donationname" id="donationname" value="{{ $donation->optionvalue}}" placeholder="" class="input-field">
             </div>
-            	<div class="row">
-                  <div class="mb-3">
-                        <label>Donation Amount</label>
-                           <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250">
-                           <span class="error-message" id="amountError"></span>
-                     </div>
-                  </div>
+            <div class="row">
+               <div class="mb-3">
+                     <label>Donation Amount</label>
+                     <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250">
+                     <span class="error-message" id="amountError"></span>
+               </div>
+            </div>
             <!-- <div class="row">
                <div class="col-sm-6 mb-3">
                   <label>Password</label>
@@ -334,7 +334,6 @@
                <img src="{{ url('public/assets/images/cashfreelogo.svg')" alt="">
             </div> -->
          </form>
-         
       </div>
       <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
       <!-- <script type='text/javascript' src='#'></script>

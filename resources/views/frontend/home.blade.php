@@ -37,7 +37,6 @@
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway mt-20 pl-10 pr-10"
                   id="rs-2-layer-2"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -60,9 +59,8 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10 mt-50" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway p-10 mt-70" 
                   id="rs-2-layer-3"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -85,13 +83,13 @@
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme mt-100" 
                   id="rs-2-layer-4"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['115']"
+                  data-fontsize="['18',24']"
                   data-width="none"
                   data-height="none"
                   data-whitespace="nowrap"
@@ -104,7 +102,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px; margin-top: 100px; border-radius: 20px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg rounded-pill btn-theme-colored font-18 pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
 
@@ -139,7 +137,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30 mt-50" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -160,13 +158,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for rescued from going to<br>slaughter, unsupported animals.
+                  style="z-index: 7; white-space: nowrap; font-weight:700; padding:10px; margin:5px; border-radius: 30px; text-center">Donate for rescued from going to<br>slaughter, unsupported animals.
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme mt-100" 
                   id="rs-2-layer-4"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -183,7 +180,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg rounded-pill btn-theme-colored pl-20 pr-20 font-18" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
 
@@ -195,7 +192,6 @@
                <!-- LAYER NR. 2 -->
                <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway pl-10 pr-10"
                   id="rs-2-layer-2"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -218,7 +214,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-10 pr-10 mt-50" 
                   id="rs-2-layer-3"
 
                   data-x="['center']"
@@ -239,11 +235,11 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for the cattle who are Motherless-Orphans which <br> requires to feed milk through bottles.
+                  style="z-index: 7; white-space: nowrap; font-weight:700; padding:10px; margin:5px; border-radius: 30px; text-center">Donate for the cattle who are Motherless-Orphans which <br> requires to feed milk through bottles.
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme mt-100" 
                   id="rs-2-layer-4"
 
                   data-x="['center']"
@@ -262,7 +258,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored rounded-pill pl-20 pr-20 font-18" href="{{ url('donatenow/cattle-fodder-scheme')}}">Donate Now</a>
                 </div>
               </li>
               
@@ -274,7 +270,6 @@
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
                   id="rs-2-layer-2"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -297,9 +292,8 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30" 
+                <div class="tp-caption tp-resizeme bg-theme-colored-transparent-gr text-black font-raleway pl-30 pr-30 mt-50" 
                   id="rs-2-layer-3"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -318,13 +312,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px; text-center">Donate for to feed, to cure & treatment of the cattle & birds <br>which is unproductive, helpless, injured, sick.
+                  style="z-index: 7; white-space: nowrap;font-weight:700; border-radius: 30px; text-center">Donate for to feed, to cure & treatment of the cattle & birds <br>which is unproductive, helpless, injured, sick.
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme mt-100" 
                   id="rs-2-layer-4"
-
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
@@ -341,7 +334,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="donate">Donate Now</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg rounded-pill btn-theme-colored pl-20 pr-20 font-18" href="donate">Donate Now</a>
                 </div>
               </li>
             </ul>
