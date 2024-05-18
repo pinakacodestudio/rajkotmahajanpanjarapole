@@ -1,6 +1,64 @@
 @extends('frontend.layout.app')
 @section('title','Payment Response ')
 @section('internalcssjs')
+
+<style>
+    /* Print styles */
+@media print {
+    body {
+        font-size: 12pt;
+        color: #000;
+    }
+
+    /* Hide non-essential elements */
+    .header, .footer, .sidebar, .advertisement, .no-print {
+        display: none !important;
+    }
+
+    /* Ensure the main content uses the full width */
+    .main-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Remove background colors */
+    body, .main-content {
+        background: #fff !important;
+    }
+
+    /* Adjust headings */
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+
+    /* Adjust links */
+    a:link, a:visited {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    /* Page breaks */
+    .page-break {
+        page-break-before: always;
+    }
+
+    /* Adjust tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #000;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+}
+</style>
+
 @endsection
 @section('content')
 <div class="container">
@@ -23,7 +81,7 @@
                 <br><hr>
             </div>
             <div class="clearfix"></div>
-            <div class="text-center">
+            <div class="text-center no-print ">
                 <button class="btn btn-warning" onclick="printSection()">Print this page</button>
                 
                 <br>

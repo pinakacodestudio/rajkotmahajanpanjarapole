@@ -21,10 +21,22 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ asset('public/siteadmin/css/castom.css') }}">
     <link rel="stylesheet" type="text/css" media="all" href="{{ URL::asset('public/siteadmin/vendor/daterangepicker.css') }}" />
+    <style>
+        .navbar-brand-small img{
+            width:80%; padding-top:10px; padding-left:10px;
+        }
+        @media (max-width: 700px) {
+            .navbar-brand-small img{
+                width: 100%;
+                padding-top:7px;
+                padding-left:0px;
+            }
+        }
+    </style>
     @yield('css')
 </head>
 
-<body class="dashboard-page sb-r-c onload-check mobile-view sb-l-disable-animation tray-rescale">
+<body class="dashboard-page sb-r-c onload-check mobile-view sb-l-disable-animation tray-rescale sb-l-m">
     <!-- Start: Main -->
     <div id="main">
         <header class="navbar navbar-fixed-top bg-primary">
@@ -32,13 +44,14 @@
                 <a class="navbar-brand" href="">
                     <img src="{{ URL('public/assets/images/logo/header-logo-3.png') }}" style="width:90%"/>
                 </a>
-                <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
+                <a class="navbar-brand-small" href="">
+                    <img src="{{ URL('public/assets/images/PanjarapoleLOGO.png') }}" style=""/>
+                </a>
+                
             </div>
             <ul class="nav navbar-nav navbar-left">
-                <li class="hidden-xs">
-                    <a class="request-fullscreen toggle-active" href="#">
-                        <span class="ad ad-screen-full fs18"></span>
-                    </a>
+                <li>
+                    <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

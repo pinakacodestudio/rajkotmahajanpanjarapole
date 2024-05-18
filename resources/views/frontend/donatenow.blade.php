@@ -29,7 +29,7 @@
          }
          body{
          background-image: url("{{ url('public/assets/images/donateformcover.jpg') }}");
-         overflow:hidden;
+         overflow:auto;
          min-height: 100vh;
          }
          .wrapper{

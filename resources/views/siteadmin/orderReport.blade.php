@@ -1,4 +1,44 @@
 @extends('siteadmin/layouts.app')
+@section('css')
+    <style>
+        .panel-body{
+            width: 100%;
+            overflow-x: auto;
+        }
+        #datatable {
+            width: max-content;
+            border-collapse: collapse;
+        }
+        /* Responsive styling */
+        @media screen and (max-width: 720px) {
+            .table thead {
+                display: none; /* Hide table header */
+            }
+            .table tr {
+                display: block; /* Display each row as a block */
+                margin-bottom: 10px; /* Space between rows */
+            }
+            .table td {
+                display: block;
+                text-align: right;
+                border-bottom: 1px solid #ddd;
+                position: relative;
+                padding-left: 50%;
+                min-height:2rem;
+            }
+            .table td::before {
+                content: attr(data-label); /* Add a label before each cell's content */
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+    </style>
+@endsection
+
 @section('content')
 <div id="main">
     @section('navbar')
@@ -78,8 +118,8 @@
                                     <th>Email ID</th>
                                     <th>Order No</th>
                                     <th>Receipt No</th>
-                                    <th>Product Name</th>
-                                    <th>Date</th>
+                                    <th style="min-width:200px;">Product Name</th>
+                                    <th style="min-width:130px;">Date</th>
                                     <th>Amount</th>
                                     <th>Transaction ID</th>
                                     <th>Status</th>
@@ -91,7 +131,7 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th colspan="6" style="text-align:right">Total:</th>
+                                    <th colspan="8" style="text-align:right">Total:</th>
                                     <th id="total-amount"></th>
                                 </tr>
                             </tfoot>
@@ -156,7 +196,6 @@
         var table = $('#datatable').DataTable({
             processing: true,
             serverSide: true,
-
             ajax: {
                 url: '{{ url("siteadmin/report/getOrderData") }}',
                 type: 'POST',
@@ -169,70 +208,105 @@
                     'product_name': $('#product_name').val(),
                     'status_name': $('#status_name').val(),
                 },
-
             },
-            columns: [{
+            columns: [
+                {
                     data: 'DT_RowIndex',
                     name: 'DT_RowIndex',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', '#');
+                    }
                 },
                 {
                     data: 'firstname',
                     name: 'firstname',
-
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Customer');
+                    }
                 },
                 {
                     data: 'phone',
                     name: 'phone',
-
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Phone No.');
+                    }
                 },
                 {
                     data: 'emailid',
                     name: 'emailid',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Email ID');
+                    }
                 },
                 {
                     data: 'order_id',
                     name: 'order_id',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Order No');
+                    }
                 },
                 {
                     data: 'receipt_no',
                     name: 'receipt_no',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Receipt No');
+                    }
                 },
                 {
                     data: 'product_name',
                     name: 'product_name',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Product');
+                    }
                 },
                 {
                     data: 'added_date',
                     name: 'added_date',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Date');
+                    }
                 },
                 {
                     data: 'product_amount',
                     name: 'product_amount',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Amount');
+                    }
                 },
                 {
                     data: 'payment_id',
                     name: 'payment_id',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Transaction ID');
+                    }
                 },
                 {
                     data: 'status',
                     name: 'status',
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Status');
+                    }
                 },
                 {
-                        "data": null,
-                        render: function(data, type, row) {
-                            if(row.status == 'Success'){
-                            return '<a href="{{ url('siteadmin/report/sendEmail') }}/'+row.token+'" class="btn btn-success btn-xs"><i class="fa fa-send"></i></a>';
-                            }else{
-                                return '';
-                            }
+                    data: null,
+                    createdCell: function(td, cellData, rowData, row, col) {
+                        $(td).attr('data-label', 'Actions');
+                        if (rowData.status == 'Success') {
+                            $(td).html(`
+                                <a href="{{ url('download') }}/${rowData.token}" class="btn btn-primary btn-xs"><i class="fa fa-download"></i></a>
+                                <a href="{{ url('siteadmin/report/sendEmail') }}/${rowData.token}" class="btn btn-success btn-xs"><i class="fa fa-send"></i></a>
+                            `);
+                        } else {
+                            $(td).html('');
                         }
                     }
-             ],
-             "footerCallback": function (row, data, start, end, display) {
-                var api = this.api(), data;
+                }
+            ],
+            footerCallback: function(row, data, start, end, display) {
+                var api = this.api();
 
                 // Total calculation logic
-                var totalPrice = api.column(6).data().reduce(function (a, b) {
+                var totalPrice = api.column(7).data().reduce(function(a, b) {
                     return parseFloat(a) + parseFloat(b);
                 }, 0);
 
