@@ -133,7 +133,7 @@
     </section>
 
     <section class="container">
-      <div class="row pt-10 pl-10 pr-10" id="terms-conditions">
+      <div class="row pt-10 pl-10 pr-10 pb-50" id="terms-conditions">
         <div class="col-lg-12 col-md-12">
           <h3> General <span class="text-theme-colored">Information</span></h3>
           <div class="row" style="margin-top: -15px;">
@@ -168,6 +168,7 @@
     </section>
 
         <!-- Section: certificates -->
+        <?php /*
         <section id="team" class="bg-silver-light">
       <div class="container">
         <div class="section-title text-center">
@@ -235,6 +236,7 @@
         </div>
       </div>
     </section>
+    */ ?>
 @endsection
 @section('internaljs')
 <script>
