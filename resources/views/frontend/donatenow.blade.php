@@ -302,7 +302,7 @@
             <div class="row">
                <div class="mb-3">
                      <label>Donation Amount</label>
-                     <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="250">
+                     <input <?php echo ($donation->amounttype == 0)? 'readonly' : '' ?> type="number" id="amount" name="amount" class="form-control input-number" value="{{ $donation->amount}}" min="51">
                      <span class="error-message" id="amountError"></span>
                </div>
             </div>
@@ -431,9 +431,9 @@ $('#pancard').on('keyup', function() {
 $('#amount').on('keyup', function() {
   const amount = parseFloat($(this).val().trim()); // Parse to a number
 
-  if (isNaN(amount) || amount < 250) {
+  if (isNaN(amount) || amount < 51) {
     $(this).addClass('input-error').removeClass('input-valid');
-    $('#amountError').text('Invalid amount: Please enter a number greater than 250');
+    $('#amountError').text('Invalid amount: Please enter a number greater than 51');
   } else {
     $(this).addClass('input-valid').removeClass('input-error');
     $('#amountError').text('');
